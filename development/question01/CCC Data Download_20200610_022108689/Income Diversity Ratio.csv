@@ -1,0 +1,596 @@
+"Name","Income Diversity Ratio"
+"Description","The income diversity ratio is a&nbsp;single value meant to represent the variability in the distribution of income in a geography. In this instance CCC uses an 80:20 ratio, which compares income at the 80th percentile (the upper limit of the fourth quintile) with income at the 20th percentile (the upper limit of the bottom quintile).<br />
+<br />
+For example, a neighborhood where the 80th percentile earner makes $100,000 annually and the 20th percentile earner makes $20,000 would report an income diversity ratio of 5.0. The lower the ratio, the more equal the income distribution,&nbsp;and vice versa."
+"Source Notes","CCC analysis of U.S. Census Bureau, American Community Survey 1-Year Estimates, Table B19080 (2010-2018); retrieved from&nbsp;<a href=""https://data.census.gov/"" target=""_blank"">https://data.census.gov/</a>."
+"Notes","A greater income diversity ratio does not necessarily equate to higher or lower incomes in a community overall. For further context, check out data on&nbsp;<a href=""https://data.cccnewyork.org/data/map/66/median-incomes#66/39/3/107/40/a/a"" target=""_blank"">Median Incomes</a>&nbsp;for a snapshot of average household incomes (or, income at the 50th percentile) across the city.<br />
+<br />
+Additionally, the ratio for the 80th-to-20th percentiles of income distribution is just one of a variety of ways to measure income inequality. Research underscores the importance of considering more than one metric of inequality (e.g. the Gini Coefficient, Theil index, Palma Ratio, and other distribution ratios). However, some findings suggest that income inequality in New York City does not vary as much as other metropolitan areas when comparing across different metrics of inequality. For more information:<br />
+<blockquote style=""margin: 0px 0px 0px 40px; border: none; padding: 0px;"">Glassman, B. (2016). ""Income Inequality Metrics and Economic Well-Being in U.S. Metropolitan Statistical Areas.""&nbsp;SEHSD Working Paper Number 2016-19,&nbsp;retrieved from:&nbsp;<a href=""https://www.census.gov/content/dam/Census/library/working-papers/2016/demo/SEHSD-WP2016-19.pdf"" target=""_blank"">https://www.census.gov/content/dam/Census/library/working-papers/2016/demo/SEHSD-WP2016-19.pdf</a>.</blockquote>"
+
+Location,TimeFrame,DataFormat,Data,Fips
+Battery Park/Tribeca,2010,Rate,6.23288,101
+Greenwich Village,2010,Rate,6.23288,102
+Lower East Side,2010,Rate,7.46179,103
+Chelsea/Clinton,2010,Rate,8.43494,104
+Midtown Business District,2010,Rate,8.43494,105
+Murray Hill/Stuyvesant,2010,Rate,5.13419,106
+Upper West Side,2010,Rate,8.05463,107
+Upper East Side,2010,Rate,5.66556,108
+Manhattanville,2010,Rate,9.07912,109
+Central Harlem,2010,Rate,7.56949,110
+East Harlem,2010,Rate,6.41141,111
+Washington Heights,2010,Rate,5.30469,112
+Mott Haven,2010,Rate,5.32342,201
+Hunts Point,2010,Rate,5.32342,202
+Morrisania,2010,Rate,5.83981,203
+Concourse/Highbridge,2010,Rate,5.39039,204
+University Heights,2010,Rate,5.32978,205
+East Tremont,2010,Rate,5.83981,206
+Bedford Park,2010,Rate,6.00919,207
+Riverdale,2010,Rate,5.0207,208
+Unionport/Soundview,2010,Rate,5.24327,209
+Throgs Neck,2010,Rate,5.44391,210
+Pelham Parkway,2010,Rate,5.94711,211
+Williamsbridge,2010,Rate,4.75209,212
+Williamsburg/Greenpoint,2010,Rate,7.02474,301
+Fort Greene/Brooklyn Hts,2010,Rate,6.86487,302
+Bedford Stuyvesant,2010,Rate,7.57547,303
+Bushwick,2010,Rate,4.6719,304
+East New York,2010,Rate,7.32382,305
+Park Slope,2010,Rate,5.35222,306
+Sunset Park,2010,Rate,4.99704,307
+Crown Heights North,2010,Rate,6.59557,308
+Crown Heights South,2010,Rate,5.72792,309
+Bay Ridge,2010,Rate,4.94339,310
+Bensonhurst,2010,Rate,4.93394,311
+Borough Park,2010,Rate,5.12127,312
+Coney Island,2010,Rate,6.83738,313
+Flatbush/Midwood,2010,Rate,5.73812,314
+Sheepshead Bay,2010,Rate,5.95362,315
+Brownsville,2010,Rate,7.00362,316
+East Flatbush,2010,Rate,5.32242,317
+Canarsie,2010,Rate,4.10684,318
+Astoria,2010,Rate,4.71376,401
+Sunnyside/Woodside,2010,Rate,3.93398,402
+Jackson Heights,2010,Rate,4.01816,403
+Elmhurst/Corona,2010,Rate,4.13694,404
+Ridgewood/Glendale,2010,Rate,4.3362,405
+Rego Park/Forest Hills,2010,Rate,4.541,406
+Flushing,2010,Rate,5.06612,407
+Fresh Meadows/Briarwood,2010,Rate,4.86685,408
+Woodhaven,2010,Rate,3.98858,409
+Howard Beach,2010,Rate,4.28851,410
+Bayside,2010,Rate,4.34693,411
+Jamaica/St. Albans,2010,Rate,5.01978,412
+Queens Village,2010,Rate,3.82075,413
+The Rockaways,2010,Rate,7.60171,414
+St. George,2010,Rate,6.03302,501
+South Beach,2010,Rate,5.56777,502
+Tottenville,2010,Rate,4.19197,503
+Bronx,2010,Rate,6.19163,36005
+Brooklyn,2010,Rate,6.13005,36047
+Manhattan,2010,Rate,8.09901,36061
+Queens,2010,Rate,4.64694,36081
+Staten Island,2010,Rate,5.32896,36085
+New York City,2010,Rate,6.17983,3651000
+Battery Park/Tribeca,2011,Rate,5.577,101
+Greenwich Village,2011,Rate,5.577,102
+Lower East Side,2011,Rate,7.87994,103
+Chelsea/Clinton,2011,Rate,10.0257,104
+Midtown Business District,2011,Rate,10.0257,105
+Murray Hill/Stuyvesant,2011,Rate,6.08904,106
+Upper West Side,2011,Rate,7.83764,107
+Upper East Side,2011,Rate,6.09652,108
+Manhattanville,2011,Rate,8.26546,109
+Central Harlem,2011,Rate,6.28645,110
+East Harlem,2011,Rate,7.56736,111
+Washington Heights,2011,Rate,5.25485,112
+Mott Haven,2011,Rate,5.1481,201
+Hunts Point,2011,Rate,5.1481,202
+Morrisania,2011,Rate,5.34254,203
+Concourse/Highbridge,2011,Rate,5.40655,204
+University Heights,2011,Rate,5.08326,205
+East Tremont,2011,Rate,5.34254,206
+Bedford Park,2011,Rate,5.7469,207
+Riverdale,2011,Rate,5.09155,208
+Unionport/Soundview,2011,Rate,6.03074,209
+Throgs Neck,2011,Rate,5.24806,210
+Pelham Parkway,2011,Rate,6.2794,211
+Williamsbridge,2011,Rate,5.87272,212
+Williamsburg/Greenpoint,2011,Rate,6.2927,301
+Fort Greene/Brooklyn Hts,2011,Rate,6.92988,302
+Bedford Stuyvesant,2011,Rate,7.17903,303
+Bushwick,2011,Rate,6.92158,304
+East New York,2011,Rate,6.9915,305
+Park Slope,2011,Rate,5.07502,306
+Sunset Park,2011,Rate,5.46006,307
+Crown Heights North,2011,Rate,6.55347,308
+Crown Heights South,2011,Rate,5.73705,309
+Bay Ridge,2011,Rate,5.36615,310
+Bensonhurst,2011,Rate,5.51107,311
+Borough Park,2011,Rate,5.19546,312
+Coney Island,2011,Rate,7.89,313
+Flatbush/Midwood,2011,Rate,5.46026,314
+Sheepshead Bay,2011,Rate,6.5326,315
+Brownsville,2011,Rate,7.03723,316
+East Flatbush,2011,Rate,4.97749,317
+Canarsie,2011,Rate,4.56922,318
+Astoria,2011,Rate,5.87834,401
+Sunnyside/Woodside,2011,Rate,4.8679,402
+Jackson Heights,2011,Rate,4.67629,403
+Elmhurst/Corona,2011,Rate,5.11122,404
+Ridgewood/Glendale,2011,Rate,5.30051,405
+Rego Park/Forest Hills,2011,Rate,4.34256,406
+Flushing,2011,Rate,5.01773,407
+Fresh Meadows/Briarwood,2011,Rate,4.98843,408
+Woodhaven,2011,Rate,4.83342,409
+Howard Beach,2011,Rate,5.01719,410
+Bayside,2011,Rate,4.78271,411
+Jamaica/St. Albans,2011,Rate,4.64083,412
+Queens Village,2011,Rate,3.51425,413
+The Rockaways,2011,Rate,6.40048,414
+St. George,2011,Rate,5.81104,501
+South Beach,2011,Rate,4.30374,502
+Tottenville,2011,Rate,3.98104,503
+Bronx,2011,Rate,6.35326,36005
+Brooklyn,2011,Rate,6.37458,36047
+Manhattan,2011,Rate,8.76231,36061
+Queens,2011,Rate,5.02522,36081
+Staten Island,2011,Rate,4.95358,36085
+New York City,2011,Rate,6.52586,3651000
+Battery Park/Tribeca,2012,Rate,5.92643,101
+Greenwich Village,2012,Rate,5.92643,102
+Lower East Side,2012,Rate,8.1924,103
+Chelsea/Clinton,2012,Rate,7.08826,104
+Midtown Business District,2012,Rate,7.08826,105
+Murray Hill/Stuyvesant,2012,Rate,5.71894,106
+Upper West Side,2012,Rate,8.38209,107
+Upper East Side,2012,Rate,5.44363,108
+Manhattanville,2012,Rate,9.67414,109
+Central Harlem,2012,Rate,7.75997,110
+East Harlem,2012,Rate,7.18296,111
+Washington Heights,2012,Rate,5.69139,112
+Mott Haven,2012,Rate,5.48394,201
+Hunts Point,2012,Rate,5.48394,202
+Morrisania,2012,Rate,5.45019,203
+Concourse/Highbridge,2012,Rate,5.9525,204
+University Heights,2012,Rate,5.32022,205
+East Tremont,2012,Rate,5.45019,206
+Bedford Park,2012,Rate,5.81147,207
+Riverdale,2012,Rate,4.92172,208
+Unionport/Soundview,2012,Rate,6.37474,209
+Throgs Neck,2012,Rate,5.70879,210
+Pelham Parkway,2012,Rate,5.23391,211
+Williamsbridge,2012,Rate,5.52885,212
+Williamsburg/Greenpoint,2012,Rate,7.41304,301
+Fort Greene/Brooklyn Hts,2012,Rate,7.98863,302
+Bedford Stuyvesant,2012,Rate,6.92565,303
+Bushwick,2012,Rate,6.3045,304
+East New York,2012,Rate,6.91848,305
+Park Slope,2012,Rate,4.77514,306
+Sunset Park,2012,Rate,6.4297,307
+Crown Heights North,2012,Rate,7.01127,308
+Crown Heights South,2012,Rate,4.96064,309
+Bay Ridge,2012,Rate,5.43221,310
+Bensonhurst,2012,Rate,5.23728,311
+Borough Park,2012,Rate,5.69495,312
+Coney Island,2012,Rate,8.25743,313
+Flatbush/Midwood,2012,Rate,5.44399,314
+Sheepshead Bay,2012,Rate,5.986,315
+Brownsville,2012,Rate,6.2466,316
+East Flatbush,2012,Rate,4.40171,317
+Canarsie,2012,Rate,4.45598,318
+Astoria,2012,Rate,5.35236,401
+Sunnyside/Woodside,2012,Rate,5.04238,402
+Jackson Heights,2012,Rate,4.35366,403
+Elmhurst/Corona,2012,Rate,4.29978,404
+Ridgewood/Glendale,2012,Rate,5.17158,405
+Rego Park/Forest Hills,2012,Rate,5.56728,406
+Flushing,2012,Rate,4.72099,407
+Fresh Meadows/Briarwood,2012,Rate,4.93285,408
+Woodhaven,2012,Rate,4.52561,409
+Howard Beach,2012,Rate,4.2641,410
+Bayside,2012,Rate,4.28395,411
+Jamaica/St. Albans,2012,Rate,4.86856,412
+Queens Village,2012,Rate,4.03634,413
+The Rockaways,2012,Rate,5.70835,414
+St. George,2012,Rate,5.87402,501
+South Beach,2012,Rate,4.49902,502
+Tottenville,2012,Rate,3.68436,503
+Bronx,2012,Rate,6.64835,36005
+Brooklyn,2012,Rate,6.44396,36047
+Manhattan,2012,Rate,8.55702,36061
+Queens,2012,Rate,4.89403,36081
+Staten Island,2012,Rate,4.88911,36085
+New York City,2012,Rate,6.49436,3651000
+Battery Park/Tribeca,2013,Rate,5.33151,101
+Greenwich Village,2013,Rate,5.33151,102
+Lower East Side,2013,Rate,9.0908,103
+Chelsea/Clinton,2013,Rate,6.6553,104
+Midtown Business District,2013,Rate,6.6553,105
+Murray Hill/Stuyvesant,2013,Rate,4.70706,106
+Upper West Side,2013,Rate,7.22619,107
+Upper East Side,2013,Rate,6.24532,108
+Manhattanville,2013,Rate,7.60728,109
+Central Harlem,2013,Rate,7.63195,110
+East Harlem,2013,Rate,8.36401,111
+Washington Heights,2013,Rate,6.856,112
+Mott Haven,2013,Rate,5.39528,201
+Hunts Point,2013,Rate,5.39528,202
+Morrisania,2013,Rate,5.98814,203
+Concourse/Highbridge,2013,Rate,5.26778,204
+University Heights,2013,Rate,6.19793,205
+East Tremont,2013,Rate,5.98814,206
+Bedford Park,2013,Rate,5.73242,207
+Riverdale,2013,Rate,4.67578,208
+Unionport/Soundview,2013,Rate,6.23005,209
+Throgs Neck,2013,Rate,4.34758,210
+Pelham Parkway,2013,Rate,5.99874,211
+Williamsbridge,2013,Rate,6.00247,212
+Williamsburg/Greenpoint,2013,Rate,7.30843,301
+Fort Greene/Brooklyn Hts,2013,Rate,7.79544,302
+Bedford Stuyvesant,2013,Rate,7.53327,303
+Bushwick,2013,Rate,6.10727,304
+East New York,2013,Rate,6.37255,305
+Park Slope,2013,Rate,5.17619,306
+Sunset Park,2013,Rate,5.29939,307
+Crown Heights North,2013,Rate,6.42505,308
+Crown Heights South,2013,Rate,5.44161,309
+Bay Ridge,2013,Rate,5.2674,310
+Bensonhurst,2013,Rate,4.955,311
+Borough Park,2013,Rate,5.83489,312
+Coney Island,2013,Rate,8.09312,313
+Flatbush/Midwood,2013,Rate,6.14152,314
+Sheepshead Bay,2013,Rate,5.53222,315
+Brownsville,2013,Rate,7.44467,316
+East Flatbush,2013,Rate,4.49664,317
+Canarsie,2013,Rate,4.49036,318
+Astoria,2013,Rate,5.62852,401
+Sunnyside/Woodside,2013,Rate,4.75711,402
+Jackson Heights,2013,Rate,4.41047,403
+Elmhurst/Corona,2013,Rate,3.91454,404
+Ridgewood/Glendale,2013,Rate,4.72524,405
+Rego Park/Forest Hills,2013,Rate,5.12452,406
+Flushing,2013,Rate,5.24696,407
+Fresh Meadows/Briarwood,2013,Rate,5.0159,408
+Woodhaven,2013,Rate,4.32434,409
+Howard Beach,2013,Rate,4.00863,410
+Bayside,2013,Rate,4.74796,411
+Jamaica/St. Albans,2013,Rate,4.30351,412
+Queens Village,2013,Rate,4.05976,413
+The Rockaways,2013,Rate,7.67702,414
+St. George,2013,Rate,6.15317,501
+South Beach,2013,Rate,5.10237,502
+Tottenville,2013,Rate,4.32703,503
+Bronx,2013,Rate,6.54145,36005
+Brooklyn,2013,Rate,6.52413,36047
+Manhattan,2013,Rate,8.98961,36061
+Queens,2013,Rate,4.92598,36081
+Staten Island,2013,Rate,5.28128,36085
+New York City,2013,Rate,6.63303,3651000
+Battery Park/Tribeca,2014,Rate,6.0715,101
+Greenwich Village,2014,Rate,6.0715,102
+Lower East Side,2014,Rate,8.80978,103
+Chelsea/Clinton,2014,Rate,7.06632,104
+Midtown Business District,2014,Rate,7.06632,105
+Murray Hill/Stuyvesant,2014,Rate,5.91732,106
+Upper West Side,2014,Rate,6.80578,107
+Upper East Side,2014,Rate,5.66457,108
+Manhattanville,2014,Rate,10.1216,109
+Central Harlem,2014,Rate,9.39241,110
+East Harlem,2014,Rate,7.91021,111
+Washington Heights,2014,Rate,5.3375,112
+Mott Haven,2014,Rate,5.17674,201
+Hunts Point,2014,Rate,5.17674,202
+Morrisania,2014,Rate,5.46691,203
+Concourse/Highbridge,2014,Rate,5.66014,204
+University Heights,2014,Rate,5.07291,205
+East Tremont,2014,Rate,5.46691,206
+Bedford Park,2014,Rate,5.4137,207
+Riverdale,2014,Rate,5.97181,208
+Unionport/Soundview,2014,Rate,5.88391,209
+Throgs Neck,2014,Rate,4.76308,210
+Pelham Parkway,2014,Rate,5.53891,211
+Williamsbridge,2014,Rate,5.78805,212
+Williamsburg/Greenpoint,2014,Rate,6.14228,301
+Fort Greene/Brooklyn Hts,2014,Rate,6.61129,302
+Bedford Stuyvesant,2014,Rate,7.40231,303
+Bushwick,2014,Rate,6.11542,304
+East New York,2014,Rate,6.94695,305
+Park Slope,2014,Rate,4.92139,306
+Sunset Park,2014,Rate,4.96284,307
+Crown Heights North,2014,Rate,6.74819,308
+Crown Heights South,2014,Rate,5.15272,309
+Bay Ridge,2014,Rate,6.784,310
+Bensonhurst,2014,Rate,5.4346,311
+Borough Park,2014,Rate,5.73974,312
+Coney Island,2014,Rate,7.72639,313
+Flatbush/Midwood,2014,Rate,5.37598,314
+Sheepshead Bay,2014,Rate,5.77869,315
+Brownsville,2014,Rate,6.74197,316
+East Flatbush,2014,Rate,5.24152,317
+Canarsie,2014,Rate,4.29073,318
+Astoria,2014,Rate,5.11921,401
+Sunnyside/Woodside,2014,Rate,4.16869,402
+Jackson Heights,2014,Rate,4.07859,403
+Elmhurst/Corona,2014,Rate,4.62368,404
+Ridgewood/Glendale,2014,Rate,5.16533,405
+Rego Park/Forest Hills,2014,Rate,6.10554,406
+Flushing,2014,Rate,5.64544,407
+Fresh Meadows/Briarwood,2014,Rate,5.00783,408
+Woodhaven,2014,Rate,4.02555,409
+Howard Beach,2014,Rate,5.29938,410
+Bayside,2014,Rate,3.7929,411
+Jamaica/St. Albans,2014,Rate,4.98713,412
+Queens Village,2014,Rate,3.95548,413
+The Rockaways,2014,Rate,7.32539,414
+St. George,2014,Rate,7.62495,501
+South Beach,2014,Rate,4.55883,502
+Tottenville,2014,Rate,5.16687,503
+Bronx,2014,Rate,6.46494,36005
+Brooklyn,2014,Rate,6.41542,36047
+Manhattan,2014,Rate,8.81224,36061
+Queens,2014,Rate,5.01243,36081
+Staten Island,2014,Rate,5.73557,36085
+New York City,2014,Rate,6.77486,3651000
+Battery Park/Tribeca,2015,Rate,5.3571,101
+Greenwich Village,2015,Rate,5.3571,102
+Lower East Side,2015,Rate,9.35505,103
+Chelsea/Clinton,2015,Rate,8.66832,104
+Midtown Business District,2015,Rate,8.66832,105
+Murray Hill/Stuyvesant,2015,Rate,5.12025,106
+Upper West Side,2015,Rate,8.93864,107
+Upper East Side,2015,Rate,5.39514,108
+Manhattanville,2015,Rate,9.70852,109
+Central Harlem,2015,Rate,7.65064,110
+East Harlem,2015,Rate,7.36287,111
+Washington Heights,2015,Rate,6.37476,112
+Mott Haven,2015,Rate,5.96778,201
+Hunts Point,2015,Rate,5.96778,202
+Morrisania,2015,Rate,6.11657,203
+Concourse/Highbridge,2015,Rate,5.88762,204
+University Heights,2015,Rate,6.16363,205
+East Tremont,2015,Rate,6.11657,206
+Bedford Park,2015,Rate,6.13022,207
+Riverdale,2015,Rate,4.85266,208
+Unionport/Soundview,2015,Rate,5.68545,209
+Throgs Neck,2015,Rate,6.15809,210
+Pelham Parkway,2015,Rate,6.29883,211
+Williamsbridge,2015,Rate,5.29133,212
+Williamsburg/Greenpoint,2015,Rate,7.52306,301
+Fort Greene/Brooklyn Hts,2015,Rate,6.5404,302
+Bedford Stuyvesant,2015,Rate,7.91673,303
+Bushwick,2015,Rate,7.88387,304
+East New York,2015,Rate,6.54064,305
+Park Slope,2015,Rate,5.99345,306
+Sunset Park,2015,Rate,5.84011,307
+Crown Heights North,2015,Rate,7.00114,308
+Crown Heights South,2015,Rate,5.32955,309
+Bay Ridge,2015,Rate,5.06002,310
+Bensonhurst,2015,Rate,5.51033,311
+Borough Park,2015,Rate,5.06786,312
+Coney Island,2015,Rate,7.03317,313
+Flatbush/Midwood,2015,Rate,6.02388,314
+Sheepshead Bay,2015,Rate,5.96095,315
+Brownsville,2015,Rate,7.84814,316
+East Flatbush,2015,Rate,4.20671,317
+Canarsie,2015,Rate,4.71875,318
+Astoria,2015,Rate,5.09268,401
+Sunnyside/Woodside,2015,Rate,4.05686,402
+Jackson Heights,2015,Rate,3.83945,403
+Elmhurst/Corona,2015,Rate,4.48447,404
+Ridgewood/Glendale,2015,Rate,4.54635,405
+Rego Park/Forest Hills,2015,Rate,6.10295,406
+Flushing,2015,Rate,5.209,407
+Fresh Meadows/Briarwood,2015,Rate,4.6907,408
+Woodhaven,2015,Rate,4.72332,409
+Howard Beach,2015,Rate,4.76842,410
+Bayside,2015,Rate,4.58575,411
+Jamaica/St. Albans,2015,Rate,4.17071,412
+Queens Village,2015,Rate,3.72205,413
+The Rockaways,2015,Rate,5.61863,414
+St. George,2015,Rate,8.23103,501
+South Beach,2015,Rate,5.70537,502
+Tottenville,2015,Rate,4.1487,503
+Bronx,2015,Rate,6.68241,36005
+Brooklyn,2015,Rate,6.59228,36047
+Manhattan,2015,Rate,8.86481,36061
+Queens,2015,Rate,4.75929,36081
+Staten Island,2015,Rate,5.68691,36085
+New York City,2015,Rate,6.68315,3651000
+Battery Park/Tribeca,2016,Rate,5.64653,101
+Greenwich Village,2016,Rate,5.64653,102
+Lower East Side,2016,Rate,9.73655,103
+Chelsea/Clinton,2016,Rate,9.13977,104
+Midtown Business District,2016,Rate,9.13977,105
+Murray Hill/Stuyvesant,2016,Rate,5.36111,106
+Upper West Side,2016,Rate,7.77605,107
+Upper East Side,2016,Rate,5.26571,108
+Manhattanville,2016,Rate,8.07245,109
+Central Harlem,2016,Rate,7.42452,110
+East Harlem,2016,Rate,7.49488,111
+Washington Heights,2016,Rate,6.33317,112
+Mott Haven,2016,Rate,7.09235,201
+Hunts Point,2016,Rate,7.09235,202
+Morrisania,2016,Rate,6.04679,203
+Concourse/Highbridge,2016,Rate,6.21147,204
+University Heights,2016,Rate,5.78319,205
+East Tremont,2016,Rate,6.04679,206
+Bedford Park,2016,Rate,4.56975,207
+Riverdale,2016,Rate,6.34045,208
+Unionport/Soundview,2016,Rate,6.1368,209
+Throgs Neck,2016,Rate,4.13248,210
+Pelham Parkway,2016,Rate,4.88323,211
+Williamsbridge,2016,Rate,5.60205,212
+Williamsburg/Greenpoint,2016,Rate,7.28737,301
+Fort Greene/Brooklyn Hts,2016,Rate,8.05532,302
+Bedford Stuyvesant,2016,Rate,7.03046,303
+Bushwick,2016,Rate,8.32806,304
+East New York,2016,Rate,7.36501,305
+Park Slope,2016,Rate,6.59633,306
+Sunset Park,2016,Rate,5.36795,307
+Crown Heights North,2016,Rate,8.93636,308
+Crown Heights South,2016,Rate,5.42739,309
+Bay Ridge,2016,Rate,5.46476,310
+Bensonhurst,2016,Rate,5.42662,311
+Borough Park,2016,Rate,6.03429,312
+Coney Island,2016,Rate,7.79776,313
+Flatbush/Midwood,2016,Rate,4.92205,314
+Sheepshead Bay,2016,Rate,5.6863,315
+Brownsville,2016,Rate,9.66021,316
+East Flatbush,2016,Rate,4.83619,317
+Canarsie,2016,Rate,4.27539,318
+Astoria,2016,Rate,5.628,401
+Sunnyside/Woodside,2016,Rate,4.28946,402
+Jackson Heights,2016,Rate,4.53616,403
+Elmhurst/Corona,2016,Rate,4.70253,404
+Ridgewood/Glendale,2016,Rate,4.12908,405
+Rego Park/Forest Hills,2016,Rate,8.03456,406
+Flushing,2016,Rate,5.46185,407
+Fresh Meadows/Briarwood,2016,Rate,4.7746,408
+Woodhaven,2016,Rate,4.43269,409
+Howard Beach,2016,Rate,4.16487,410
+Bayside,2016,Rate,4.6503,411
+Jamaica/St. Albans,2016,Rate,4.27739,412
+Queens Village,2016,Rate,4.30492,413
+The Rockaways,2016,Rate,6.60914,414
+St. George,2016,Rate,7.12921,501
+South Beach,2016,Rate,6.13141,502
+Tottenville,2016,Rate,4.33591,503
+Bronx,2016,Rate,6.32601,36005
+Brooklyn,2016,Rate,6.69235,36047
+Manhattan,2016,Rate,9.0233,36061
+Queens,2016,Rate,4.93126,36081
+Staten Island,2016,Rate,5.65868,36085
+New York City,2016,Rate,6.72238,3651000
+Battery Park/Tribeca,2017,Rate,4.93262,101
+Greenwich Village,2017,Rate,4.93262,102
+Lower East Side,2017,Rate,9.04179,103
+Chelsea/Clinton,2017,Rate,8.67492,104
+Midtown Business District,2017,Rate,8.67492,105
+Murray Hill/Stuyvesant,2017,Rate,6.06884,106
+Upper West Side,2017,Rate,7.7385,107
+Upper East Side,2017,Rate,4.22905,108
+Manhattanville,2017,Rate,8.34184,109
+Central Harlem,2017,Rate,9.19346,110
+East Harlem,2017,Rate,7.56494,111
+Washington Heights,2017,Rate,5.95705,112
+Mott Haven,2017,Rate,6.24731,201
+Hunts Point,2017,Rate,6.24731,202
+Morrisania,2017,Rate,6.32743,203
+Concourse/Highbridge,2017,Rate,5.48233,204
+University Heights,2017,Rate,5.99409,205
+East Tremont,2017,Rate,6.32743,206
+Bedford Park,2017,Rate,6.04734,207
+Riverdale,2017,Rate,5.88972,208
+Unionport/Soundview,2017,Rate,6.23641,209
+Throgs Neck,2017,Rate,5.44277,210
+Pelham Parkway,2017,Rate,5.2698,211
+Williamsbridge,2017,Rate,5.00397,212
+Williamsburg/Greenpoint,2017,Rate,8.56905,301
+Fort Greene/Brooklyn Hts,2017,Rate,6.36401,302
+Bedford Stuyvesant,2017,Rate,7.03627,303
+Bushwick,2017,Rate,7.46983,304
+East New York,2017,Rate,7.97617,305
+Park Slope,2017,Rate,4.83997,306
+Sunset Park,2017,Rate,6.21064,307
+Crown Heights North,2017,Rate,8.62519,308
+Crown Heights South,2017,Rate,5.77533,309
+Bay Ridge,2017,Rate,5.49751,310
+Bensonhurst,2017,Rate,5.02159,311
+Borough Park,2017,Rate,6.12194,312
+Coney Island,2017,Rate,7.90175,313
+Flatbush/Midwood,2017,Rate,6.80083,314
+Sheepshead Bay,2017,Rate,6.15262,315
+Brownsville,2017,Rate,12.48658,316
+East Flatbush,2017,Rate,5.72225,317
+Canarsie,2017,Rate,4.53881,318
+Astoria,2017,Rate,5.05357,401
+Sunnyside/Woodside,2017,Rate,4.46683,402
+Jackson Heights,2017,Rate,3.85684,403
+Elmhurst/Corona,2017,Rate,4.14195,404
+Ridgewood/Glendale,2017,Rate,4.08153,405
+Rego Park/Forest Hills,2017,Rate,5.0143,406
+Flushing,2017,Rate,5.81926,407
+Fresh Meadows/Briarwood,2017,Rate,4.98297,408
+Woodhaven,2017,Rate,4.14561,409
+Howard Beach,2017,Rate,4.60262,410
+Bayside,2017,Rate,4.59657,411
+Jamaica/St. Albans,2017,Rate,4.94446,412
+Queens Village,2017,Rate,4.41002,413
+The Rockaways,2017,Rate,6.16056,414
+St. George,2017,Rate,8.73224,501
+South Beach,2017,Rate,5.08554,502
+Tottenville,2017,Rate,5.32404,503
+Bronx,2017,Rate,6.73755,36005
+Brooklyn,2017,Rate,7.3048,36047
+Manhattan,2017,Rate,9.32578,36061
+Queens,2017,Rate,4.82776,36081
+Staten Island,2017,Rate,6.18449,36085
+New York City,2017,Rate,6.91257,3651000
+Battery Park/Tribeca,2018,Rate,4.92087,101
+Greenwich Village,2018,Rate,4.92087,102
+Lower East Side,2018,Rate,11.47061,103
+Chelsea/Clinton,2018,Rate,10.11409,104
+Midtown Business District,2018,Rate,10.11409,105
+Murray Hill/Stuyvesant,2018,Rate,5.48691,106
+Upper West Side,2018,Rate,6.61323,107
+Upper East Side,2018,Rate,4.82887,108
+Manhattanville,2018,Rate,7.69553,109
+Central Harlem,2018,Rate,9.35267,110
+East Harlem,2018,Rate,9.58283,111
+Washington Heights,2018,Rate,5.9058,112
+Mott Haven,2018,Rate,5.3453,201
+Hunts Point,2018,Rate,5.3453,202
+Morrisania,2018,Rate,6.9777,203
+Concourse/Highbridge,2018,Rate,7.47895,204
+University Heights,2018,Rate,6.11983,205
+East Tremont,2018,Rate,6.9777,206
+Bedford Park,2018,Rate,6.17204,207
+Riverdale,2018,Rate,7.17004,208
+Unionport/Soundview,2018,Rate,5.49353,209
+Throgs Neck,2018,Rate,5.49835,210
+Pelham Parkway,2018,Rate,5.50716,211
+Williamsbridge,2018,Rate,6.64483,212
+Williamsburg/Greenpoint,2018,Rate,8.67535,301
+Fort Greene/Brooklyn Hts,2018,Rate,8.55667,302
+Bedford Stuyvesant,2018,Rate,8.34659,303
+Bushwick,2018,Rate,6.72067,304
+East New York,2018,Rate,7.832,305
+Park Slope,2018,Rate,6.21653,306
+Sunset Park,2018,Rate,4.98045,307
+Crown Heights North,2018,Rate,8.6263,308
+Crown Heights South,2018,Rate,5.35215,309
+Bay Ridge,2018,Rate,6.22489,310
+Bensonhurst,2018,Rate,5.92951,311
+Borough Park,2018,Rate,5.8515,312
+Coney Island,2018,Rate,7.51034,313
+Flatbush/Midwood,2018,Rate,5.54991,314
+Sheepshead Bay,2018,Rate,6.38989,315
+Brownsville,2018,Rate,7.68692,316
+East Flatbush,2018,Rate,4.24021,317
+Canarsie,2018,Rate,5.07899,318
+Astoria,2018,Rate,6.16055,401
+Sunnyside/Woodside,2018,Rate,4.27418,402
+Jackson Heights,2018,Rate,4.67717,403
+Elmhurst/Corona,2018,Rate,3.50113,404
+Ridgewood/Glendale,2018,Rate,4.10261,405
+Rego Park/Forest Hills,2018,Rate,4.80056,406
+Flushing,2018,Rate,5.32118,407
+Fresh Meadows/Briarwood,2018,Rate,5.14271,408
+Woodhaven,2018,Rate,4.65022,409
+Howard Beach,2018,Rate,4.47556,410
+Bayside,2018,Rate,3.99886,411
+Jamaica/St. Albans,2018,Rate,4.45754,412
+Queens Village,2018,Rate,4.0299,413
+The Rockaways,2018,Rate,6.27616,414
+St. George,2018,Rate,8.15794,501
+South Beach,2018,Rate,3.99765,502
+Tottenville,2018,Rate,4.85644,503
+Bronx,2018,Rate,7.09099,36005
+Brooklyn,2018,Rate,6.88449,36047
+Manhattan,2018,Rate,9.43389,36061
+Queens,2018,Rate,4.91001,36081
+Staten Island,2018,Rate,5.34854,36085
+New York City,2018,Rate,6.88024,3651000
