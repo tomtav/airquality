@@ -32,6 +32,7 @@ def create_app():
     @app.route('/', methods=['GET'])
     def home():
         """Dashboard"""
+
         try:
             document = collection.find({}).sort(
                 "modified", pymongo.DESCENDING).limit(1)[0]
