@@ -50,7 +50,7 @@ var income_levels = [
 ]
 
 function getBoroColor(d) {
-  return boros[d]
+  return boros[d] ? boros[d] : '#999'
 }
 
 
@@ -65,13 +65,24 @@ function getIncomeColor(d) {
                 '#ffffcc';
 }
 
-//income_levels = households.map(d => d['Income Level']).filter((v, i, a) => a.indexOf(v) === i);
-//10464, 10004
+
+var demo = households.map(d => {
+  uhf = uhf_codes.filter(c => c.Fips === d.Fips)
+  d.Borough = uhf.length ? uhf[0].Borough : ''
+  return d
+}).filter(d => d.Fips <= 1000 && d.Borough.length && d.DataFormat === 'Number' && d.TimeFrame === 2015)
+
+var years = demo.map(d => d.TimeFrame).filter((v, i, a) => a.indexOf(v) === i).sort()
+
+var boroughs = demo.map(d => d.Borough).filter((v, i, a) => a.indexOf(v) === i).sort()
+
+var levels = demo.map(d => d['Income Level']).filter((v, i, a) => a.indexOf(v) === i).sort((a, b) => parseFloat(b.split(' ')[0].split('$')[1]) - parseFloat(a.split(' ')[0].split('$')[1]))
+
 var dropDown = d3.select('select').attr('id', 'chooser')
   .on('change', onChange)
 
 var options = dropDown.selectAll(null)
-  .data(income_levels.reverse())
+  .data(levels.reverse())
   .enter()
   .append('option')
   .text(function (d) {
@@ -117,8 +128,10 @@ ntas.features.forEach(feature => {
   }
 })
 
+
 var mapboxAccessToken = API_KEY;
-var map = L.map('map').setView([40.8075, -73.9626], 14);
+// [40.8075, -73.9626] // CU
+var map = L.map('map').setView([40.6892, -74.0445], 10);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=' + mapboxAccessToken, {
   id: 'mapbox/light-v10',
@@ -135,7 +148,8 @@ function onEachFeature(feature, layer) {
       tooltip += "<p>" + income.level + " - " + income.amount + "</p>"
     })
   }
-  layer.bindPopup(tooltip);
+  layer.bindPopup(tooltip)
+  //layer.bindPopup(JSON.stringify(feature.properties))
 }
 
 
@@ -155,4 +169,4 @@ L.geoJson(locations, {
   onEachFeature: onEachFeature
 }).addTo(map)
 
-this.map.invalidateSize(true);
+//this.map.invalidateSize(true);
