@@ -1,0 +1,43 @@
+.nav-wrapper {
+  margin: 0 auto;
+  width: 95%;
+}
+i.large {
+  vertical-align: middle;
+}
+.row {
+  margin-bottom: 0px;
+}
+.spinner-white-only {
+  border-color: #fff;
+}
+.page-footer .footer-copyright {
+  justify-content: center;
+}
+#map { height: 500px; }
+
+@media only screen and (max-width: 992px) {
+  nav .brand-logo {
+    left: 0px;
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@media (max-width: 601px) {
+  nav .btn-large {
+    padding: 0 15px;
+  }
+  nav span.refresh-icon > i {
+    margin-right: 0px;
+  }
+  nav span.refresh-icon > span {
+    display: none;
+  }
+}
+
+@media (max-width: 401px) {
+  nav .brand-logo {
+    font-size: 1.2em;
+  }
+}
