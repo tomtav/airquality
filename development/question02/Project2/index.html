@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <!-- <link rel="shortcut icon" href="static/favicon.ico"> -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="static/css/materialize.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin="" />
+  <link rel="stylesheet" href="static/css/main.css">
+</head>
+
+<body>
+  <header class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo"><i class="medium material-icons">dashboard</i>Dashboard</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div>
+      <div class="row">
+        <section>
+          <div>
+            <div class="row">
+              <aside class="col s12 l3">
+                <div class="card blue-grey darken-1" style="height:300px;">
+                  <div class="card-content">
+                    <div class="input-field col s12">
+                      <select id="chooser">
+                        <option value="None" disabled selected>Choose your Location</option>
+                      </select>
+                      <label>Filter Charts:</label>
+                    </div>
+                  </div>
+                </div>
+              </aside>
+              <main class="col s12 l9">
+                <div class="row">
+                  <div class="col s12">
+                    <div id="question_3" class="card responsive-plot d-block"
+                      style="height:500px;background:aquamarine;">
+                      <div id="map"></div>
+                    </div>
+                  </div>
+                </div>
+              </main>
+            </div>
+            <div class="row">
+              <div class="col s12 l6">
+                <div id="question_1" class="card d-block" style="height:300px;background:blueviolet;">
+                </div>
+              </div>
+              <!-- <div class="col s12 l6">
+                <div id="question_2" class="card d-block" style="height:300px;background:salmon;">
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="page-footer no-padding">
+    <div class="footer-copyright">
+      © 2020 Data Analytics Team
+    </div>
+  </footer>
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script type="text/javascript" src="static/js/materialize.min.js"></script>
+  <script type="text/javascript" src="static/js/config.js"></script>
+  <script type="text/javascript" src="static/data/uhf_crosswalk.js"></script>
+  <script type="text/javascript" src="static/js/ervisits_zipcodes.js"></script>
+  <script type="text/javascript" src="static/data/uhf42.js"></script>
+  <script type="text/javascript" src="static/data/ntas.js"></script>
+  <script type="text/javascript" src="static/js/main.js"></script>
+
+</body>
+
+</html>

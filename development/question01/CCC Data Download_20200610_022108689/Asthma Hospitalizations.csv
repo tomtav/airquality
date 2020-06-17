@@ -1,0 +1,3275 @@
+"Name","Asthma Hospitalizations"
+"Description","<normal><g class=""gr_ gr_5 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins doubleReplace replaceWithoutSep"" id=""5"" data-gr-id=""5"">Number</g> of asthma hospitalizations among NYC resident children by age groups (0 to 4, 5 to 17 and 0 to 17).<br />
+<g class=""gr_ gr_6 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins doubleReplace replaceWithoutSep"" id=""6"" data-gr-id=""6"">Rate</g> of asthma hospitalizations per 10,000 children in specific age groups (0 to 4, 5 to 17 and 0 to 17).<br />
+<br />
+</normal>"
+"Source Notes","New York State Statewide Planning and Research Cooperative System (SPARCS) Deidentified Hospital Discharge Data, retrieved from&nbsp;<g class=""gr_ gr_5 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins replaceWithoutSep"" id=""5"" data-gr-id=""5"">New</g>&nbsp;York City Department of Health and Mental Hygiene NYC Tracking Program: Environment and Health Data Portal. [Asthma Hospitalizations; 2000-2016].&nbsp;<a href=""http://a816-dohbesp.nyc.gov/IndicatorPublic/"" target=""_blank"">http://a816-dohbesp.nyc.gov/IndicatorPublic/</a>"
+"Notes","<normal>Rates are calculated by using number of asthma hospitalizations among NYC resident children for particular age group, divided by the population of children for the same age group, expressed as cases per 10,000 resident children for the respective age group (i.e. asthma hospitalization among NYC resident children ages 0 to 4, divided by the population of children ages 0 to 4, expressed as cases per 10,000 population ages 0 to 4).<br />
+<br />
+UHFs with the value of&nbsp;<strong>0</strong>&nbsp;represent data suppressed by DOHMH due to small sample size or insufficient data.&nbsp;<br />
+</normal>"
+
+Location,Age Group,TimeFrame,DataFormat,Data,Fips
+Bayside - Little Neck,0 to 4 years,2000,Number,19,uhf404
+Bayside - Little Neck,0 to 4 years,2000,Rate,43.8,uhf404
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2000,Number,485,uhf203
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2000,Rate,192.6,uhf203
+Bensonhurst - Bay Ridge,0 to 4 years,2000,Number,17,uhf209
+Bensonhurst - Bay Ridge,0 to 4 years,2000,Rate,15.5,uhf209
+Borough Park,0 to 4 years,2000,Rate,24.1,uhf206
+Borough Park,0 to 4 years,2000,Number,65,uhf206
+Bronx,0 to 4 years,2000,Number,1822,36005
+Bronx,0 to 4 years,2000,Rate,166.6,36005
+Brooklyn,0 to 4 years,2000,Rate,97,36047
+Brooklyn,0 to 4 years,2000,Number,1764,36047
+Canarsie - Flatlands,0 to 4 years,2000,Rate,78.4,uhf208
+Canarsie - Flatlands,0 to 4 years,2000,Number,101,uhf208
+Central Harlem - Morningside Heights,0 to 4 years,2000,Number,213,uhf302
+Central Harlem - Morningside Heights,0 to 4 years,2000,Rate,204,uhf302
+Chelsea - Clinton,0 to 4 years,2000,Number,36,uhf306
+Chelsea - Clinton,0 to 4 years,2000,Rate,101.3,uhf306
+Coney Island - Sheepshead Bay,0 to 4 years,2000,Rate,38.4,uhf210
+Coney Island - Sheepshead Bay,0 to 4 years,2000,Number,61,uhf210
+Crotona - Tremont,0 to 4 years,2000,Rate,159,uhf105
+Crotona - Tremont,0 to 4 years,2000,Number,315,uhf105
+Downtown  - Heights - Slope,0 to 4 years,2000,Rate,65.9,uhf202
+Downtown  - Heights - Slope,0 to 4 years,2000,Number,84,uhf202
+East Flatbush - Flatbush,0 to 4 years,2000,Number,289,uhf207
+East Flatbush - Flatbush,0 to 4 years,2000,Rate,121.1,uhf207
+East Harlem,0 to 4 years,2000,Rate,261.5,uhf303
+East Harlem,0 to 4 years,2000,Number,202,uhf303
+East New York,0 to 4 years,2000,Rate,169,uhf204
+East New York,0 to 4 years,2000,Number,262,uhf204
+Flushing - Clearview,0 to 4 years,2000,Rate,69.9,uhf403
+Flushing - Clearview,0 to 4 years,2000,Number,100,uhf403
+Fordham - Bronx Park,0 to 4 years,2000,Rate,150.6,uhf103
+Fordham - Bronx Park,0 to 4 years,2000,Number,337,uhf103
+Fresh Meadows,0 to 4 years,2000,Number,53,uhf406
+Fresh Meadows,0 to 4 years,2000,Rate,87.3,uhf406
+Gramercy Park -  Murray Hill,0 to 4 years,2000,Rate,41.9,uhf307
+Gramercy Park -  Murray Hill,0 to 4 years,2000,Number,15,uhf307
+Greenpoint,0 to 4 years,2000,Number,35,uhf201
+Greenpoint,0 to 4 years,2000,Rate,33.3,uhf201
+Greenwich Village - Soho,0 to 4 years,2000,Number,7,uhf308
+Greenwich Village - Soho,0 to 4 years,2000,Rate,26.5,uhf308
+High Bridge - Morrisania,0 to 4 years,2000,Number,388,uhf106
+High Bridge - Morrisania,0 to 4 years,2000,Rate,215.4,uhf106
+Hunts Point - Mott Haven,0 to 4 years,2000,Rate,193,uhf107
+Hunts Point - Mott Haven,0 to 4 years,2000,Number,219,uhf107
+Jamaica,0 to 4 years,2000,Number,240,uhf408
+Jamaica,0 to 4 years,2000,Rate,122,uhf408
+Kingsbridge - Riverdale,0 to 4 years,2000,Rate,81.2,uhf101
+Kingsbridge - Riverdale,0 to 4 years,2000,Number,43,uhf101
+Long Island City - Astoria,0 to 4 years,2000,Rate,78,uhf401
+Long Island City - Astoria,0 to 4 years,2000,Number,101,uhf401
+Lower Manhattan,0 to 4 years,2000,Number,9,uhf310
+Lower Manhattan,0 to 4 years,2000,Rate,61.7,uhf310
+Manhattan,0 to 4 years,2000,Rate,98.7,36061
+Manhattan,0 to 4 years,2000,Number,752,36061
+New York City,0 to 4 years,2000,Rate,106.2,3651000
+New York City,0 to 4 years,2000,Number,5727,3651000
+Northeast Bronx,0 to 4 years,2000,Number,178,uhf102
+Northeast Bronx,0 to 4 years,2000,Rate,144.1,uhf102
+Pelham - Throgs Neck,0 to 4 years,2000,Number,341,uhf104
+Pelham - Throgs Neck,0 to 4 years,2000,Rate,164.4,uhf104
+Port  Richmond,0 to 4 years,2000,Rate,64.3,uhf501
+Port  Richmond,0 to 4 years,2000,Number,32,uhf501
+Queens,0 to 4 years,2000,Number,1248,36081
+Queens,0 to 4 years,2000,Rate,87.7,36081
+Ridgewood - Forest Hills,0 to 4 years,2000,Rate,72.2,uhf405
+Ridgewood - Forest Hills,0 to 4 years,2000,Number,103,uhf405
+Rockaway,0 to 4 years,2000,Number,95,uhf410
+Rockaway,0 to 4 years,2000,Rate,115,uhf410
+South Beach - Tottenville,0 to 4 years,2000,Number,39,uhf504
+South Beach - Tottenville,0 to 4 years,2000,Rate,33.5,uhf504
+Southeast Queens,0 to 4 years,2000,Rate,97.2,uhf409
+Southeast Queens,0 to 4 years,2000,Number,122,uhf409
+Southwest Queens,0 to 4 years,2000,Rate,77.1,uhf407
+Southwest Queens,0 to 4 years,2000,Number,145,uhf407
+Stapleton - St. George,0 to 4 years,2000,Number,58,uhf502
+Stapleton - St. George,0 to 4 years,2000,Rate,72.5,uhf502
+Staten Island,0 to 4 years,2000,Rate,47.3,36085
+Staten Island,0 to 4 years,2000,Number,141,36085
+Sunset Park,0 to 4 years,2000,Number,53,uhf205
+Sunset Park,0 to 4 years,2000,Rate,55.5,uhf205
+Union Square - Lower East Side,0 to 4 years,2000,Rate,70.4,uhf309
+Union Square - Lower East Side,0 to 4 years,2000,Number,56,uhf309
+Upper East Side,0 to 4 years,2000,Rate,17.2,uhf305
+Upper East Side,0 to 4 years,2000,Number,17,uhf305
+Upper West Side,0 to 4 years,2000,Number,51,uhf304
+Upper West Side,0 to 4 years,2000,Rate,51.4,uhf304
+Washington Heights - Inwood,0 to 4 years,2000,Rate,77.3,uhf301
+Washington Heights - Inwood,0 to 4 years,2000,Number,143,uhf301
+West Queens,0 to 4 years,2000,Number,264,uhf402
+West Queens,0 to 4 years,2000,Rate,85.1,uhf402
+Williamsburg - Bushwick,0 to 4 years,2000,Number,308,uhf211
+Williamsburg - Bushwick,0 to 4 years,2000,Rate,173.9,uhf211
+Willowbrook,0 to 4 years,2000,Rate,23,uhf503
+Willowbrook,0 to 4 years,2000,Number,12,uhf503
+Bayside - Little Neck,0 to 4 years,2001,Number,13,uhf404
+Bayside - Little Neck,0 to 4 years,2001,Rate,30.3,uhf404
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2001,Number,497,uhf203
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2001,Rate,204.3,uhf203
+Bensonhurst - Bay Ridge,0 to 4 years,2001,Number,28,uhf209
+Bensonhurst - Bay Ridge,0 to 4 years,2001,Rate,25.1,uhf209
+Borough Park,0 to 4 years,2001,Rate,21.1,uhf206
+Borough Park,0 to 4 years,2001,Number,58,uhf206
+Bronx,0 to 4 years,2001,Number,1876,36005
+Bronx,0 to 4 years,2001,Rate,173.4,36005
+Brooklyn,0 to 4 years,2001,Rate,106,36047
+Brooklyn,0 to 4 years,2001,Number,1906,36047
+Canarsie - Flatlands,0 to 4 years,2001,Rate,74.2,uhf208
+Canarsie - Flatlands,0 to 4 years,2001,Number,93,uhf208
+Central Harlem - Morningside Heights,0 to 4 years,2001,Number,225,uhf302
+Central Harlem - Morningside Heights,0 to 4 years,2001,Rate,215.9,uhf302
+Chelsea - Clinton,0 to 4 years,2001,Number,35,uhf306
+Chelsea - Clinton,0 to 4 years,2001,Rate,91.8,uhf306
+Coney Island - Sheepshead Bay,0 to 4 years,2001,Rate,37.5,uhf210
+Coney Island - Sheepshead Bay,0 to 4 years,2001,Number,60,uhf210
+Crotona - Tremont,0 to 4 years,2001,Rate,181,uhf105
+Crotona - Tremont,0 to 4 years,2001,Number,352,uhf105
+Downtown  - Heights - Slope,0 to 4 years,2001,Rate,79.1,uhf202
+Downtown  - Heights - Slope,0 to 4 years,2001,Number,103,uhf202
+East Flatbush - Flatbush,0 to 4 years,2001,Number,317,uhf207
+East Flatbush - Flatbush,0 to 4 years,2001,Rate,138.2,uhf207
+East Harlem,0 to 4 years,2001,Rate,291.9,uhf303
+East Harlem,0 to 4 years,2001,Number,224,uhf303
+East New York,0 to 4 years,2001,Rate,184.7,uhf204
+East New York,0 to 4 years,2001,Number,279,uhf204
+Flushing - Clearview,0 to 4 years,2001,Rate,58,uhf403
+Flushing - Clearview,0 to 4 years,2001,Number,82,uhf403
+Fordham - Bronx Park,0 to 4 years,2001,Rate,155.6,uhf103
+Fordham - Bronx Park,0 to 4 years,2001,Number,343,uhf103
+Fresh Meadows,0 to 4 years,2001,Number,57,uhf406
+Fresh Meadows,0 to 4 years,2001,Rate,93.7,uhf406
+Gramercy Park -  Murray Hill,0 to 4 years,2001,Rate,31.2,uhf307
+Gramercy Park -  Murray Hill,0 to 4 years,2001,Number,12,uhf307
+Greenpoint,0 to 4 years,2001,Number,61,uhf201
+Greenpoint,0 to 4 years,2001,Rate,58.7,uhf201
+Greenwich Village - Soho,0 to 4 years,2001,Number,6,uhf308
+Greenwich Village - Soho,0 to 4 years,2001,Rate,21.1,uhf308
+High Bridge - Morrisania,0 to 4 years,2001,Number,375,uhf106
+High Bridge - Morrisania,0 to 4 years,2001,Rate,210.4,uhf106
+Hunts Point - Mott Haven,0 to 4 years,2001,Rate,211,uhf107
+Hunts Point - Mott Haven,0 to 4 years,2001,Number,238,uhf107
+Jamaica,0 to 4 years,2001,Number,292,uhf408
+Jamaica,0 to 4 years,2001,Rate,151.4,uhf408
+Kingsbridge - Riverdale,0 to 4 years,2001,Rate,62,uhf101
+Kingsbridge - Riverdale,0 to 4 years,2001,Number,33,uhf101
+Long Island City - Astoria,0 to 4 years,2001,Rate,78.4,uhf401
+Long Island City - Astoria,0 to 4 years,2001,Number,99,uhf401
+Lower Manhattan,0 to 4 years,2001,Number,9,uhf310
+Lower Manhattan,0 to 4 years,2001,Rate,52.4,uhf310
+Manhattan,0 to 4 years,2001,Rate,105.6,36061
+Manhattan,0 to 4 years,2001,Number,825,36061
+New York City,0 to 4 years,2001,Rate,112.5,3651000
+New York City,0 to 4 years,2001,Number,6024,3651000
+Northeast Bronx,0 to 4 years,2001,Number,176,uhf102
+Northeast Bronx,0 to 4 years,2001,Rate,143.9,uhf102
+Pelham - Throgs Neck,0 to 4 years,2001,Number,357,uhf104
+Pelham - Throgs Neck,0 to 4 years,2001,Rate,173.4,uhf104
+Port  Richmond,0 to 4 years,2001,Rate,73.4,uhf501
+Port  Richmond,0 to 4 years,2001,Number,36,uhf501
+Queens,0 to 4 years,2001,Number,1261,36081
+Queens,0 to 4 years,2001,Rate,89.8,36081
+Ridgewood - Forest Hills,0 to 4 years,2001,Rate,60.5,uhf405
+Ridgewood - Forest Hills,0 to 4 years,2001,Number,86,uhf405
+Rockaway,0 to 4 years,2001,Number,117,uhf410
+Rockaway,0 to 4 years,2001,Rate,142.1,uhf410
+South Beach - Tottenville,0 to 4 years,2001,Number,29,uhf504
+South Beach - Tottenville,0 to 4 years,2001,Rate,25.7,uhf504
+Southeast Queens,0 to 4 years,2001,Rate,102.4,uhf409
+Southeast Queens,0 to 4 years,2001,Number,125,uhf409
+Southwest Queens,0 to 4 years,2001,Rate,108.1,uhf407
+Southwest Queens,0 to 4 years,2001,Number,199,uhf407
+Stapleton - St. George,0 to 4 years,2001,Number,75,uhf502
+Stapleton - St. George,0 to 4 years,2001,Rate,96.2,uhf502
+Staten Island,0 to 4 years,2001,Rate,53.6,36085
+Staten Island,0 to 4 years,2001,Number,156,36085
+Sunset Park,0 to 4 years,2001,Number,54,uhf205
+Sunset Park,0 to 4 years,2001,Rate,56.6,uhf205
+Union Square - Lower East Side,0 to 4 years,2001,Rate,86.8,uhf309
+Union Square - Lower East Side,0 to 4 years,2001,Number,71,uhf309
+Upper East Side,0 to 4 years,2001,Rate,33.5,uhf305
+Upper East Side,0 to 4 years,2001,Number,35,uhf305
+Upper West Side,0 to 4 years,2001,Number,54,uhf304
+Upper West Side,0 to 4 years,2001,Rate,51.7,uhf304
+Washington Heights - Inwood,0 to 4 years,2001,Rate,84.8,uhf301
+Washington Heights - Inwood,0 to 4 years,2001,Number,154,uhf301
+West Queens,0 to 4 years,2001,Number,188,uhf402
+West Queens,0 to 4 years,2001,Rate,60.7,uhf402
+Williamsburg - Bushwick,0 to 4 years,2001,Number,353,uhf211
+Williamsburg - Bushwick,0 to 4 years,2001,Rate,204.1,uhf211
+Willowbrook,0 to 4 years,2001,Rate,31.4,uhf503
+Willowbrook,0 to 4 years,2001,Number,16,uhf503
+Bayside - Little Neck,0 to 4 years,2003,Number,14,uhf404
+Bayside - Little Neck,0 to 4 years,2003,Rate,32.9,uhf404
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2003,Number,576,uhf203
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2003,Rate,248.8,uhf203
+Bensonhurst - Bay Ridge,0 to 4 years,2003,Number,32,uhf209
+Bensonhurst - Bay Ridge,0 to 4 years,2003,Rate,28.1,uhf209
+Borough Park,0 to 4 years,2003,Rate,15.5,uhf206
+Borough Park,0 to 4 years,2003,Number,44,uhf206
+Bronx,0 to 4 years,2003,Number,2271,36005
+Bronx,0 to 4 years,2003,Rate,212.4,36005
+Brooklyn,0 to 4 years,2003,Rate,120.2,36047
+Brooklyn,0 to 4 years,2003,Number,2129,36047
+Canarsie - Flatlands,0 to 4 years,2003,Rate,103.6,uhf208
+Canarsie - Flatlands,0 to 4 years,2003,Number,125,uhf208
+Central Harlem - Morningside Heights,0 to 4 years,2003,Number,217,uhf302
+Central Harlem - Morningside Heights,0 to 4 years,2003,Rate,211.1,uhf302
+Chelsea - Clinton,0 to 4 years,2003,Number,33,uhf306
+Chelsea - Clinton,0 to 4 years,2003,Rate,78.8,uhf306
+Coney Island - Sheepshead Bay,0 to 4 years,2003,Rate,48.9,uhf210
+Coney Island - Sheepshead Bay,0 to 4 years,2003,Number,79,uhf210
+Crotona - Tremont,0 to 4 years,2003,Rate,268.9,uhf105
+Crotona - Tremont,0 to 4 years,2003,Number,508,uhf105
+Downtown  - Heights - Slope,0 to 4 years,2003,Rate,95.9,uhf202
+Downtown  - Heights - Slope,0 to 4 years,2003,Number,130,uhf202
+East Flatbush - Flatbush,0 to 4 years,2003,Number,379,uhf207
+East Flatbush - Flatbush,0 to 4 years,2003,Rate,176.1,uhf207
+East Harlem,0 to 4 years,2003,Rate,241.9,uhf303
+East Harlem,0 to 4 years,2003,Number,183,uhf303
+East New York,0 to 4 years,2003,Rate,208.1,uhf204
+East New York,0 to 4 years,2003,Number,303,uhf204
+Flushing - Clearview,0 to 4 years,2003,Rate,55.8,uhf403
+Flushing - Clearview,0 to 4 years,2003,Number,78,uhf403
+Fordham - Bronx Park,0 to 4 years,2003,Rate,174.6,uhf103
+Fordham - Bronx Park,0 to 4 years,2003,Number,376,uhf103
+Fresh Meadows,0 to 4 years,2003,Number,27,uhf406
+Fresh Meadows,0 to 4 years,2003,Rate,43.9,uhf406
+Gramercy Park -  Murray Hill,0 to 4 years,2003,Rate,35.8,uhf307
+Gramercy Park -  Murray Hill,0 to 4 years,2003,Number,15,uhf307
+Greenpoint,0 to 4 years,2003,Number,56,uhf201
+Greenpoint,0 to 4 years,2003,Rate,55.1,uhf201
+Greenwich Village - Soho,0 to 4 years,2003,Number,9,uhf308
+Greenwich Village - Soho,0 to 4 years,2003,Rate,28.7,uhf308
+High Bridge - Morrisania,0 to 4 years,2003,Number,502,uhf106
+High Bridge - Morrisania,0 to 4 years,2003,Rate,285.6,uhf106
+Hunts Point - Mott Haven,0 to 4 years,2003,Rate,212.6,uhf107
+Hunts Point - Mott Haven,0 to 4 years,2003,Number,239,uhf107
+Jamaica,0 to 4 years,2003,Number,306,uhf408
+Jamaica,0 to 4 years,2003,Rate,165.2,uhf408
+Kingsbridge - Riverdale,0 to 4 years,2003,Rate,63.3,uhf101
+Kingsbridge - Riverdale,0 to 4 years,2003,Number,35,uhf101
+Long Island City - Astoria,0 to 4 years,2003,Rate,62.8,uhf401
+Long Island City - Astoria,0 to 4 years,2003,Number,76,uhf401
+Lower Manhattan,0 to 4 years,2003,Number,12,uhf310
+Lower Manhattan,0 to 4 years,2003,Rate,55.2,uhf310
+Manhattan,0 to 4 years,2003,Rate,95.2,36061
+Manhattan,0 to 4 years,2003,Number,764,36061
+New York City,0 to 4 years,2003,Rate,124.1,3651000
+New York City,0 to 4 years,2003,Number,6591,3651000
+Northeast Bronx,0 to 4 years,2003,Number,224,uhf102
+Northeast Bronx,0 to 4 years,2003,Rate,185.1,uhf102
+Pelham - Throgs Neck,0 to 4 years,2003,Number,386,uhf104
+Pelham - Throgs Neck,0 to 4 years,2003,Rate,187.4,uhf104
+Port  Richmond,0 to 4 years,2003,Rate,90.5,uhf501
+Port  Richmond,0 to 4 years,2003,Number,45,uhf501
+Queens,0 to 4 years,2003,Number,1266,36081
+Queens,0 to 4 years,2003,Rate,91.8,36081
+Ridgewood - Forest Hills,0 to 4 years,2003,Rate,74.5,uhf405
+Ridgewood - Forest Hills,0 to 4 years,2003,Number,106,uhf405
+Rockaway,0 to 4 years,2003,Number,105,uhf410
+Rockaway,0 to 4 years,2003,Rate,128.5,uhf410
+South Beach - Tottenville,0 to 4 years,2003,Number,36,uhf504
+South Beach - Tottenville,0 to 4 years,2003,Rate,32.7,uhf504
+Southeast Queens,0 to 4 years,2003,Rate,95.5,uhf409
+Southeast Queens,0 to 4 years,2003,Number,110,uhf409
+Southwest Queens,0 to 4 years,2003,Rate,116,uhf407
+Southwest Queens,0 to 4 years,2003,Number,207,uhf407
+Stapleton - St. George,0 to 4 years,2003,Number,66,uhf502
+Stapleton - St. George,0 to 4 years,2003,Rate,85.3,uhf502
+Staten Island,0 to 4 years,2003,Rate,56,36085
+Staten Island,0 to 4 years,2003,Number,161,36085
+Sunset Park,0 to 4 years,2003,Number,37,uhf205
+Sunset Park,0 to 4 years,2003,Rate,38.9,uhf205
+Union Square - Lower East Side,0 to 4 years,2003,Rate,75.1,uhf309
+Union Square - Lower East Side,0 to 4 years,2003,Number,63,uhf309
+Upper East Side,0 to 4 years,2003,Rate,29.7,uhf305
+Upper East Side,0 to 4 years,2003,Number,33,uhf305
+Upper West Side,0 to 4 years,2003,Number,68,uhf304
+Upper West Side,0 to 4 years,2003,Rate,61,uhf304
+Washington Heights - Inwood,0 to 4 years,2003,Rate,74.3,uhf301
+Washington Heights - Inwood,0 to 4 years,2003,Number,130,uhf301
+West Queens,0 to 4 years,2003,Number,232,uhf402
+West Queens,0 to 4 years,2003,Rate,74.4,uhf402
+Williamsburg - Bushwick,0 to 4 years,2003,Number,365,uhf211
+Williamsburg - Bushwick,0 to 4 years,2003,Rate,219.3,uhf211
+Willowbrook,0 to 4 years,2003,Rate,27.8,uhf503
+Willowbrook,0 to 4 years,2003,Number,14,uhf503
+Bayside - Little Neck,0 to 4 years,2004,Number,21,uhf404
+Bayside - Little Neck,0 to 4 years,2004,Rate,49.2,uhf404
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2004,Number,487,uhf203
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2004,Rate,214.6,uhf203
+Bensonhurst - Bay Ridge,0 to 4 years,2004,Number,21,uhf209
+Bensonhurst - Bay Ridge,0 to 4 years,2004,Rate,18,uhf209
+Borough Park,0 to 4 years,2004,Rate,20.9,uhf206
+Borough Park,0 to 4 years,2004,Number,61,uhf206
+Bronx,0 to 4 years,2004,Number,2002,36005
+Bronx,0 to 4 years,2004,Rate,189.1,36005
+Brooklyn,0 to 4 years,2004,Rate,105,36047
+Brooklyn,0 to 4 years,2004,Number,1863,36047
+Canarsie - Flatlands,0 to 4 years,2004,Rate,107.4,uhf208
+Canarsie - Flatlands,0 to 4 years,2004,Number,128,uhf208
+Central Harlem - Morningside Heights,0 to 4 years,2004,Number,198,uhf302
+Central Harlem - Morningside Heights,0 to 4 years,2004,Rate,192.7,uhf302
+Chelsea - Clinton,0 to 4 years,2004,Number,25,uhf306
+Chelsea - Clinton,0 to 4 years,2004,Rate,56.5,uhf306
+Coney Island - Sheepshead Bay,0 to 4 years,2004,Rate,34.7,uhf210
+Coney Island - Sheepshead Bay,0 to 4 years,2004,Number,57,uhf210
+Crotona - Tremont,0 to 4 years,2004,Rate,201.6,uhf105
+Crotona - Tremont,0 to 4 years,2004,Number,373,uhf105
+Downtown  - Heights - Slope,0 to 4 years,2004,Rate,63.8,uhf202
+Downtown  - Heights - Slope,0 to 4 years,2004,Number,89,uhf202
+East Flatbush - Flatbush,0 to 4 years,2004,Number,286,uhf207
+East Flatbush - Flatbush,0 to 4 years,2004,Rate,136.4,uhf207
+East Harlem,0 to 4 years,2004,Rate,200.8,uhf303
+East Harlem,0 to 4 years,2004,Number,151,uhf303
+East New York,0 to 4 years,2004,Rate,178.4,uhf204
+East New York,0 to 4 years,2004,Number,256,uhf204
+Flushing - Clearview,0 to 4 years,2004,Rate,56.5,uhf403
+Flushing - Clearview,0 to 4 years,2004,Number,79,uhf403
+Fordham - Bronx Park,0 to 4 years,2004,Rate,185.1,uhf103
+Fordham - Bronx Park,0 to 4 years,2004,Number,392,uhf103
+Fresh Meadows,0 to 4 years,2004,Number,37,uhf406
+Fresh Meadows,0 to 4 years,2004,Rate,59.3,uhf406
+Gramercy Park -  Murray Hill,0 to 4 years,2004,Rate,29.4,uhf307
+Gramercy Park -  Murray Hill,0 to 4 years,2004,Number,13,uhf307
+Greenpoint,0 to 4 years,2004,Number,52,uhf201
+Greenpoint,0 to 4 years,2004,Rate,51,uhf201
+Greenwich Village - Soho,0 to 4 years,2004,Number,10,uhf308
+Greenwich Village - Soho,0 to 4 years,2004,Rate,30.1,uhf308
+High Bridge - Morrisania,0 to 4 years,2004,Number,426,uhf106
+High Bridge - Morrisania,0 to 4 years,2004,Rate,245.3,uhf106
+Hunts Point - Mott Haven,0 to 4 years,2004,Rate,221.4,uhf107
+Hunts Point - Mott Haven,0 to 4 years,2004,Number,247,uhf107
+Jamaica,0 to 4 years,2004,Number,270,uhf408
+Jamaica,0 to 4 years,2004,Rate,147.7,uhf408
+Kingsbridge - Riverdale,0 to 4 years,2004,Rate,70.6,uhf101
+Kingsbridge - Riverdale,0 to 4 years,2004,Number,40,uhf101
+Long Island City - Astoria,0 to 4 years,2004,Rate,56.2,uhf401
+Long Island City - Astoria,0 to 4 years,2004,Number,67,uhf401
+Lower Manhattan,0 to 4 years,2004,Number,9,uhf310
+Lower Manhattan,0 to 4 years,2004,Rate,37,uhf310
+Manhattan,0 to 4 years,2004,Rate,82.2,36061
+Manhattan,0 to 4 years,2004,Number,674,36061
+New York City,0 to 4 years,2004,Rate,109.5,3651000
+New York City,0 to 4 years,2004,Number,5823,3651000
+Northeast Bronx,0 to 4 years,2004,Number,177,uhf102
+Northeast Bronx,0 to 4 years,2004,Rate,147.4,uhf102
+Pelham - Throgs Neck,0 to 4 years,2004,Number,345,uhf104
+Pelham - Throgs Neck,0 to 4 years,2004,Rate,167.8,uhf104
+Port  Richmond,0 to 4 years,2004,Rate,74.3,uhf501
+Port  Richmond,0 to 4 years,2004,Number,37,uhf501
+Queens,0 to 4 years,2004,Number,1160,36081
+Queens,0 to 4 years,2004,Rate,84.2,36081
+Ridgewood - Forest Hills,0 to 4 years,2004,Rate,68.3,uhf405
+Ridgewood - Forest Hills,0 to 4 years,2004,Number,98,uhf405
+Rockaway,0 to 4 years,2004,Number,121,uhf410
+Rockaway,0 to 4 years,2004,Rate,147.2,uhf410
+South Beach - Tottenville,0 to 4 years,2004,Number,22,uhf504
+South Beach - Tottenville,0 to 4 years,2004,Rate,20.2,uhf504
+Southeast Queens,0 to 4 years,2004,Rate,100.3,uhf409
+Southeast Queens,0 to 4 years,2004,Number,113,uhf409
+Southwest Queens,0 to 4 years,2004,Rate,91,uhf407
+Southwest Queens,0 to 4 years,2004,Number,161,uhf407
+Stapleton - St. George,0 to 4 years,2004,Number,49,uhf502
+Stapleton - St. George,0 to 4 years,2004,Rate,63.9,uhf502
+Staten Island,0 to 4 years,2004,Rate,43.4,36085
+Staten Island,0 to 4 years,2004,Number,124,36085
+Sunset Park,0 to 4 years,2004,Number,43,uhf205
+Sunset Park,0 to 4 years,2004,Rate,44.9,uhf205
+Union Square - Lower East Side,0 to 4 years,2004,Rate,73,uhf309
+Union Square - Lower East Side,0 to 4 years,2004,Number,62,uhf309
+Upper East Side,0 to 4 years,2004,Rate,22.3,uhf305
+Upper East Side,0 to 4 years,2004,Number,26,uhf305
+Upper West Side,0 to 4 years,2004,Number,59,uhf304
+Upper West Side,0 to 4 years,2004,Rate,50.5,uhf304
+Washington Heights - Inwood,0 to 4 years,2004,Rate,70.5,uhf301
+Washington Heights - Inwood,0 to 4 years,2004,Number,121,uhf301
+West Queens,0 to 4 years,2004,Number,188,uhf402
+West Queens,0 to 4 years,2004,Rate,59.6,uhf402
+Williamsburg - Bushwick,0 to 4 years,2004,Number,380,uhf211
+Williamsburg - Bushwick,0 to 4 years,2004,Rate,231.6,uhf211
+Willowbrook,0 to 4 years,2004,Rate,31.9,uhf503
+Willowbrook,0 to 4 years,2004,Number,16,uhf503
+Bayside - Little Neck,0 to 4 years,2005,Number,10,uhf404
+Bayside - Little Neck,0 to 4 years,2005,Rate,23.5,uhf404
+Bayside - Little Neck,5 to 17 Years,2005,Number,16,uhf404
+Bayside - Little Neck,5 to 17 Years,2005,Rate,13.1,uhf404
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2005,Number,379,uhf203
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2005,Rate,171.2,uhf203
+Bedford Stuyvesant - Crown Heights,5 to 17 Years,2005,Number,298,uhf203
+Bedford Stuyvesant - Crown Heights,5 to 17 Years,2005,Rate,47.8,uhf203
+Bensonhurst - Bay Ridge,0 to 4 years,2005,Number,20,uhf209
+Bensonhurst - Bay Ridge,0 to 4 years,2005,Rate,16.9,uhf209
+Bensonhurst - Bay Ridge,5 to 17 Years,2005,Number,11,uhf209
+Bensonhurst - Bay Ridge,5 to 17 Years,2005,Rate,4.1,uhf209
+Borough Park,0 to 4 years,2005,Rate,14.1,uhf206
+Borough Park,0 to 4 years,2005,Number,42,uhf206
+Borough Park,5 to 17 Years,2005,Number,36,uhf206
+Borough Park,5 to 17 Years,2005,Rate,5.7,uhf206
+Bronx,0 to 4 years,2005,Number,1791,36005
+Bronx,0 to 4 years,2005,Rate,171.2,36005
+Bronx,5 to 17 Years,2005,Number,1594,36005
+Bronx,5 to 17 Years,2005,Rate,58,36005
+Brooklyn,0 to 4 years,2005,Rate,83.9,36047
+Brooklyn,0 to 4 years,2005,Number,1481,36047
+Brooklyn,5 to 17 Years,2005,Number,1414,36047
+Brooklyn,5 to 17 Years,2005,Rate,32.2,36047
+Canarsie - Flatlands,0 to 4 years,2005,Rate,90.6,uhf208
+Canarsie - Flatlands,0 to 4 years,2005,Number,106,uhf208
+Canarsie - Flatlands,5 to 17 Years,2005,Number,78,uhf208
+Canarsie - Flatlands,5 to 17 Years,2005,Rate,21.8,uhf208
+Central Harlem - Morningside Heights,0 to 4 years,2005,Number,173,uhf302
+Central Harlem - Morningside Heights,0 to 4 years,2005,Rate,170.6,uhf302
+Central Harlem - Morningside Heights,5 to 17 Years,2005,Number,210,uhf302
+Central Harlem - Morningside Heights,5 to 17 Years,2005,Rate,78.4,uhf302
+Chelsea - Clinton,0 to 4 years,2005,Number,22,uhf306
+Chelsea - Clinton,0 to 4 years,2005,Rate,48.2,uhf306
+Chelsea - Clinton,5 to 17 Years,2005,Number,18,uhf306
+Chelsea - Clinton,5 to 17 Years,2005,Rate,26.3,uhf306
+Coney Island - Sheepshead Bay,0 to 4 years,2005,Rate,23.5,uhf210
+Coney Island - Sheepshead Bay,0 to 4 years,2005,Number,39,uhf210
+Coney Island - Sheepshead Bay,5 to 17 Years,2005,Number,56,uhf210
+Coney Island - Sheepshead Bay,5 to 17 Years,2005,Rate,13,uhf210
+Crotona - Tremont,0 to 4 years,2005,Rate,220.2,uhf105
+Crotona - Tremont,0 to 4 years,2005,Number,400,uhf105
+Crotona - Tremont,5 to 17 Years,2005,Number,260,uhf105
+Crotona - Tremont,5 to 17 Years,2005,Rate,54.3,uhf105
+Downtown  - Heights - Slope,0 to 4 years,2005,Rate,49.9,uhf202
+Downtown  - Heights - Slope,0 to 4 years,2005,Number,71,uhf202
+Downtown  - Heights - Slope,5 to 17 Years,2005,Number,58,uhf202
+Downtown  - Heights - Slope,5 to 17 Years,2005,Rate,21.8,uhf202
+East Flatbush - Flatbush,0 to 4 years,2005,Number,227,uhf207
+East Flatbush - Flatbush,0 to 4 years,2005,Rate,111.7,uhf207
+East Flatbush - Flatbush,5 to 17 Years,2005,Number,231,uhf207
+East Flatbush - Flatbush,5 to 17 Years,2005,Rate,40.5,uhf207
+East Harlem,0 to 4 years,2005,Rate,173,uhf303
+East Harlem,0 to 4 years,2005,Number,128,uhf303
+East Harlem,5 to 17 Years,2005,Number,187,uhf303
+East Harlem,5 to 17 Years,2005,Rate,91,uhf303
+East New York,0 to 4 years,2005,Rate,164.8,uhf204
+East New York,0 to 4 years,2005,Number,232,uhf204
+East New York,5 to 17 Years,2005,Number,205,uhf204
+East New York,5 to 17 Years,2005,Rate,49.9,uhf204
+Flushing - Clearview,0 to 4 years,2005,Rate,52.6,uhf403
+Flushing - Clearview,0 to 4 years,2005,Number,73,uhf403
+Flushing - Clearview,5 to 17 Years,2005,Number,46,uhf403
+Flushing - Clearview,5 to 17 Years,2005,Rate,14.3,uhf403
+Fordham - Bronx Park,0 to 4 years,2005,Rate,150.8,uhf103
+Fordham - Bronx Park,0 to 4 years,2005,Number,314,uhf103
+Fordham - Bronx Park,5 to 17 Years,2005,Number,260,uhf103
+Fordham - Bronx Park,5 to 17 Years,2005,Rate,51,uhf103
+Fresh Meadows,0 to 4 years,2005,Number,32,uhf406
+Fresh Meadows,0 to 4 years,2005,Rate,51,uhf406
+Fresh Meadows,5 to 17 Years,2005,Number,20,uhf406
+Fresh Meadows,5 to 17 Years,2005,Rate,14.3,uhf406
+Gramercy Park -  Murray Hill,0 to 4 years,2005,Rate,30.8,uhf307
+Gramercy Park -  Murray Hill,0 to 4 years,2005,Number,14,uhf307
+Gramercy Park -  Murray Hill,5 to 17 Years,2005,Number,0,uhf307
+Gramercy Park -  Murray Hill,5 to 17 Years,2005,Rate,15.3,uhf307
+Greenpoint,0 to 4 years,2005,Number,43,uhf201
+Greenpoint,0 to 4 years,2005,Rate,42.5,uhf201
+Greenpoint,5 to 17 Years,2005,Number,37,uhf201
+Greenpoint,5 to 17 Years,2005,Rate,18.3,uhf201
+Greenwich Village - Soho,0 to 4 years,2005,Number,0,uhf308
+Greenwich Village - Soho,0 to 4 years,2005,Rate,0,uhf308
+Greenwich Village - Soho,5 to 17 Years,2005,Number,0,uhf308
+Greenwich Village - Soho,5 to 17 Years,2005,Rate,3.8,uhf308
+High Bridge - Morrisania,0 to 4 years,2005,Number,432,uhf106
+High Bridge - Morrisania,0 to 4 years,2005,Rate,251.5,uhf106
+High Bridge - Morrisania,5 to 17 Years,2005,Number,281,uhf106
+High Bridge - Morrisania,5 to 17 Years,2005,Rate,61.1,uhf106
+Hunts Point - Mott Haven,0 to 4 years,2005,Rate,178.4,uhf107
+Hunts Point - Mott Haven,0 to 4 years,2005,Number,198,uhf107
+Hunts Point - Mott Haven,5 to 17 Years,2005,Number,228,uhf107
+Hunts Point - Mott Haven,5 to 17 Years,2005,Rate,74.1,uhf107
+Jamaica,0 to 4 years,2005,Number,217,uhf408
+Jamaica,0 to 4 years,2005,Rate,120.5,uhf408
+Jamaica,5 to 17 Years,2005,Number,144,uhf408
+Jamaica,5 to 17 Years,2005,Rate,28.9,uhf408
+Kingsbridge - Riverdale,0 to 4 years,2005,Rate,56.4,uhf101
+Kingsbridge - Riverdale,0 to 4 years,2005,Number,32,uhf101
+Kingsbridge - Riverdale,5 to 17 Years,2005,Number,23,uhf101
+Kingsbridge - Riverdale,5 to 17 Years,2005,Rate,18.9,uhf101
+Long Island City - Astoria,0 to 4 years,2005,Rate,54.9,uhf401
+Long Island City - Astoria,0 to 4 years,2005,Number,64,uhf401
+Long Island City - Astoria,5 to 17 Years,2005,Number,64,uhf401
+Long Island City - Astoria,5 to 17 Years,2005,Rate,25.5,uhf401
+Lower Manhattan,0 to 4 years,2005,Number,8,uhf310
+Lower Manhattan,0 to 4 years,2005,Rate,30.3,uhf310
+Lower Manhattan,5 to 17 Years,2005,Number,0,uhf310
+Lower Manhattan,5 to 17 Years,2005,Rate,19.5,uhf310
+Manhattan,0 to 4 years,2005,Rate,72.6,36061
+Manhattan,0 to 4 years,2005,Number,597,36061
+Manhattan,5 to 17 Years,2005,Number,698,36061
+Manhattan,5 to 17 Years,2005,Rate,41.5,36061
+New York City,0 to 4 years,2005,Rate,95.1,3651000
+New York City,0 to 4 years,2005,Number,5027,3651000
+New York City,5 to 17 Years,2005,Number,4656,3651000
+New York City,5 to 17 Years,2005,Rate,35.9,3651000
+Northeast Bronx,0 to 4 years,2005,Number,131,uhf102
+Northeast Bronx,0 to 4 years,2005,Rate,110.4,uhf102
+Northeast Bronx,5 to 17 Years,2005,Number,145,uhf102
+Northeast Bronx,5 to 17 Years,2005,Rate,42.7,uhf102
+Pelham - Throgs Neck,0 to 4 years,2005,Number,283,uhf104
+Pelham - Throgs Neck,0 to 4 years,2005,Rate,139,uhf104
+Pelham - Throgs Neck,5 to 17 Years,2005,Number,240,uhf104
+Pelham - Throgs Neck,5 to 17 Years,2005,Rate,45.3,uhf104
+Port  Richmond,0 to 4 years,2005,Rate,81.7,uhf501
+Port  Richmond,0 to 4 years,2005,Number,41,uhf501
+Port  Richmond,5 to 17 Years,2005,Number,35,uhf501
+Port  Richmond,5 to 17 Years,2005,Rate,24.4,uhf501
+Queens,0 to 4 years,2005,Number,1026,36081
+Queens,0 to 4 years,2005,Rate,75.1,36081
+Queens,5 to 17 Years,2005,Number,831,36081
+Queens,5 to 17 Years,2005,Rate,25,36081
+Ridgewood - Forest Hills,0 to 4 years,2005,Rate,68.9,uhf405
+Ridgewood - Forest Hills,0 to 4 years,2005,Number,99,uhf405
+Ridgewood - Forest Hills,5 to 17 Years,2005,Number,72,uhf405
+Ridgewood - Forest Hills,5 to 17 Years,2005,Rate,22.5,uhf405
+Rockaway,0 to 4 years,2005,Number,123,uhf410
+Rockaway,0 to 4 years,2005,Rate,149.2,uhf410
+Rockaway,5 to 17 Years,2005,Number,108,uhf410
+Rockaway,5 to 17 Years,2005,Rate,51.2,uhf410
+South Beach - Tottenville,0 to 4 years,2005,Number,26,uhf504
+South Beach - Tottenville,0 to 4 years,2005,Rate,24.3,uhf504
+South Beach - Tottenville,5 to 17 Years,2005,Number,22,uhf504
+South Beach - Tottenville,5 to 17 Years,2005,Rate,6.7,uhf504
+Southeast Queens,0 to 4 years,2005,Rate,98.3,uhf409
+Southeast Queens,0 to 4 years,2005,Number,108,uhf409
+Southeast Queens,5 to 17 Years,2005,Number,82,uhf409
+Southeast Queens,5 to 17 Years,2005,Rate,24.5,uhf409
+Southwest Queens,0 to 4 years,2005,Rate,75.8,uhf407
+Southwest Queens,0 to 4 years,2005,Number,132,uhf407
+Southwest Queens,5 to 17 Years,2005,Number,85,uhf407
+Southwest Queens,5 to 17 Years,2005,Rate,18.8,uhf407
+Stapleton - St. George,0 to 4 years,2005,Number,48,uhf502
+Stapleton - St. George,0 to 4 years,2005,Rate,62.9,uhf502
+Stapleton - St. George,5 to 17 Years,2005,Number,43,uhf502
+Stapleton - St. George,5 to 17 Years,2005,Rate,20.4,uhf502
+Staten Island,0 to 4 years,2005,Rate,46.6,36085
+Staten Island,0 to 4 years,2005,Number,132,36085
+Staten Island,5 to 17 Years,2005,Number,119,36085
+Staten Island,5 to 17 Years,2005,Rate,14.4,36085
+Sunset Park,0 to 4 years,2005,Number,41,uhf205
+Sunset Park,0 to 4 years,2005,Rate,42.9,uhf205
+Sunset Park,5 to 17 Years,2005,Number,15,uhf205
+Sunset Park,5 to 17 Years,2005,Rate,7.2,uhf205
+Union Square - Lower East Side,0 to 4 years,2005,Rate,59.2,uhf309
+Union Square - Lower East Side,0 to 4 years,2005,Number,50,uhf309
+Union Square - Lower East Side,5 to 17 Years,2005,Number,56,uhf309
+Union Square - Lower East Side,5 to 17 Years,2005,Rate,29.4,uhf309
+Upper East Side,0 to 4 years,2005,Rate,40.3,uhf305
+Upper East Side,0 to 4 years,2005,Number,48,uhf305
+Upper East Side,5 to 17 Years,2005,Number,15,uhf305
+Upper East Side,5 to 17 Years,2005,Rate,8.6,uhf305
+Upper West Side,0 to 4 years,2005,Number,63,uhf304
+Upper West Side,0 to 4 years,2005,Rate,52.8,uhf304
+Upper West Side,5 to 17 Years,2005,Number,44,uhf304
+Upper West Side,5 to 17 Years,2005,Rate,22.7,uhf304
+Washington Heights - Inwood,0 to 4 years,2005,Rate,49.8,uhf301
+Washington Heights - Inwood,0 to 4 years,2005,Number,83,uhf301
+Washington Heights - Inwood,5 to 17 Years,2005,Number,120,uhf301
+Washington Heights - Inwood,5 to 17 Years,2005,Rate,27.6,uhf301
+West Queens,0 to 4 years,2005,Number,163,uhf402
+West Queens,0 to 4 years,2005,Rate,51.5,uhf402
+West Queens,5 to 17 Years,2005,Number,135,uhf402
+West Queens,5 to 17 Years,2005,Rate,19.7,uhf402
+Williamsburg - Bushwick,0 to 4 years,2005,Number,280,uhf211
+Williamsburg - Bushwick,0 to 4 years,2005,Rate,173.8,uhf211
+Williamsburg - Bushwick,5 to 17 Years,2005,Number,323,uhf211
+Williamsburg - Bushwick,5 to 17 Years,2005,Rate,77.2,uhf211
+Willowbrook,0 to 4 years,2005,Rate,34.4,uhf503
+Willowbrook,0 to 4 years,2005,Number,17,uhf503
+Willowbrook,5 to 17 Years,2005,Number,17,uhf503
+Willowbrook,5 to 17 Years,2005,Rate,11.9,uhf503
+Bayside - Little Neck,0 to 4 years,2006,Number,18,uhf404
+Bayside - Little Neck,0 to 4 years,2006,Rate,43.4,uhf404
+Bayside - Little Neck,5 to 17 Years,2006,Number,17,uhf404
+Bayside - Little Neck,5 to 17 Years,2006,Rate,14,uhf404
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2006,Number,383,uhf203
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2006,Rate,177.9,uhf203
+Bedford Stuyvesant - Crown Heights,5 to 17 Years,2006,Number,386,uhf203
+Bedford Stuyvesant - Crown Heights,5 to 17 Years,2006,Rate,63.7,uhf203
+Bensonhurst - Bay Ridge,0 to 4 years,2006,Number,20,uhf209
+Bensonhurst - Bay Ridge,0 to 4 years,2006,Rate,16.8,uhf209
+Bensonhurst - Bay Ridge,5 to 17 Years,2006,Number,12,uhf209
+Bensonhurst - Bay Ridge,5 to 17 Years,2006,Rate,4.4,uhf209
+Borough Park,0 to 4 years,2006,Rate,16.6,uhf206
+Borough Park,0 to 4 years,2006,Number,50,uhf206
+Borough Park,5 to 17 Years,2006,Number,39,uhf206
+Borough Park,5 to 17 Years,2006,Rate,6.2,uhf206
+Bronx,0 to 4 years,2006,Number,1766,36005
+Bronx,5 to 17 Years,2006,Number,1542,36005
+Bronx,5 to 17 Years,2006,Rate,56.9,36005
+Brooklyn,0 to 4 years,2006,Rate,90.4,36047
+Brooklyn,0 to 4 years,2006,Number,1580,36047
+Brooklyn,5 to 17 Years,2006,Number,1424,36047
+Brooklyn,5 to 17 Years,2006,Rate,33,36047
+Canarsie - Flatlands,0 to 4 years,2006,Rate,77.8,uhf208
+Canarsie - Flatlands,0 to 4 years,2006,Number,89,uhf208
+Canarsie - Flatlands,5 to 17 Years,2006,Number,80,uhf208
+Canarsie - Flatlands,5 to 17 Years,2006,Rate,22.7,uhf208
+Central Harlem - Morningside Heights,0 to 4 years,2006,Number,176,uhf302
+Central Harlem - Morningside Heights,0 to 4 years,2006,Rate,177.4,uhf302
+Central Harlem - Morningside Heights,5 to 17 Years,2006,Number,173,uhf302
+Central Harlem - Morningside Heights,5 to 17 Years,2006,Rate,65.7,uhf302
+Chelsea - Clinton,0 to 4 years,2006,Number,42,uhf306
+Chelsea - Clinton,0 to 4 years,2006,Rate,90.9,uhf306
+Chelsea - Clinton,5 to 17 Years,2006,Number,0,uhf306
+Chelsea - Clinton,5 to 17 Years,2006,Rate,13,uhf306
+Coney Island - Sheepshead Bay,0 to 4 years,2006,Rate,29.5,uhf210
+Coney Island - Sheepshead Bay,0 to 4 years,2006,Number,49,uhf210
+Coney Island - Sheepshead Bay,5 to 17 Years,2006,Number,40,uhf210
+Coney Island - Sheepshead Bay,5 to 17 Years,2006,Rate,9.4,uhf210
+Crotona - Tremont,0 to 4 years,2006,Rate,184,uhf105
+Crotona - Tremont,0 to 4 years,2006,Number,328,uhf105
+Crotona - Tremont,5 to 17 Years,2006,Number,258,uhf105
+Crotona - Tremont,5 to 17 Years,2006,Rate,55,uhf105
+Downtown  - Heights - Slope,0 to 4 years,2006,Rate,61.8,uhf202
+Downtown  - Heights - Slope,0 to 4 years,2006,Number,89,uhf202
+Downtown  - Heights - Slope,5 to 17 Years,2006,Number,63,uhf202
+Downtown  - Heights - Slope,5 to 17 Years,2006,Rate,24.1,uhf202
+East Flatbush - Flatbush,0 to 4 years,2006,Number,246,uhf207
+East Flatbush - Flatbush,0 to 4 years,2006,Rate,125.3,uhf207
+East Flatbush - Flatbush,5 to 17 Years,2006,Number,230,uhf207
+East Flatbush - Flatbush,5 to 17 Years,2006,Rate,41.6,uhf207
+East Harlem,0 to 4 years,2006,Rate,182.2,uhf303
+East Harlem,0 to 4 years,2006,Number,131,uhf303
+East Harlem,5 to 17 Years,2006,Number,158,uhf303
+East Harlem,5 to 17 Years,2006,Rate,78.2,uhf303
+East New York,0 to 4 years,2006,Rate,190.1,uhf204
+East New York,0 to 4 years,2006,Number,262,uhf204
+East New York,5 to 17 Years,2006,Number,188,uhf204
+East New York,5 to 17 Years,2006,Rate,46.4,uhf204
+Flushing - Clearview,0 to 4 years,2006,Rate,50.5,uhf403
+Flushing - Clearview,0 to 4 years,2006,Number,68,uhf403
+Flushing - Clearview,5 to 17 Years,2006,Number,66,uhf403
+Flushing - Clearview,5 to 17 Years,2006,Rate,20.7,uhf403
+Fordham - Bronx Park,0 to 4 years,2006,Rate,159.9,uhf103
+Fordham - Bronx Park,0 to 4 years,2006,Number,326,uhf103
+Fordham - Bronx Park,5 to 17 Years,2006,Number,241,uhf103
+Fordham - Bronx Park,5 to 17 Years,2006,Rate,48.1,uhf103
+Fresh Meadows,0 to 4 years,2006,Number,28,uhf406
+Fresh Meadows,0 to 4 years,2006,Rate,45.1,uhf406
+Fresh Meadows,5 to 17 Years,2006,Number,24,uhf406
+Fresh Meadows,5 to 17 Years,2006,Rate,17.2,uhf406
+Gramercy Park -  Murray Hill,0 to 4 years,2006,Rate,50.5,uhf307
+Gramercy Park -  Murray Hill,0 to 4 years,2006,Number,23,uhf307
+Gramercy Park -  Murray Hill,5 to 17 Years,2006,Number,11,uhf307
+Gramercy Park -  Murray Hill,5 to 17 Years,2006,Rate,20.7,uhf307
+Greenpoint,0 to 4 years,2006,Number,59,uhf201
+Greenpoint,0 to 4 years,2006,Rate,59.1,uhf201
+Greenpoint,5 to 17 Years,2006,Number,38,uhf201
+Greenpoint,5 to 17 Years,2006,Rate,19.5,uhf201
+Greenwich Village - Soho,0 to 4 years,2006,Number,0,uhf308
+Greenwich Village - Soho,0 to 4 years,2006,Rate,0,uhf308
+Greenwich Village - Soho,5 to 17 Years,2006,Number,0,uhf308
+Greenwich Village - Soho,5 to 17 Years,2006,Rate,11.4,uhf308
+High Bridge - Morrisania,0 to 4 years,2006,Number,396,uhf106
+High Bridge - Morrisania,0 to 4 years,2006,Rate,233,uhf106
+High Bridge - Morrisania,5 to 17 Years,2006,Number,261,uhf106
+High Bridge - Morrisania,5 to 17 Years,2006,Rate,57.6,uhf106
+Hunts Point - Mott Haven,0 to 4 years,2006,Rate,201.8,uhf107
+Hunts Point - Mott Haven,0 to 4 years,2006,Number,223,uhf107
+Hunts Point - Mott Haven,5 to 17 Years,2006,Number,216,uhf107
+Hunts Point - Mott Haven,5 to 17 Years,2006,Rate,71.1,uhf107
+Jamaica,0 to 4 years,2006,Number,208,uhf408
+Jamaica,0 to 4 years,2006,Rate,118.9,uhf408
+Jamaica,5 to 17 Years,2006,Number,134,uhf408
+Jamaica,5 to 17 Years,2006,Rate,27.3,uhf408
+Kingsbridge - Riverdale,0 to 4 years,2006,Rate,50.2,uhf101
+Kingsbridge - Riverdale,0 to 4 years,2006,Number,28,uhf101
+Kingsbridge - Riverdale,5 to 17 Years,2006,Number,27,uhf101
+Kingsbridge - Riverdale,5 to 17 Years,2006,Rate,22.4,uhf101
+Long Island City - Astoria,0 to 4 years,2006,Rate,54.3,uhf401
+Long Island City - Astoria,0 to 4 years,2006,Number,61,uhf401
+Long Island City - Astoria,5 to 17 Years,2006,Number,50,uhf401
+Long Island City - Astoria,5 to 17 Years,2006,Rate,20.5,uhf401
+Lower Manhattan,0 to 4 years,2006,Number,7,uhf310
+Lower Manhattan,0 to 4 years,2006,Rate,25.2,uhf310
+Lower Manhattan,5 to 17 Years,2006,Number,0,uhf310
+Lower Manhattan,5 to 17 Years,2006,Rate,12.5,uhf310
+Manhattan,0 to 4 years,2006,Rate,80.7,36061
+Manhattan,0 to 4 years,2006,Number,654,36061
+Manhattan,5 to 17 Years,2006,Number,605,36061
+Manhattan,5 to 17 Years,2006,Rate,36.3,36061
+New York City,0 to 4 years,2006,Rate,99.3,3651000
+New York City,0 to 4 years,2006,Number,5164,3651000
+New York City,5 to 17 Years,2006,Number,4525,3651000
+New York City,5 to 17 Years,2006,Rate,35.4,3651000
+Northeast Bronx,0 to 4 years,2006,Number,155,uhf102
+Northeast Bronx,0 to 4 years,2006,Rate,133.4,uhf102
+Northeast Bronx,5 to 17 Years,2006,Number,134,uhf102
+Northeast Bronx,5 to 17 Years,2006,Rate,39.9,uhf102
+Pelham - Throgs Neck,0 to 4 years,2006,Number,306,uhf104
+Pelham - Throgs Neck,0 to 4 years,2006,Rate,153.3,uhf104
+Pelham - Throgs Neck,5 to 17 Years,2006,Number,254,uhf104
+Pelham - Throgs Neck,5 to 17 Years,2006,Rate,48.4,uhf104
+Port  Richmond,0 to 4 years,2006,Rate,91.3,uhf501
+Port  Richmond,0 to 4 years,2006,Number,46,uhf501
+Port  Richmond,5 to 17 Years,2006,Number,35,uhf501
+Port  Richmond,5 to 17 Years,2006,Rate,24.5,uhf501
+Queens,0 to 4 years,2006,Rate,78.5,36081
+Queens,0 to 4 years,2006,Number,1048,36081
+Queens,5 to 17 Years,2006,Number,823,36081
+Queens,5 to 17 Years,2006,Rate,25,36081
+Ridgewood - Forest Hills,0 to 4 years,2006,Rate,73.9,uhf405
+Ridgewood - Forest Hills,0 to 4 years,2006,Number,105,uhf405
+Ridgewood - Forest Hills,5 to 17 Years,2006,Number,67,uhf405
+Ridgewood - Forest Hills,5 to 17 Years,2006,Rate,21.2,uhf405
+Rockaway,0 to 4 years,2006,Number,108,uhf410
+Rockaway,0 to 4 years,2006,Rate,132,uhf410
+Rockaway,5 to 17 Years,2006,Number,104,uhf410
+Rockaway,5 to 17 Years,2006,Rate,49.4,uhf410
+South Beach - Tottenville,0 to 4 years,2006,Number,22,uhf504
+South Beach - Tottenville,0 to 4 years,2006,Rate,20.8,uhf504
+South Beach - Tottenville,5 to 17 Years,2006,Number,26,uhf504
+South Beach - Tottenville,5 to 17 Years,2006,Rate,8.1,uhf504
+Southeast Queens,0 to 4 years,2006,Rate,114.5,uhf409
+Southeast Queens,0 to 4 years,2006,Number,121,uhf409
+Southeast Queens,5 to 17 Years,2006,Number,83,uhf409
+Southeast Queens,5 to 17 Years,2006,Rate,25.4,uhf409
+Southwest Queens,0 to 4 years,2006,Rate,102.1,uhf407
+Southwest Queens,0 to 4 years,2006,Number,172,uhf407
+Southwest Queens,5 to 17 Years,2006,Number,99,uhf407
+Southwest Queens,5 to 17 Years,2006,Rate,22.1,uhf407
+Stapleton - St. George,0 to 4 years,2006,Number,26,uhf502
+Stapleton - St. George,0 to 4 years,2006,Rate,34.3,uhf502
+Stapleton - St. George,5 to 17 Years,2006,Number,51,uhf502
+Stapleton - St. George,5 to 17 Years,2006,Rate,24.4,uhf502
+Staten Island,0 to 4 years,2006,Number,116,36085
+Staten Island,0 to 4 years,2006,Rate,41.3,36085
+Staten Island,5 to 17 Years,2006,Number,131,36085
+Staten Island,5 to 17 Years,2006,Rate,16.1,36085
+Sunset Park,0 to 4 years,2006,Number,36,uhf205
+Sunset Park,0 to 4 years,2006,Rate,37.9,uhf205
+Sunset Park,5 to 17 Years,2006,Number,22,uhf205
+Sunset Park,5 to 17 Years,2006,Rate,10.7,uhf205
+Union Square - Lower East Side,0 to 4 years,2006,Rate,87,uhf309
+Union Square - Lower East Side,0 to 4 years,2006,Number,71,uhf309
+Union Square - Lower East Side,5 to 17 Years,2006,Number,58,uhf309
+Union Square - Lower East Side,5 to 17 Years,2006,Rate,31,uhf309
+Upper East Side,0 to 4 years,2006,Rate,33.7,uhf305
+Upper East Side,0 to 4 years,2006,Number,40,uhf305
+Upper East Side,5 to 17 Years,2006,Number,12,uhf305
+Upper East Side,5 to 17 Years,2006,Rate,6.7,uhf305
+Upper West Side,0 to 4 years,2006,Number,57,uhf304
+Upper West Side,0 to 4 years,2006,Rate,47.7,uhf304
+Upper West Side,5 to 17 Years,2006,Number,49,uhf304
+Upper West Side,5 to 17 Years,2006,Rate,25,uhf304
+Washington Heights - Inwood,0 to 4 years,2006,Rate,63.3,uhf301
+Washington Heights - Inwood,0 to 4 years,2006,Number,101,uhf301
+Washington Heights - Inwood,5 to 17 Years,2006,Number,101,uhf301
+Washington Heights - Inwood,5 to 17 Years,2006,Rate,24,uhf301
+West Queens,0 to 4 years,2006,Number,150,uhf402
+West Queens,0 to 4 years,2006,Rate,48.1,uhf402
+West Queens,5 to 17 Years,2006,Number,129,uhf402
+West Queens,5 to 17 Years,2006,Rate,18.9,uhf402
+Williamsburg - Bushwick,0 to 4 years,2006,Number,295,uhf211
+Williamsburg - Bushwick,0 to 4 years,2006,Rate,187.2,uhf211
+Williamsburg - Bushwick,5 to 17 Years,2006,Number,254,uhf211
+Williamsburg - Bushwick,5 to 17 Years,2006,Rate,61.9,uhf211
+Willowbrook,0 to 4 years,2006,Rate,44.9,uhf503
+Willowbrook,0 to 4 years,2006,Number,22,uhf503
+Willowbrook,5 to 17 Years,2006,Number,17,uhf503
+Willowbrook,5 to 17 Years,2006,Rate,12.1,uhf503
+Bayside - Little Neck,0 to 4 years,2007,Number,20,uhf404
+Bayside - Little Neck,0 to 4 years,2007,Rate,48.3,uhf404
+Bayside - Little Neck,5 to 17 Years,2007,Number,14,uhf404
+Bayside - Little Neck,5 to 17 Years,2007,Rate,11.5,uhf404
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2007,Number,279,uhf203
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2007,Rate,132.1,uhf203
+Bedford Stuyvesant - Crown Heights,5 to 17 Years,2007,Number,291,uhf203
+Bedford Stuyvesant - Crown Heights,5 to 17 Years,2007,Rate,49.4,uhf203
+Bensonhurst - Bay Ridge,0 to 4 years,2007,Number,38,uhf209
+Bensonhurst - Bay Ridge,0 to 4 years,2007,Rate,31.5,uhf209
+Bensonhurst - Bay Ridge,5 to 17 Years,2007,Number,14,uhf209
+Bensonhurst - Bay Ridge,5 to 17 Years,2007,Rate,5.1,uhf209
+Borough Park,0 to 4 years,2007,Rate,14.9,uhf206
+Borough Park,0 to 4 years,2007,Number,46,uhf206
+Borough Park,5 to 17 Years,2007,Number,34,uhf206
+Borough Park,5 to 17 Years,2007,Rate,5.3,uhf206
+Bronx,0 to 4 years,2007,Number,1691,36005
+Bronx,0 to 4 years,2007,Rate,165,36005
+Bronx,5 to 17 Years,2007,Number,1476,36005
+Bronx,5 to 17 Years,2007,Rate,55,36005
+Brooklyn,0 to 4 years,2007,Rate,75,36047
+Brooklyn,0 to 4 years,2007,Number,1309,36047
+Brooklyn,5 to 17 Years,2007,Number,1200,36047
+Brooklyn,5 to 17 Years,2007,Rate,28.1,36047
+Canarsie - Flatlands,0 to 4 years,2007,Rate,56.8,uhf208
+Canarsie - Flatlands,0 to 4 years,2007,Number,64,uhf208
+Canarsie - Flatlands,5 to 17 Years,2007,Number,57,uhf208
+Canarsie - Flatlands,5 to 17 Years,2007,Rate,16.4,uhf208
+Central Harlem - Morningside Heights,0 to 4 years,2007,Number,135,uhf302
+Central Harlem - Morningside Heights,0 to 4 years,2007,Rate,136.8,uhf302
+Central Harlem - Morningside Heights,5 to 17 Years,2007,Number,175,uhf302
+Central Harlem - Morningside Heights,5 to 17 Years,2007,Rate,68,uhf302
+Chelsea - Clinton,0 to 4 years,2007,Number,23,uhf306
+Chelsea - Clinton,0 to 4 years,2007,Rate,48.8,uhf306
+Chelsea - Clinton,5 to 17 Years,2007,Number,22,uhf306
+Chelsea - Clinton,5 to 17 Years,2007,Rate,31.8,uhf306
+Coney Island - Sheepshead Bay,0 to 4 years,2007,Rate,35.7,uhf210
+Coney Island - Sheepshead Bay,0 to 4 years,2007,Number,60,uhf210
+Coney Island - Sheepshead Bay,5 to 17 Years,2007,Number,58,uhf210
+Coney Island - Sheepshead Bay,5 to 17 Years,2007,Rate,13.7,uhf210
+Crotona - Tremont,0 to 4 years,2007,Rate,201.4,uhf105
+Crotona - Tremont,0 to 4 years,2007,Number,357,uhf105
+Crotona - Tremont,5 to 17 Years,2007,Number,231,uhf105
+Crotona - Tremont,5 to 17 Years,2007,Rate,50,uhf105
+Downtown  - Heights - Slope,0 to 4 years,2007,Rate,52.2,uhf202
+Downtown  - Heights - Slope,0 to 4 years,2007,Number,77,uhf202
+Downtown  - Heights - Slope,5 to 17 Years,2007,Number,53,uhf202
+Downtown  - Heights - Slope,5 to 17 Years,2007,Rate,20.6,uhf202
+East Flatbush - Flatbush,0 to 4 years,2007,Number,225,uhf207
+East Flatbush - Flatbush,0 to 4 years,2007,Rate,117.7,uhf207
+East Flatbush - Flatbush,5 to 17 Years,2007,Number,176,uhf207
+East Flatbush - Flatbush,5 to 17 Years,2007,Rate,32.8,uhf207
+East Harlem,0 to 4 years,2007,Rate,164.3,uhf303
+East Harlem,0 to 4 years,2007,Number,116,uhf303
+East Harlem,5 to 17 Years,2007,Number,169,uhf303
+East Harlem,5 to 17 Years,2007,Rate,85.9,uhf303
+East New York,0 to 4 years,2007,Rate,155,uhf204
+East New York,0 to 4 years,2007,Number,211,uhf204
+East New York,5 to 17 Years,2007,Number,174,uhf204
+East New York,5 to 17 Years,2007,Rate,43.4,uhf204
+Flushing - Clearview,0 to 4 years,2007,Rate,42.6,uhf403
+Flushing - Clearview,0 to 4 years,2007,Number,57,uhf403
+Flushing - Clearview,5 to 17 Years,2007,Number,46,uhf403
+Flushing - Clearview,5 to 17 Years,2007,Rate,14.5,uhf403
+Fordham - Bronx Park,0 to 4 years,2007,Rate,160,uhf103
+Fordham - Bronx Park,0 to 4 years,2007,Number,324,uhf103
+Fordham - Bronx Park,5 to 17 Years,2007,Number,272,uhf103
+Fordham - Bronx Park,5 to 17 Years,2007,Rate,54.9,uhf103
+Fresh Meadows,0 to 4 years,2007,Number,34,uhf406
+Fresh Meadows,0 to 4 years,2007,Rate,54.1,uhf406
+Fresh Meadows,5 to 17 Years,2007,Number,23,uhf406
+Fresh Meadows,5 to 17 Years,2007,Rate,16.5,uhf406
+Gramercy Park -  Murray Hill,0 to 4 years,2007,Rate,39,uhf307
+Gramercy Park -  Murray Hill,0 to 4 years,2007,Number,18,uhf307
+Gramercy Park -  Murray Hill,5 to 17 Years,2007,Number,10,uhf307
+Gramercy Park -  Murray Hill,5 to 17 Years,2007,Rate,18.6,uhf307
+Greenpoint,0 to 4 years,2007,Number,25,uhf201
+Greenpoint,0 to 4 years,2007,Rate,25.1,uhf201
+Greenpoint,5 to 17 Years,2007,Number,39,uhf201
+Greenpoint,5 to 17 Years,2007,Rate,20.7,uhf201
+Greenwich Village - Soho,0 to 4 years,2007,Number,0,uhf308
+Greenwich Village - Soho,0 to 4 years,2007,Rate,0,uhf308
+Greenwich Village - Soho,5 to 17 Years,2007,Number,0,uhf308
+Greenwich Village - Soho,5 to 17 Years,2007,Rate,3.8,uhf308
+High Bridge - Morrisania,0 to 4 years,2007,Number,346,uhf106
+High Bridge - Morrisania,0 to 4 years,2007,Rate,203.3,uhf106
+High Bridge - Morrisania,5 to 17 Years,2007,Number,230,uhf106
+High Bridge - Morrisania,5 to 17 Years,2007,Rate,51.2,uhf106
+Hunts Point - Mott Haven,0 to 4 years,2007,Rate,189.1,uhf107
+Hunts Point - Mott Haven,0 to 4 years,2007,Number,211,uhf107
+Hunts Point - Mott Haven,5 to 17 Years,2007,Number,223,uhf107
+Hunts Point - Mott Haven,5 to 17 Years,2007,Rate,74,uhf107
+Jamaica,0 to 4 years,2007,Number,254,uhf408
+Jamaica,0 to 4 years,2007,Rate,146,uhf408
+Jamaica,5 to 17 Years,2007,Number,123,uhf408
+Jamaica,5 to 17 Years,2007,Rate,25.4,uhf408
+Kingsbridge - Riverdale,0 to 4 years,2007,Rate,61.3,uhf101
+Kingsbridge - Riverdale,0 to 4 years,2007,Number,34,uhf101
+Kingsbridge - Riverdale,5 to 17 Years,2007,Number,26,uhf101
+Kingsbridge - Riverdale,5 to 17 Years,2007,Rate,21.7,uhf101
+Long Island City - Astoria,0 to 4 years,2007,Rate,51.6,uhf401
+Long Island City - Astoria,0 to 4 years,2007,Number,57,uhf401
+Long Island City - Astoria,5 to 17 Years,2007,Number,60,uhf401
+Long Island City - Astoria,5 to 17 Years,2007,Rate,25.1,uhf401
+Lower Manhattan,0 to 4 years,2007,Number,14,uhf310
+Lower Manhattan,0 to 4 years,2007,Rate,47.4,uhf310
+Lower Manhattan,5 to 17 Years,2007,Number,0,uhf310
+Lower Manhattan,5 to 17 Years,2007,Rate,3,uhf310
+Manhattan,0 to 4 years,2007,Rate,65.3,36061
+Manhattan,0 to 4 years,2007,Number,526,36061
+Manhattan,5 to 17 Years,2007,Number,598,36061
+Manhattan,5 to 17 Years,2007,Rate,36.5,36061
+New York City,0 to 4 years,2007,Rate,89.8,3651000
+New York City,0 to 4 years,2007,Number,4665,3651000
+New York City,5 to 17 Years,2007,Number,4194,3651000
+New York City,5 to 17 Years,2007,Rate,33.1,3651000
+Northeast Bronx,0 to 4 years,2007,Number,159,uhf102
+Northeast Bronx,0 to 4 years,2007,Rate,138.5,uhf102
+Northeast Bronx,5 to 17 Years,2007,Number,132,uhf102
+Northeast Bronx,5 to 17 Years,2007,Rate,39.6,uhf102
+Pelham - Throgs Neck,0 to 4 years,2007,Number,258,uhf104
+Pelham - Throgs Neck,0 to 4 years,2007,Rate,130.1,uhf104
+Pelham - Throgs Neck,5 to 17 Years,2007,Number,222,uhf104
+Pelham - Throgs Neck,5 to 17 Years,2007,Rate,42.5,uhf104
+Port  Richmond,0 to 4 years,2007,Rate,80.1,uhf501
+Port  Richmond,0 to 4 years,2007,Number,41,uhf501
+Port  Richmond,5 to 17 Years,2007,Number,33,uhf501
+Port  Richmond,5 to 17 Years,2007,Rate,23,uhf501
+Queens,0 to 4 years,2007,Number,1033,36081
+Queens,0 to 4 years,2007,Rate,77.5,36081
+Queens,5 to 17 Years,2007,Number,814,36081
+Queens,5 to 17 Years,2007,Rate,25,36081
+Ridgewood - Forest Hills,0 to 4 years,2007,Rate,77.5,uhf405
+Ridgewood - Forest Hills,0 to 4 years,2007,Number,111,uhf405
+Ridgewood - Forest Hills,5 to 17 Years,2007,Number,86,uhf405
+Ridgewood - Forest Hills,5 to 17 Years,2007,Rate,27.4,uhf405
+Rockaway,0 to 4 years,2007,Number,93,uhf410
+Rockaway,0 to 4 years,2007,Rate,112.2,uhf410
+Rockaway,5 to 17 Years,2007,Number,100,uhf410
+Rockaway,5 to 17 Years,2007,Rate,47.6,uhf410
+South Beach - Tottenville,0 to 4 years,2007,Number,19,uhf504
+South Beach - Tottenville,0 to 4 years,2007,Rate,17.9,uhf504
+South Beach - Tottenville,5 to 17 Years,2007,Number,13,uhf504
+South Beach - Tottenville,5 to 17 Years,2007,Rate,4.1,uhf504
+Southeast Queens,0 to 4 years,2007,Rate,77.9,uhf409
+Southeast Queens,0 to 4 years,2007,Number,81,uhf409
+Southeast Queens,5 to 17 Years,2007,Number,82,uhf409
+Southeast Queens,5 to 17 Years,2007,Rate,25.6,uhf409
+Southwest Queens,0 to 4 years,2007,Rate,98.5,uhf407
+Southwest Queens,0 to 4 years,2007,Number,164,uhf407
+Southwest Queens,5 to 17 Years,2007,Number,92,uhf407
+Southwest Queens,5 to 17 Years,2007,Rate,20.7,uhf407
+Stapleton - St. George,0 to 4 years,2007,Number,27,uhf502
+Stapleton - St. George,0 to 4 years,2007,Rate,35.5,uhf502
+Stapleton - St. George,5 to 17 Years,2007,Number,40,uhf502
+Stapleton - St. George,5 to 17 Years,2007,Rate,19.2,uhf502
+Staten Island,0 to 4 years,2007,Rate,37.5,36085
+Staten Island,0 to 4 years,2007,Number,106,36085
+Staten Island,5 to 17 Years,2007,Number,106,36085
+Staten Island,5 to 17 Years,2007,Rate,13.1,36085
+Sunset Park,0 to 4 years,2007,Number,41,uhf205
+Sunset Park,0 to 4 years,2007,Rate,42.8,uhf205
+Sunset Park,5 to 17 Years,2007,Number,26,uhf205
+Sunset Park,5 to 17 Years,2007,Rate,12.7,uhf205
+Union Square - Lower East Side,0 to 4 years,2007,Rate,62.5,uhf309
+Union Square - Lower East Side,0 to 4 years,2007,Number,50,uhf309
+Union Square - Lower East Side,5 to 17 Years,2007,Number,59,uhf309
+Union Square - Lower East Side,5 to 17 Years,2007,Rate,32.3,uhf309
+Upper East Side,0 to 4 years,2007,Rate,37,uhf305
+Upper East Side,0 to 4 years,2007,Number,44,uhf305
+Upper East Side,5 to 17 Years,2007,Number,14,uhf305
+Upper East Side,5 to 17 Years,2007,Rate,7.7,uhf305
+Upper West Side,0 to 4 years,2007,Number,51,uhf304
+Upper West Side,0 to 4 years,2007,Rate,42.4,uhf304
+Upper West Side,5 to 17 Years,2007,Number,40,uhf304
+Upper West Side,5 to 17 Years,2007,Rate,20.3,uhf304
+Washington Heights - Inwood,0 to 4 years,2007,Rate,44.8,uhf301
+Washington Heights - Inwood,0 to 4 years,2007,Number,69,uhf301
+Washington Heights - Inwood,5 to 17 Years,2007,Number,83,uhf301
+Washington Heights - Inwood,5 to 17 Years,2007,Rate,20.5,uhf301
+West Queens,0 to 4 years,2007,Number,152,uhf402
+West Queens,0 to 4 years,2007,Rate,48.4,uhf402
+West Queens,5 to 17 Years,2007,Number,115,uhf402
+West Queens,5 to 17 Years,2007,Rate,16.9,uhf402
+Williamsburg - Bushwick,0 to 4 years,2007,Number,243,uhf211
+Williamsburg - Bushwick,0 to 4 years,2007,Rate,156,uhf211
+Williamsburg - Bushwick,5 to 17 Years,2007,Number,233,uhf211
+Williamsburg - Bushwick,5 to 17 Years,2007,Rate,57.7,uhf211
+Willowbrook,0 to 4 years,2007,Rate,38.7,uhf503
+Willowbrook,0 to 4 years,2007,Number,19,uhf503
+Willowbrook,5 to 17 Years,2007,Number,15,uhf503
+Willowbrook,5 to 17 Years,2007,Rate,10.8,uhf503
+Bayside - Little Neck,0 to 4 years,2008,Number,25,uhf404
+Bayside - Little Neck,0 to 4 years,2008,Rate,60.6,uhf404
+Bayside - Little Neck,5 to 17 Years,2008,Number,10,uhf404
+Bayside - Little Neck,5 to 17 Years,2008,Rate,8.1,uhf404
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2008,Number,300,uhf203
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2008,Rate,141.5,uhf203
+Bedford Stuyvesant - Crown Heights,5 to 17 Years,2008,Number,287,uhf203
+Bedford Stuyvesant - Crown Heights,5 to 17 Years,2008,Rate,50,uhf203
+Bensonhurst - Bay Ridge,0 to 4 years,2008,Number,17,uhf209
+Bensonhurst - Bay Ridge,0 to 4 years,2008,Rate,13.8,uhf209
+Bensonhurst - Bay Ridge,5 to 17 Years,2008,Number,15,uhf209
+Bensonhurst - Bay Ridge,5 to 17 Years,2008,Rate,5.3,uhf209
+Borough Park,0 to 4 years,2008,Rate,14.3,uhf206
+Borough Park,0 to 4 years,2008,Number,45,uhf206
+Borough Park,5 to 17 Years,2008,Number,31,uhf206
+Borough Park,5 to 17 Years,2008,Rate,4.8,uhf206
+Bronx,0 to 4 years,2008,Number,1832,36005
+Bronx,0 to 4 years,2008,Rate,177.4,36005
+Bronx,5 to 17 Years,2008,Number,1455,36005
+Bronx,5 to 17 Years,2008,Rate,54.5,36005
+Brooklyn,0 to 4 years,2008,Rate,74.9,36047
+Brooklyn,0 to 4 years,2008,Number,1325,36047
+Brooklyn,5 to 17 Years,2008,Number,1137,36047
+Brooklyn,5 to 17 Years,2008,Rate,26.8,36047
+Canarsie - Flatlands,0 to 4 years,2008,Rate,71.6,uhf208
+Canarsie - Flatlands,0 to 4 years,2008,Number,81,uhf208
+Canarsie - Flatlands,5 to 17 Years,2008,Number,57,uhf208
+Canarsie - Flatlands,5 to 17 Years,2008,Rate,16.5,uhf208
+Central Harlem - Morningside Heights,0 to 4 years,2008,Number,162,uhf302
+Central Harlem - Morningside Heights,0 to 4 years,2008,Rate,166.7,uhf302
+Central Harlem - Morningside Heights,5 to 17 Years,2008,Number,140,uhf302
+Central Harlem - Morningside Heights,5 to 17 Years,2008,Rate,55.3,uhf302
+Chelsea - Clinton,0 to 4 years,2008,Number,24,uhf306
+Chelsea - Clinton,0 to 4 years,2008,Rate,50.3,uhf306
+Chelsea - Clinton,5 to 17 Years,2008,Number,14,uhf306
+Chelsea - Clinton,5 to 17 Years,2008,Rate,20.1,uhf306
+Coney Island - Sheepshead Bay,0 to 4 years,2008,Rate,34.5,uhf210
+Coney Island - Sheepshead Bay,0 to 4 years,2008,Number,59,uhf210
+Coney Island - Sheepshead Bay,5 to 17 Years,2008,Number,41,uhf210
+Coney Island - Sheepshead Bay,5 to 17 Years,2008,Rate,9.6,uhf210
+Crotona - Tremont,0 to 4 years,2008,Rate,218,uhf105
+Crotona - Tremont,0 to 4 years,2008,Number,389,uhf105
+Crotona - Tremont,5 to 17 Years,2008,Number,260,uhf105
+Crotona - Tremont,5 to 17 Years,2008,Rate,57,uhf105
+Downtown  - Heights - Slope,0 to 4 years,2008,Rate,54.4,uhf202
+Downtown  - Heights - Slope,0 to 4 years,2008,Number,83,uhf202
+Downtown  - Heights - Slope,5 to 17 Years,2008,Number,55,uhf202
+Downtown  - Heights - Slope,5 to 17 Years,2008,Rate,21.6,uhf202
+East Flatbush - Flatbush,0 to 4 years,2008,Number,210,uhf207
+East Flatbush - Flatbush,0 to 4 years,2008,Rate,110.4,uhf207
+East Flatbush - Flatbush,5 to 17 Years,2008,Number,147,uhf207
+East Flatbush - Flatbush,5 to 17 Years,2008,Rate,28.2,uhf207
+East Harlem,0 to 4 years,2008,Rate,163.8,uhf303
+East Harlem,0 to 4 years,2008,Number,113,uhf303
+East Harlem,5 to 17 Years,2008,Number,151,uhf303
+East Harlem,5 to 17 Years,2008,Rate,78.4,uhf303
+East New York,0 to 4 years,2008,Rate,137.2,uhf204
+East New York,0 to 4 years,2008,Number,189,uhf204
+East New York,5 to 17 Years,2008,Number,186,uhf204
+East New York,5 to 17 Years,2008,Rate,46.8,uhf204
+Flushing - Clearview,0 to 4 years,2008,Rate,33,uhf403
+Flushing - Clearview,0 to 4 years,2008,Number,44,uhf403
+Flushing - Clearview,5 to 17 Years,2008,Number,45,uhf403
+Flushing - Clearview,5 to 17 Years,2008,Rate,14.2,uhf403
+Fordham - Bronx Park,0 to 4 years,2008,Rate,154.9,uhf103
+Fordham - Bronx Park,0 to 4 years,2008,Number,315,uhf103
+Fordham - Bronx Park,5 to 17 Years,2008,Number,300,uhf103
+Fordham - Bronx Park,5 to 17 Years,2008,Rate,61,uhf103
+Fresh Meadows,0 to 4 years,2008,Number,31,uhf406
+Fresh Meadows,0 to 4 years,2008,Rate,48.6,uhf406
+Fresh Meadows,5 to 17 Years,2008,Number,14,uhf406
+Fresh Meadows,5 to 17 Years,2008,Rate,9.9,uhf406
+Gramercy Park -  Murray Hill,0 to 4 years,2008,Rate,25.9,uhf307
+Gramercy Park -  Murray Hill,0 to 4 years,2008,Number,12,uhf307
+Gramercy Park -  Murray Hill,5 to 17 Years,2008,Number,11,uhf307
+Gramercy Park -  Murray Hill,5 to 17 Years,2008,Rate,20.1,uhf307
+Greenpoint,0 to 4 years,2008,Number,35,uhf201
+Greenpoint,0 to 4 years,2008,Rate,35.1,uhf201
+Greenpoint,5 to 17 Years,2008,Number,18,uhf201
+Greenpoint,5 to 17 Years,2008,Rate,9.8,uhf201
+Greenwich Village - Soho,0 to 4 years,2008,Number,10,uhf308
+Greenwich Village - Soho,0 to 4 years,2008,Rate,28.8,uhf308
+Greenwich Village - Soho,5 to 17 Years,2008,Number,0,uhf308
+Greenwich Village - Soho,5 to 17 Years,2008,Rate,1.9,uhf308
+High Bridge - Morrisania,0 to 4 years,2008,Number,371,uhf106
+High Bridge - Morrisania,0 to 4 years,2008,Rate,214.7,uhf106
+High Bridge - Morrisania,5 to 17 Years,2008,Number,240,uhf106
+High Bridge - Morrisania,5 to 17 Years,2008,Rate,53.7,uhf106
+Hunts Point - Mott Haven,0 to 4 years,2008,Rate,209.8,uhf107
+Hunts Point - Mott Haven,0 to 4 years,2008,Number,239,uhf107
+Hunts Point - Mott Haven,5 to 17 Years,2008,Number,204,uhf107
+Hunts Point - Mott Haven,5 to 17 Years,2008,Rate,68.1,uhf107
+Jamaica,0 to 4 years,2008,Number,259,uhf408
+Jamaica,0 to 4 years,2008,Rate,146.9,uhf408
+Jamaica,5 to 17 Years,2008,Number,145,uhf408
+Jamaica,5 to 17 Years,2008,Rate,30,uhf408
+Kingsbridge - Riverdale,0 to 4 years,2008,Rate,74.6,uhf101
+Kingsbridge - Riverdale,0 to 4 years,2008,Number,41,uhf101
+Kingsbridge - Riverdale,5 to 17 Years,2008,Number,30,uhf101
+Kingsbridge - Riverdale,5 to 17 Years,2008,Rate,25,uhf101
+Long Island City - Astoria,0 to 4 years,2008,Rate,43.2,uhf401
+Long Island City - Astoria,0 to 4 years,2008,Number,47,uhf401
+Long Island City - Astoria,5 to 17 Years,2008,Number,49,uhf401
+Long Island City - Astoria,5 to 17 Years,2008,Rate,20.8,uhf401
+Lower Manhattan,0 to 4 years,2008,Number,17,uhf310
+Lower Manhattan,0 to 4 years,2008,Rate,54.9,uhf310
+Lower Manhattan,5 to 17 Years,2008,Number,0,uhf310
+Lower Manhattan,5 to 17 Years,2008,Rate,5.8,uhf310
+Manhattan,0 to 4 years,2008,Rate,66.1,36061
+Manhattan,0 to 4 years,2008,Number,525,36061
+Manhattan,5 to 17 Years,2008,Number,512,36061
+Manhattan,5 to 17 Years,2008,Rate,31.6,36061
+New York City,0 to 4 years,2008,Rate,92.3,3651000
+New York City,0 to 4 years,2008,Number,4819,3651000
+New York City,5 to 17 Years,2008,Number,3922,3651000
+New York City,5 to 17 Years,2008,Rate,31.1,3651000
+Northeast Bronx,0 to 4 years,2008,Number,184,uhf102
+Northeast Bronx,0 to 4 years,2008,Rate,159.6,uhf102
+Northeast Bronx,5 to 17 Years,2008,Number,145,uhf102
+Northeast Bronx,5 to 17 Years,2008,Rate,43.5,uhf102
+Pelham - Throgs Neck,0 to 4 years,2008,Number,292,uhf104
+Pelham - Throgs Neck,0 to 4 years,2008,Rate,146.8,uhf104
+Pelham - Throgs Neck,5 to 17 Years,2008,Number,243,uhf104
+Pelham - Throgs Neck,5 to 17 Years,2008,Rate,46.5,uhf104
+Port  Richmond,0 to 4 years,2008,Rate,61.3,uhf501
+Port  Richmond,0 to 4 years,2008,Number,32,uhf501
+Port  Richmond,5 to 17 Years,2008,Number,19,uhf501
+Port  Richmond,5 to 17 Years,2008,Rate,13.1,uhf501
+Queens,0 to 4 years,2008,Number,1030,36081
+Queens,0 to 4 years,2008,Rate,76.7,36081
+Queens,5 to 17 Years,2008,Number,730,36081
+Queens,5 to 17 Years,2008,Rate,22.3,36081
+Ridgewood - Forest Hills,0 to 4 years,2008,Rate,73.3,uhf405
+Ridgewood - Forest Hills,0 to 4 years,2008,Number,106,uhf405
+Ridgewood - Forest Hills,5 to 17 Years,2008,Number,65,uhf405
+Ridgewood - Forest Hills,5 to 17 Years,2008,Rate,20.6,uhf405
+Rockaway,0 to 4 years,2008,Number,108,uhf410
+Rockaway,0 to 4 years,2008,Rate,127.2,uhf410
+Rockaway,5 to 17 Years,2008,Number,87,uhf410
+Rockaway,5 to 17 Years,2008,Rate,41,uhf410
+South Beach - Tottenville,0 to 4 years,2008,Number,21,uhf504
+South Beach - Tottenville,0 to 4 years,2008,Rate,19.9,uhf504
+South Beach - Tottenville,5 to 17 Years,2008,Number,20,uhf504
+South Beach - Tottenville,5 to 17 Years,2008,Rate,6.3,uhf504
+Southeast Queens,0 to 4 years,2008,Rate,96,uhf409
+Southeast Queens,0 to 4 years,2008,Number,100,uhf409
+Southeast Queens,5 to 17 Years,2008,Number,68,uhf409
+Southeast Queens,5 to 17 Years,2008,Rate,21.4,uhf409
+Southwest Queens,0 to 4 years,2008,Rate,93.3,uhf407
+Southwest Queens,0 to 4 years,2008,Number,155,uhf407
+Southwest Queens,5 to 17 Years,2008,Number,100,uhf407
+Southwest Queens,5 to 17 Years,2008,Rate,22.4,uhf407
+Stapleton - St. George,0 to 4 years,2008,Number,45,uhf502
+Stapleton - St. George,0 to 4 years,2008,Rate,58.7,uhf502
+Stapleton - St. George,5 to 17 Years,2008,Number,33,uhf502
+Stapleton - St. George,5 to 17 Years,2008,Rate,15.8,uhf502
+Staten Island,0 to 4 years,2008,Rate,37.8,36085
+Staten Island,0 to 4 years,2008,Number,107,36085
+Staten Island,5 to 17 Years,2008,Number,88,36085
+Staten Island,5 to 17 Years,2008,Rate,10.9,36085
+Sunset Park,0 to 4 years,2008,Number,47,uhf205
+Sunset Park,0 to 4 years,2008,Rate,48.2,uhf205
+Sunset Park,5 to 17 Years,2008,Number,29,uhf205
+Sunset Park,5 to 17 Years,2008,Rate,14.2,uhf205
+Union Square - Lower East Side,0 to 4 years,2008,Rate,64.2,uhf309
+Union Square - Lower East Side,0 to 4 years,2008,Number,50,uhf309
+Union Square - Lower East Side,5 to 17 Years,2008,Number,49,uhf309
+Union Square - Lower East Side,5 to 17 Years,2008,Rate,27.4,uhf309
+Upper East Side,0 to 4 years,2008,Rate,24.6,uhf305
+Upper East Side,0 to 4 years,2008,Number,29,uhf305
+Upper East Side,5 to 17 Years,2008,Number,13,uhf305
+Upper East Side,5 to 17 Years,2008,Rate,7,uhf305
+Upper West Side,0 to 4 years,2008,Number,38,uhf304
+Upper West Side,0 to 4 years,2008,Rate,31.7,uhf304
+Upper West Side,5 to 17 Years,2008,Number,32,uhf304
+Upper West Side,5 to 17 Years,2008,Rate,16.1,uhf304
+Washington Heights - Inwood,0 to 4 years,2008,Rate,45.4,uhf301
+Washington Heights - Inwood,0 to 4 years,2008,Number,67,uhf301
+Washington Heights - Inwood,5 to 17 Years,2008,Number,82,uhf301
+Washington Heights - Inwood,5 to 17 Years,2008,Rate,21.1,uhf301
+West Queens,0 to 4 years,2008,Number,149,uhf402
+West Queens,0 to 4 years,2008,Rate,46.7,uhf402
+West Queens,5 to 17 Years,2008,Number,112,uhf402
+West Queens,5 to 17 Years,2008,Rate,16.3,uhf402
+Williamsburg - Bushwick,0 to 4 years,2008,Number,258,uhf211
+Williamsburg - Bushwick,0 to 4 years,2008,Rate,164.1,uhf211
+Williamsburg - Bushwick,5 to 17 Years,2008,Number,241,uhf211
+Williamsburg - Bushwick,5 to 17 Years,2008,Rate,60.4,uhf211
+Willowbrook,0 to 4 years,2008,Rate,18.3,uhf503
+Willowbrook,0 to 4 years,2008,Number,9,uhf503
+Willowbrook,5 to 17 Years,2008,Number,14,uhf503
+Willowbrook,5 to 17 Years,2008,Rate,10.2,uhf503
+Bayside - Little Neck,0 to 4 years,2009,Number,19,uhf404
+Bayside - Little Neck,0 to 4 years,2009,Rate,46.6,uhf404
+Bayside - Little Neck,5 to 17 Years,2009,Number,15,uhf404
+Bayside - Little Neck,5 to 17 Years,2009,Rate,11.9,uhf404
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2009,Number,357,uhf203
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2009,Rate,165.4,uhf203
+Bedford Stuyvesant - Crown Heights,5 to 17 Years,2009,Number,288,uhf203
+Bedford Stuyvesant - Crown Heights,5 to 17 Years,2009,Rate,51.1,uhf203
+Bensonhurst - Bay Ridge,0 to 4 years,2009,Number,17,uhf209
+Bensonhurst - Bay Ridge,0 to 4 years,2009,Rate,13.7,uhf209
+Bensonhurst - Bay Ridge,5 to 17 Years,2009,Number,17,uhf209
+Bensonhurst - Bay Ridge,5 to 17 Years,2009,Rate,5.8,uhf209
+Borough Park,0 to 4 years,2009,Rate,16.6,uhf206
+Borough Park,0 to 4 years,2009,Number,53,uhf206
+Borough Park,5 to 17 Years,2009,Number,44,uhf206
+Borough Park,5 to 17 Years,2009,Rate,6.6,uhf206
+Bronx,0 to 4 years,2009,Number,1897,36005
+Bronx,0 to 4 years,2009,Rate,183.5,36005
+Bronx,5 to 17 Years,2009,Number,1552,36005
+Bronx,5 to 17 Years,2009,Rate,58.2,36005
+Brooklyn,0 to 4 years,2009,Rate,84.8,36047
+Brooklyn,0 to 4 years,2009,Number,1519,36047
+Brooklyn,5 to 17 Years,2009,Number,1231,36047
+Brooklyn,5 to 17 Years,2009,Rate,29,36047
+Canarsie - Flatlands,0 to 4 years,2009,Rate,83.7,uhf208
+Canarsie - Flatlands,0 to 4 years,2009,Number,96,uhf208
+Canarsie - Flatlands,5 to 17 Years,2009,Number,99,uhf208
+Canarsie - Flatlands,5 to 17 Years,2009,Rate,28.7,uhf208
+Central Harlem - Morningside Heights,0 to 4 years,2009,Number,127,uhf302
+Central Harlem - Morningside Heights,0 to 4 years,2009,Rate,133.4,uhf302
+Central Harlem - Morningside Heights,5 to 17 Years,2009,Number,171,uhf302
+Central Harlem - Morningside Heights,5 to 17 Years,2009,Rate,69.1,uhf302
+Chelsea - Clinton,0 to 4 years,2009,Number,14,uhf306
+Chelsea - Clinton,0 to 4 years,2009,Rate,29.5,uhf306
+Chelsea - Clinton,5 to 17 Years,2009,Number,13,uhf306
+Chelsea - Clinton,5 to 17 Years,2009,Rate,18.5,uhf306
+Coney Island - Sheepshead Bay,0 to 4 years,2009,Rate,31.9,uhf210
+Coney Island - Sheepshead Bay,0 to 4 years,2009,Number,55,uhf210
+Coney Island - Sheepshead Bay,5 to 17 Years,2009,Number,46,uhf210
+Coney Island - Sheepshead Bay,5 to 17 Years,2009,Rate,10.7,uhf210
+Crotona - Tremont,0 to 4 years,2009,Rate,208.2,uhf105
+Crotona - Tremont,0 to 4 years,2009,Number,372,uhf105
+Crotona - Tremont,5 to 17 Years,2009,Number,259,uhf105
+Crotona - Tremont,5 to 17 Years,2009,Rate,57.3,uhf105
+Downtown  - Heights - Slope,0 to 4 years,2009,Rate,69,uhf202
+Downtown  - Heights - Slope,0 to 4 years,2009,Number,108,uhf202
+Downtown  - Heights - Slope,5 to 17 Years,2009,Number,68,uhf202
+Downtown  - Heights - Slope,5 to 17 Years,2009,Rate,26.6,uhf202
+East Flatbush - Flatbush,0 to 4 years,2009,Number,275,uhf207
+East Flatbush - Flatbush,0 to 4 years,2009,Rate,143.4,uhf207
+East Flatbush - Flatbush,5 to 17 Years,2009,Number,171,uhf207
+East Flatbush - Flatbush,5 to 17 Years,2009,Rate,33.5,uhf207
+East Harlem,0 to 4 years,2009,Rate,190,uhf303
+East Harlem,0 to 4 years,2009,Number,128,uhf303
+East Harlem,5 to 17 Years,2009,Number,126,uhf303
+East Harlem,5 to 17 Years,2009,Rate,67.6,uhf303
+East New York,0 to 4 years,2009,Rate,144.8,uhf204
+East New York,0 to 4 years,2009,Number,204,uhf204
+East New York,5 to 17 Years,2009,Number,172,uhf204
+East New York,5 to 17 Years,2009,Rate,43.3,uhf204
+Flushing - Clearview,0 to 4 years,2009,Rate,31.3,uhf403
+Flushing - Clearview,0 to 4 years,2009,Number,41,uhf403
+Flushing - Clearview,5 to 17 Years,2009,Number,43,uhf403
+Flushing - Clearview,5 to 17 Years,2009,Rate,13.4,uhf403
+Fordham - Bronx Park,0 to 4 years,2009,Rate,172,uhf103
+Fordham - Bronx Park,0 to 4 years,2009,Number,349,uhf103
+Fordham - Bronx Park,5 to 17 Years,2009,Number,344,uhf103
+Fordham - Bronx Park,5 to 17 Years,2009,Rate,70.2,uhf103
+Fresh Meadows,0 to 4 years,2009,Number,31,uhf406
+Fresh Meadows,0 to 4 years,2009,Rate,48.6,uhf406
+Fresh Meadows,5 to 17 Years,2009,Number,19,uhf406
+Fresh Meadows,5 to 17 Years,2009,Rate,13.3,uhf406
+Gramercy Park -  Murray Hill,0 to 4 years,2009,Rate,37.4,uhf307
+Gramercy Park -  Murray Hill,0 to 4 years,2009,Number,17,uhf307
+Gramercy Park -  Murray Hill,5 to 17 Years,2009,Number,0,uhf307
+Gramercy Park -  Murray Hill,5 to 17 Years,2009,Rate,7.2,uhf307
+Greenpoint,0 to 4 years,2009,Number,57,uhf201
+Greenpoint,0 to 4 years,2009,Rate,57.7,uhf201
+Greenpoint,5 to 17 Years,2009,Number,31,uhf201
+Greenpoint,5 to 17 Years,2009,Rate,17.1,uhf201
+Greenwich Village - Soho,0 to 4 years,2009,Number,8,uhf308
+Greenwich Village - Soho,0 to 4 years,2009,Rate,23.4,uhf308
+Greenwich Village - Soho,5 to 17 Years,2009,Number,0,uhf308
+Greenwich Village - Soho,5 to 17 Years,2009,Rate,13.1,uhf308
+High Bridge - Morrisania,0 to 4 years,2009,Number,389,uhf106
+High Bridge - Morrisania,0 to 4 years,2009,Rate,223.2,uhf106
+High Bridge - Morrisania,5 to 17 Years,2009,Number,268,uhf106
+High Bridge - Morrisania,5 to 17 Years,2009,Rate,60.2,uhf106
+Hunts Point - Mott Haven,0 to 4 years,2009,Rate,233.5,uhf107
+Hunts Point - Mott Haven,0 to 4 years,2009,Number,270,uhf107
+Hunts Point - Mott Haven,5 to 17 Years,2009,Number,234,uhf107
+Hunts Point - Mott Haven,5 to 17 Years,2009,Rate,78.2,uhf107
+Jamaica,0 to 4 years,2009,Number,249,uhf408
+Jamaica,0 to 4 years,2009,Rate,140.4,uhf408
+Jamaica,5 to 17 Years,2009,Number,182,uhf408
+Jamaica,5 to 17 Years,2009,Rate,37.5,uhf408
+Kingsbridge - Riverdale,0 to 4 years,2009,Rate,55.1,uhf101
+Kingsbridge - Riverdale,0 to 4 years,2009,Number,30,uhf101
+Kingsbridge - Riverdale,5 to 17 Years,2009,Number,31,uhf101
+Kingsbridge - Riverdale,5 to 17 Years,2009,Rate,25.8,uhf101
+Long Island City - Astoria,0 to 4 years,2009,Rate,34.8,uhf401
+Long Island City - Astoria,0 to 4 years,2009,Number,37,uhf401
+Long Island City - Astoria,5 to 17 Years,2009,Number,42,uhf401
+Long Island City - Astoria,5 to 17 Years,2009,Rate,17.9,uhf401
+Lower Manhattan,0 to 4 years,2009,Number,10,uhf310
+Lower Manhattan,0 to 4 years,2009,Rate,31.4,uhf310
+Lower Manhattan,5 to 17 Years,2009,Number,0,uhf310
+Lower Manhattan,5 to 17 Years,2009,Rate,13.9,uhf310
+Manhattan,0 to 4 years,2009,Rate,66.2,36061
+Manhattan,0 to 4 years,2009,Number,514,36061
+Manhattan,5 to 17 Years,2009,Number,508,36061
+Manhattan,5 to 17 Years,2009,Rate,31.9,36061
+New York City,0 to 4 years,2009,Rate,96.5,3651000
+New York City,0 to 4 years,2009,Number,5041,3651000
+New York City,5 to 17 Years,2009,Number,4189,3651000
+New York City,5 to 17 Years,2009,Rate,33.2,3651000
+Northeast Bronx,0 to 4 years,2009,Number,155,uhf102
+Northeast Bronx,0 to 4 years,2009,Rate,134.8,uhf102
+Northeast Bronx,5 to 17 Years,2009,Number,127,uhf102
+Northeast Bronx,5 to 17 Years,2009,Rate,38.1,uhf102
+Pelham - Throgs Neck,0 to 4 years,2009,Number,329,uhf104
+Pelham - Throgs Neck,0 to 4 years,2009,Rate,165.9,uhf104
+Pelham - Throgs Neck,5 to 17 Years,2009,Number,259,uhf104
+Pelham - Throgs Neck,5 to 17 Years,2009,Rate,49.3,uhf104
+Port  Richmond,0 to 4 years,2009,Rate,77.1,uhf501
+Port  Richmond,0 to 4 years,2009,Number,41,uhf501
+Port  Richmond,5 to 17 Years,2009,Number,39,uhf501
+Port  Richmond,5 to 17 Years,2009,Rate,26.7,uhf501
+Queens,0 to 4 years,2009,Number,988,36081
+Queens,0 to 4 years,2009,Rate,73.9,36081
+Queens,5 to 17 Years,2009,Number,779,36081
+Queens,5 to 17 Years,2009,Rate,23.6,36081
+Ridgewood - Forest Hills,0 to 4 years,2009,Rate,63.7,uhf405
+Ridgewood - Forest Hills,0 to 4 years,2009,Number,92,uhf405
+Ridgewood - Forest Hills,5 to 17 Years,2009,Number,65,uhf405
+Ridgewood - Forest Hills,5 to 17 Years,2009,Rate,20.2,uhf405
+Rockaway,0 to 4 years,2009,Number,89,uhf410
+Rockaway,0 to 4 years,2009,Rate,102.7,uhf410
+Rockaway,5 to 17 Years,2009,Number,96,uhf410
+Rockaway,5 to 17 Years,2009,Rate,44.4,uhf410
+South Beach - Tottenville,0 to 4 years,2009,Number,22,uhf504
+South Beach - Tottenville,0 to 4 years,2009,Rate,21.1,uhf504
+South Beach - Tottenville,5 to 17 Years,2009,Number,25,uhf504
+South Beach - Tottenville,5 to 17 Years,2009,Rate,7.9,uhf504
+Southeast Queens,0 to 4 years,2009,Rate,116.7,uhf409
+Southeast Queens,0 to 4 years,2009,Number,121,uhf409
+Southeast Queens,5 to 17 Years,2009,Number,103,uhf409
+Southeast Queens,5 to 17 Years,2009,Rate,32.6,uhf409
+Southwest Queens,0 to 4 years,2009,Rate,108.4,uhf407
+Southwest Queens,0 to 4 years,2009,Number,178,uhf407
+Southwest Queens,5 to 17 Years,2009,Number,91,uhf407
+Southwest Queens,5 to 17 Years,2009,Rate,20.2,uhf407
+Stapleton - St. George,0 to 4 years,2009,Number,43,uhf502
+Stapleton - St. George,0 to 4 years,2009,Rate,55.8,uhf502
+Stapleton - St. George,5 to 17 Years,2009,Number,35,uhf502
+Stapleton - St. George,5 to 17 Years,2009,Rate,16.8,uhf502
+Staten Island,0 to 4 years,2009,Rate,43.4,36085
+Staten Island,0 to 4 years,2009,Number,123,36085
+Staten Island,5 to 17 Years,2009,Number,119,36085
+Staten Island,5 to 17 Years,2009,Rate,14.7,36085
+Sunset Park,0 to 4 years,2009,Number,34,uhf205
+Sunset Park,0 to 4 years,2009,Rate,34.6,uhf205
+Sunset Park,5 to 17 Years,2009,Number,28,uhf205
+Sunset Park,5 to 17 Years,2009,Rate,13.6,uhf205
+Union Square - Lower East Side,0 to 4 years,2009,Rate,59.4,uhf309
+Union Square - Lower East Side,0 to 4 years,2009,Number,44,uhf309
+Union Square - Lower East Side,5 to 17 Years,2009,Number,36,uhf309
+Union Square - Lower East Side,5 to 17 Years,2009,Rate,20.7,uhf309
+Upper East Side,0 to 4 years,2009,Rate,27.8,uhf305
+Upper East Side,0 to 4 years,2009,Number,32,uhf305
+Upper East Side,5 to 17 Years,2009,Number,17,uhf305
+Upper East Side,5 to 17 Years,2009,Rate,8.9,uhf305
+Upper West Side,0 to 4 years,2009,Number,49,uhf304
+Upper West Side,0 to 4 years,2009,Rate,41.6,uhf304
+Upper West Side,5 to 17 Years,2009,Number,38,uhf304
+Upper West Side,5 to 17 Years,2009,Rate,18.9,uhf304
+Washington Heights - Inwood,0 to 4 years,2009,Rate,59.9,uhf301
+Washington Heights - Inwood,0 to 4 years,2009,Number,85,uhf301
+Washington Heights - Inwood,5 to 17 Years,2009,Number,83,uhf301
+Washington Heights - Inwood,5 to 17 Years,2009,Rate,22.6,uhf301
+West Queens,0 to 4 years,2009,Number,125,uhf402
+West Queens,0 to 4 years,2009,Rate,39.1,uhf402
+West Queens,5 to 17 Years,2009,Number,100,uhf402
+West Queens,5 to 17 Years,2009,Rate,14.3,uhf402
+Williamsburg - Bushwick,0 to 4 years,2009,Number,262,uhf211
+Williamsburg - Bushwick,0 to 4 years,2009,Rate,164.6,uhf211
+Williamsburg - Bushwick,5 to 17 Years,2009,Number,241,uhf211
+Williamsburg - Bushwick,5 to 17 Years,2009,Rate,60.6,uhf211
+Willowbrook,0 to 4 years,2009,Rate,34.8,uhf503
+Willowbrook,0 to 4 years,2009,Number,17,uhf503
+Willowbrook,5 to 17 Years,2009,Number,18,uhf503
+Willowbrook,5 to 17 Years,2009,Rate,13.2,uhf503
+Bayside - Little Neck,0 to 4 years,2010,Number,10,uhf404
+Bayside - Little Neck,0 to 4 years,2010,Rate,24.9,uhf404
+Bayside - Little Neck,5 to 17 Years,2010,Number,13,uhf404
+Bayside - Little Neck,5 to 17 Years,2010,Rate,10.2,uhf404
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2010,Number,305,uhf203
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2010,Rate,137.8,uhf203
+Bedford Stuyvesant - Crown Heights,5 to 17 Years,2010,Number,254,uhf203
+Bedford Stuyvesant - Crown Heights,5 to 17 Years,2010,Rate,45.9,uhf203
+Bensonhurst - Bay Ridge,0 to 4 years,2010,Number,20,uhf209
+Bensonhurst - Bay Ridge,0 to 4 years,2010,Rate,16.2,uhf209
+Bensonhurst - Bay Ridge,5 to 17 Years,2010,Number,0,uhf209
+Bensonhurst - Bay Ridge,5 to 17 Years,2010,Rate,3,uhf209
+Borough Park,0 to 4 years,2010,Rate,12.9,uhf206
+Borough Park,0 to 4 years,2010,Number,41,uhf206
+Borough Park,5 to 17 Years,2010,Number,23,uhf206
+Borough Park,5 to 17 Years,2010,Rate,3.4,uhf206
+Bronx,0 to 4 years,2010,Rate,156.4,36005
+Bronx,0 to 4 years,2010,Number,1610,36005
+Bronx,5 to 17 Years,2010,Number,1311,36005
+Bronx,5 to 17 Years,2010,Rate,49.5,36005
+Brooklyn,0 to 4 years,2010,Number,1239,36047
+Brooklyn,0 to 4 years,2010,Rate,68.8,36047
+Brooklyn,5 to 17 Years,2010,Number,1032,36047
+Brooklyn,5 to 17 Years,2010,Rate,24.3,36047
+Canarsie - Flatlands,0 to 4 years,2010,Rate,77,uhf208
+Canarsie - Flatlands,0 to 4 years,2010,Number,90,uhf208
+Canarsie - Flatlands,5 to 17 Years,2010,Number,70,uhf208
+Canarsie - Flatlands,5 to 17 Years,2010,Rate,20.4,uhf208
+Central Harlem - Morningside Heights,0 to 4 years,2010,Number,128,uhf302
+Central Harlem - Morningside Heights,0 to 4 years,2010,Rate,135.5,uhf302
+Central Harlem - Morningside Heights,5 to 17 Years,2010,Number,118,uhf302
+Central Harlem - Morningside Heights,5 to 17 Years,2010,Rate,48.1,uhf302
+Chelsea - Clinton,0 to 4 years,2010,Number,19,uhf306
+Chelsea - Clinton,0 to 4 years,2010,Rate,40,uhf306
+Chelsea - Clinton,5 to 17 Years,2010,Number,13,uhf306
+Chelsea - Clinton,5 to 17 Years,2010,Rate,18,uhf306
+Coney Island - Sheepshead Bay,0 to 4 years,2010,Rate,27.4,uhf210
+Coney Island - Sheepshead Bay,0 to 4 years,2010,Number,47,uhf210
+Coney Island - Sheepshead Bay,5 to 17 Years,2010,Number,43,uhf210
+Coney Island - Sheepshead Bay,5 to 17 Years,2010,Rate,10,uhf210
+Crotona - Tremont,0 to 4 years,2010,Rate,179.7,uhf105
+Crotona - Tremont,0 to 4 years,2010,Number,318,uhf105
+Crotona - Tremont,5 to 17 Years,2010,Number,234,uhf105
+Crotona - Tremont,5 to 17 Years,2010,Rate,52.5,uhf105
+Downtown  - Heights - Slope,0 to 4 years,2010,Rate,54.8,uhf202
+Downtown  - Heights - Slope,0 to 4 years,2010,Number,87,uhf202
+Downtown  - Heights - Slope,5 to 17 Years,2010,Number,48,uhf202
+Downtown  - Heights - Slope,5 to 17 Years,2010,Rate,18.8,uhf202
+East Flatbush - Flatbush,0 to 4 years,2010,Number,225,uhf207
+East Flatbush - Flatbush,0 to 4 years,2010,Rate,115.5,uhf207
+East Flatbush - Flatbush,5 to 17 Years,2010,Number,136,uhf207
+East Flatbush - Flatbush,5 to 17 Years,2010,Rate,27.2,uhf207
+East Harlem,0 to 4 years,2010,Rate,179.9,uhf303
+East Harlem,0 to 4 years,2010,Number,120,uhf303
+East Harlem,5 to 17 Years,2010,Number,120,uhf303
+East Harlem,5 to 17 Years,2010,Rate,65.1,uhf303
+East New York,0 to 4 years,2010,Rate,116,uhf204
+East New York,0 to 4 years,2010,Number,167,uhf204
+East New York,5 to 17 Years,2010,Number,181,uhf204
+East New York,5 to 17 Years,2010,Rate,45.4,uhf204
+Flushing - Clearview,0 to 4 years,2010,Rate,36.7,uhf403
+Flushing - Clearview,0 to 4 years,2010,Number,47,uhf403
+Flushing - Clearview,5 to 17 Years,2010,Number,42,uhf403
+Flushing - Clearview,5 to 17 Years,2010,Rate,13,uhf403
+Fordham - Bronx Park,0 to 4 years,2010,Rate,142.2,uhf103
+Fordham - Bronx Park,0 to 4 years,2010,Number,285,uhf103
+Fordham - Bronx Park,5 to 17 Years,2010,Number,278,uhf103
+Fordham - Bronx Park,5 to 17 Years,2010,Rate,57.2,uhf103
+Fresh Meadows,0 to 4 years,2010,Number,28,uhf406
+Fresh Meadows,0 to 4 years,2010,Rate,43.6,uhf406
+Fresh Meadows,5 to 17 Years,2010,Number,18,uhf406
+Fresh Meadows,5 to 17 Years,2010,Rate,12.5,uhf406
+Gramercy Park -  Murray Hill,0 to 4 years,2010,Rate,44.5,uhf307
+Gramercy Park -  Murray Hill,0 to 4 years,2010,Number,20,uhf307
+Gramercy Park -  Murray Hill,5 to 17 Years,2010,Number,0,uhf307
+Gramercy Park -  Murray Hill,5 to 17 Years,2010,Rate,8.9,uhf307
+Greenpoint,0 to 4 years,2010,Number,31,uhf201
+Greenpoint,0 to 4 years,2010,Rate,32.2,uhf201
+Greenpoint,5 to 17 Years,2010,Number,17,uhf201
+Greenpoint,5 to 17 Years,2010,Rate,9.1,uhf201
+Greenwich Village - Soho,0 to 4 years,2010,Number,0,uhf308
+Greenwich Village - Soho,0 to 4 years,2010,Rate,0,uhf308
+Greenwich Village - Soho,5 to 17 Years,2010,Number,0,uhf308
+Greenwich Village - Soho,5 to 17 Years,2010,Rate,11.4,uhf308
+High Bridge - Morrisania,0 to 4 years,2010,Number,310,uhf106
+High Bridge - Morrisania,0 to 4 years,2010,Rate,178,uhf106
+High Bridge - Morrisania,5 to 17 Years,2010,Number,195,uhf106
+High Bridge - Morrisania,5 to 17 Years,2010,Rate,43.7,uhf106
+Hunts Point - Mott Haven,0 to 4 years,2010,Rate,210.3,uhf107
+Hunts Point - Mott Haven,0 to 4 years,2010,Number,244,uhf107
+Hunts Point - Mott Haven,5 to 17 Years,2010,Number,191,uhf107
+Hunts Point - Mott Haven,5 to 17 Years,2010,Rate,64,uhf107
+Jamaica,0 to 4 years,2010,Number,208,uhf408
+Jamaica,0 to 4 years,2010,Rate,116.2,uhf408
+Jamaica,5 to 17 Years,2010,Number,135,uhf408
+Jamaica,5 to 17 Years,2010,Rate,27.8,uhf408
+Kingsbridge - Riverdale,0 to 4 years,2010,Rate,71.2,uhf101
+Kingsbridge - Riverdale,0 to 4 years,2010,Number,39,uhf101
+Kingsbridge - Riverdale,5 to 17 Years,2010,Number,35,uhf101
+Kingsbridge - Riverdale,5 to 17 Years,2010,Rate,29.2,uhf101
+Long Island City - Astoria,0 to 4 years,2010,Rate,36.6,uhf401
+Long Island City - Astoria,0 to 4 years,2010,Number,38,uhf401
+Long Island City - Astoria,5 to 17 Years,2010,Number,48,uhf401
+Long Island City - Astoria,5 to 17 Years,2010,Rate,20.6,uhf401
+Lower Manhattan,0 to 4 years,2010,Number,8,uhf310
+Lower Manhattan,0 to 4 years,2010,Rate,24.4,uhf310
+Lower Manhattan,5 to 17 Years,2010,Number,0,uhf310
+Lower Manhattan,5 to 17 Years,2010,Rate,0,uhf310
+Manhattan,0 to 4 years,2010,Rate,67.2,36061
+Manhattan,0 to 4 years,2010,Number,513,36061
+Manhattan,5 to 17 Years,2010,Number,418,36061
+Manhattan,5 to 17 Years,2010,Rate,26.5,36061
+New York City,0 to 4 years,2010,Rate,82.6,3651000
+New York City,0 to 4 years,2010,Number,4302,3651000
+New York City,5 to 17 Years,2010,Number,3563,3651000
+New York City,5 to 17 Years,2010,Rate,28.3,3651000
+Northeast Bronx,0 to 4 years,2010,Number,152,uhf102
+Northeast Bronx,0 to 4 years,2010,Rate,132.1,uhf102
+Northeast Bronx,5 to 17 Years,2010,Number,133,uhf102
+Northeast Bronx,5 to 17 Years,2010,Rate,40.3,uhf102
+Pelham - Throgs Neck,0 to 4 years,2010,Number,262,uhf104
+Pelham - Throgs Neck,0 to 4 years,2010,Rate,133.1,uhf104
+Pelham - Throgs Neck,5 to 17 Years,2010,Number,229,uhf104
+Pelham - Throgs Neck,5 to 17 Years,2010,Rate,43.7,uhf104
+Port  Richmond,0 to 4 years,2010,Rate,50.6,uhf501
+Port  Richmond,0 to 4 years,2010,Number,27,uhf501
+Port  Richmond,5 to 17 Years,2010,Number,29,uhf501
+Port  Richmond,5 to 17 Years,2010,Rate,19.7,uhf501
+Queens,0 to 4 years,2010,Rate,63.5,36081
+Queens,0 to 4 years,2010,Number,847,36081
+Queens,5 to 17 Years,2010,Number,690,36081
+Queens,5 to 17 Years,2010,Rate,20.8,36081
+Ridgewood - Forest Hills,0 to 4 years,2010,Rate,55.9,uhf405
+Ridgewood - Forest Hills,0 to 4 years,2010,Number,81,uhf405
+Ridgewood - Forest Hills,5 to 17 Years,2010,Number,79,uhf405
+Ridgewood - Forest Hills,5 to 17 Years,2010,Rate,24.5,uhf405
+Rockaway,0 to 4 years,2010,Number,91,uhf410
+Rockaway,0 to 4 years,2010,Rate,102.3,uhf410
+Rockaway,5 to 17 Years,2010,Number,86,uhf410
+Rockaway,5 to 17 Years,2010,Rate,39.3,uhf410
+South Beach - Tottenville,0 to 4 years,2010,Number,17,uhf504
+South Beach - Tottenville,0 to 4 years,2010,Rate,16.3,uhf504
+South Beach - Tottenville,5 to 17 Years,2010,Number,26,uhf504
+South Beach - Tottenville,5 to 17 Years,2010,Rate,8.2,uhf504
+Southeast Queens,0 to 4 years,2010,Rate,84.9,uhf409
+Southeast Queens,0 to 4 years,2010,Number,88,uhf409
+Southeast Queens,5 to 17 Years,2010,Number,85,uhf409
+Southeast Queens,5 to 17 Years,2010,Rate,27.1,uhf409
+Southwest Queens,0 to 4 years,2010,Rate,88.4,uhf407
+Southwest Queens,0 to 4 years,2010,Number,143,uhf407
+Southwest Queens,5 to 17 Years,2010,Number,83,uhf407
+Southwest Queens,5 to 17 Years,2010,Rate,18.4,uhf407
+Stapleton - St. George,0 to 4 years,2010,Number,37,uhf502
+Stapleton - St. George,0 to 4 years,2010,Rate,48.2,uhf502
+Stapleton - St. George,5 to 17 Years,2010,Number,48,uhf502
+Stapleton - St. George,5 to 17 Years,2010,Rate,23,uhf502
+Staten Island,0 to 4 years,2010,Number,93,36085
+Staten Island,0 to 4 years,2010,Rate,32.8,36085
+Staten Island,5 to 17 Years,2010,Number,112,36085
+Staten Island,5 to 17 Years,2010,Rate,13.9,36085
+Sunset Park,0 to 4 years,2010,Number,37,uhf205
+Sunset Park,0 to 4 years,2010,Rate,38,uhf205
+Sunset Park,5 to 17 Years,2010,Number,19,uhf205
+Sunset Park,5 to 17 Years,2010,Rate,9.2,uhf205
+Union Square - Lower East Side,0 to 4 years,2010,Rate,57.9,uhf309
+Union Square - Lower East Side,0 to 4 years,2010,Number,41,uhf309
+Union Square - Lower East Side,5 to 17 Years,2010,Number,18,uhf309
+Union Square - Lower East Side,5 to 17 Years,2010,Rate,10.6,uhf309
+Upper East Side,0 to 4 years,2010,Rate,24.8,uhf305
+Upper East Side,0 to 4 years,2010,Number,28,uhf305
+Upper East Side,5 to 17 Years,2010,Number,20,uhf305
+Upper East Side,5 to 17 Years,2010,Rate,10.3,uhf305
+Upper West Side,0 to 4 years,2010,Number,47,uhf304
+Upper West Side,0 to 4 years,2010,Rate,40.4,uhf304
+Upper West Side,5 to 17 Years,2010,Number,30,uhf304
+Upper West Side,5 to 17 Years,2010,Rate,14.8,uhf304
+Washington Heights - Inwood,0 to 4 years,2010,Rate,70.3,uhf301
+Washington Heights - Inwood,0 to 4 years,2010,Number,97,uhf301
+Washington Heights - Inwood,5 to 17 Years,2010,Number,79,uhf301
+Washington Heights - Inwood,5 to 17 Years,2010,Rate,22.2,uhf301
+West Queens,0 to 4 years,2010,Number,110,uhf402
+West Queens,0 to 4 years,2010,Rate,34.5,uhf402
+West Queens,5 to 17 Years,2010,Number,87,uhf402
+West Queens,5 to 17 Years,2010,Rate,12.3,uhf402
+Williamsburg - Bushwick,0 to 4 years,2010,Number,187,uhf211
+Williamsburg - Bushwick,0 to 4 years,2010,Rate,117.1,uhf211
+Williamsburg - Bushwick,5 to 17 Years,2010,Number,215,uhf211
+Williamsburg - Bushwick,5 to 17 Years,2010,Rate,54.1,uhf211
+Willowbrook,0 to 4 years,2010,Rate,24.6,uhf503
+Willowbrook,0 to 4 years,2010,Number,12,uhf503
+Willowbrook,5 to 17 Years,2010,Number,0,uhf503
+Willowbrook,5 to 17 Years,2010,Rate,6.7,uhf503
+Bayside - Little Neck,0 to 4 years,2011,Number,7,uhf404
+Bayside - Little Neck,0 to 4 years,2011,Rate,17,uhf404
+Bayside - Little Neck,5 to 17 Years,2011,Number,0,uhf404
+Bayside - Little Neck,5 to 17 Years,2011,Rate,6.4,uhf404
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2011,Number,309,uhf203
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2011,Rate,135.9,uhf203
+Bedford Stuyvesant - Crown Heights,5 to 17 Years,2011,Number,273,uhf203
+Bedford Stuyvesant - Crown Heights,5 to 17 Years,2011,Rate,49.8,uhf203
+Bensonhurst - Bay Ridge,0 to 4 years,2011,Number,25,uhf209
+Bensonhurst - Bay Ridge,0 to 4 years,2011,Rate,19.9,uhf209
+Bensonhurst - Bay Ridge,5 to 17 Years,2011,Number,17,uhf209
+Bensonhurst - Bay Ridge,5 to 17 Years,2011,Rate,6.1,uhf209
+Borough Park,0 to 4 years,2011,Rate,18.4,uhf206
+Borough Park,0 to 4 years,2011,Number,59,uhf206
+Borough Park,5 to 17 Years,2011,Number,44,uhf206
+Borough Park,5 to 17 Years,2011,Rate,6.7,uhf206
+Bronx,0 to 4 years,2011,Number,1549,36005
+Bronx,0 to 4 years,2011,Rate,146,36005
+Bronx,5 to 17 Years,2011,Number,1446,36005
+Bronx,5 to 17 Years,2011,Rate,55.2,36005
+Brooklyn,0 to 4 years,2011,Rate,67.2,36047
+Brooklyn,0 to 4 years,2011,Number,1235,36047
+Brooklyn,5 to 17 Years,2011,Number,1100,36047
+Brooklyn,5 to 17 Years,2011,Rate,26.6,36047
+Canarsie - Flatlands,0 to 4 years,2011,Rate,83.7,uhf208
+Canarsie - Flatlands,0 to 4 years,2011,Number,100,uhf208
+Canarsie - Flatlands,5 to 17 Years,2011,Number,76,uhf208
+Canarsie - Flatlands,5 to 17 Years,2011,Rate,21.6,uhf208
+Central Harlem - Morningside Heights,0 to 4 years,2011,Number,143,uhf302
+Central Harlem - Morningside Heights,0 to 4 years,2011,Rate,145.1,uhf302
+Central Harlem - Morningside Heights,5 to 17 Years,2011,Number,116,uhf302
+Central Harlem - Morningside Heights,5 to 17 Years,2011,Rate,46.9,uhf302
+Chelsea - Clinton,0 to 4 years,2011,Number,15,uhf306
+Chelsea - Clinton,0 to 4 years,2011,Rate,29.9,uhf306
+Chelsea - Clinton,5 to 17 Years,2011,Number,10,uhf306
+Chelsea - Clinton,5 to 17 Years,2011,Rate,14.2,uhf306
+Coney Island - Sheepshead Bay,0 to 4 years,2011,Rate,17.9,uhf210
+Coney Island - Sheepshead Bay,0 to 4 years,2011,Number,31,uhf210
+Coney Island - Sheepshead Bay,5 to 17 Years,2011,Number,36,uhf210
+Coney Island - Sheepshead Bay,5 to 17 Years,2011,Rate,9.2,uhf210
+Crotona - Tremont,0 to 4 years,2011,Rate,163.8,uhf105
+Crotona - Tremont,0 to 4 years,2011,Number,297,uhf105
+Crotona - Tremont,5 to 17 Years,2011,Number,232,uhf105
+Crotona - Tremont,5 to 17 Years,2011,Rate,52.2,uhf105
+Downtown  - Heights - Slope,0 to 4 years,2011,Rate,61,uhf202
+Downtown  - Heights - Slope,0 to 4 years,2011,Number,99,uhf202
+Downtown  - Heights - Slope,5 to 17 Years,2011,Number,77,uhf202
+Downtown  - Heights - Slope,5 to 17 Years,2011,Rate,29,uhf202
+East Flatbush - Flatbush,0 to 4 years,2011,Number,210,uhf207
+East Flatbush - Flatbush,0 to 4 years,2011,Rate,105.3,uhf207
+East Flatbush - Flatbush,5 to 17 Years,2011,Number,151,uhf207
+East Flatbush - Flatbush,5 to 17 Years,2011,Rate,31.3,uhf207
+East Harlem,0 to 4 years,2011,Rate,135.3,uhf303
+East Harlem,0 to 4 years,2011,Number,95,uhf303
+East Harlem,5 to 17 Years,2011,Number,117,uhf303
+East Harlem,5 to 17 Years,2011,Rate,68.1,uhf303
+East New York,0 to 4 years,2011,Rate,104,uhf204
+East New York,0 to 4 years,2011,Number,154,uhf204
+East New York,5 to 17 Years,2011,Number,159,uhf204
+East New York,5 to 17 Years,2011,Rate,41.3,uhf204
+Flushing - Clearview,0 to 4 years,2011,Rate,35.1,uhf403
+Flushing - Clearview,0 to 4 years,2011,Number,46,uhf403
+Flushing - Clearview,5 to 17 Years,2011,Number,37,uhf403
+Flushing - Clearview,5 to 17 Years,2011,Rate,12.2,uhf403
+Fordham - Bronx Park,0 to 4 years,2011,Rate,126.9,uhf103
+Fordham - Bronx Park,0 to 4 years,2011,Number,262,uhf103
+Fordham - Bronx Park,5 to 17 Years,2011,Number,266,uhf103
+Fordham - Bronx Park,5 to 17 Years,2011,Rate,56.7,uhf103
+Fresh Meadows,0 to 4 years,2011,Number,25,uhf406
+Fresh Meadows,0 to 4 years,2011,Rate,37.9,uhf406
+Fresh Meadows,5 to 17 Years,2011,Number,23,uhf406
+Fresh Meadows,5 to 17 Years,2011,Rate,16,uhf406
+Gramercy Park -  Murray Hill,0 to 4 years,2011,Rate,19,uhf307
+Gramercy Park -  Murray Hill,0 to 4 years,2011,Number,9,uhf307
+Gramercy Park -  Murray Hill,5 to 17 Years,2011,Number,0,uhf307
+Gramercy Park -  Murray Hill,5 to 17 Years,2011,Rate,5.6,uhf307
+Greenpoint,0 to 4 years,2011,Number,26,uhf201
+Greenpoint,0 to 4 years,2011,Rate,26.9,uhf201
+Greenpoint,5 to 17 Years,2011,Number,17,uhf201
+Greenpoint,5 to 17 Years,2011,Rate,9.4,uhf201
+Greenwich Village - Soho,0 to 4 years,2011,Number,0,uhf308
+Greenwich Village - Soho,0 to 4 years,2011,Rate,0,uhf308
+Greenwich Village - Soho,5 to 17 Years,2011,Number,0,uhf308
+Greenwich Village - Soho,5 to 17 Years,2011,Rate,5.8,uhf308
+High Bridge - Morrisania,0 to 4 years,2011,Number,281,uhf106
+High Bridge - Morrisania,0 to 4 years,2011,Rate,157.6,uhf106
+High Bridge - Morrisania,5 to 17 Years,2011,Number,252,uhf106
+High Bridge - Morrisania,5 to 17 Years,2011,Rate,57,uhf106
+Hunts Point - Mott Haven,0 to 4 years,2011,Rate,200.1,uhf107
+Hunts Point - Mott Haven,0 to 4 years,2011,Number,238,uhf107
+Hunts Point - Mott Haven,5 to 17 Years,2011,Number,219,uhf107
+Hunts Point - Mott Haven,5 to 17 Years,2011,Rate,74.3,uhf107
+Jamaica,0 to 4 years,2011,Number,157,uhf408
+Jamaica,0 to 4 years,2011,Rate,86,uhf408
+Jamaica,5 to 17 Years,2011,Number,110,uhf408
+Jamaica,5 to 17 Years,2011,Rate,21.9,uhf408
+Kingsbridge - Riverdale,0 to 4 years,2011,Rate,56.1,uhf101
+Kingsbridge - Riverdale,0 to 4 years,2011,Number,33,uhf101
+Kingsbridge - Riverdale,5 to 17 Years,2011,Number,32,uhf101
+Kingsbridge - Riverdale,5 to 17 Years,2011,Rate,26.5,uhf101
+Long Island City - Astoria,0 to 4 years,2011,Rate,33.7,uhf401
+Long Island City - Astoria,0 to 4 years,2011,Number,36,uhf401
+Long Island City - Astoria,5 to 17 Years,2011,Number,44,uhf401
+Long Island City - Astoria,5 to 17 Years,2011,Rate,20.4,uhf401
+Lower Manhattan,0 to 4 years,2011,Number,9,uhf310
+Lower Manhattan,0 to 4 years,2011,Rate,26,uhf310
+Lower Manhattan,5 to 17 Years,2011,Number,0,uhf310
+Lower Manhattan,5 to 17 Years,2011,Rate,12.6,uhf310
+Manhattan,0 to 4 years,2011,Rate,58.8,36061
+Manhattan,0 to 4 years,2011,Number,472,36061
+Manhattan,5 to 17 Years,2011,Number,431,36061
+Manhattan,5 to 17 Years,2011,Rate,27.5,36061
+New York City,0 to 4 years,2011,Rate,76.1,3651000
+New York City,0 to 4 years,2011,Number,4073,3651000
+New York City,5 to 17 Years,2011,Number,3652,3651000
+New York City,5 to 17 Years,2011,Rate,29.5,3651000
+Northeast Bronx,0 to 4 years,2011,Number,152,uhf102
+Northeast Bronx,0 to 4 years,2011,Rate,128.7,uhf102
+Northeast Bronx,5 to 17 Years,2011,Number,151,uhf102
+Northeast Bronx,5 to 17 Years,2011,Rate,44.7,uhf102
+Pelham - Throgs Neck,0 to 4 years,2011,Number,286,uhf104
+Pelham - Throgs Neck,0 to 4 years,2011,Rate,139.8,uhf104
+Pelham - Throgs Neck,5 to 17 Years,2011,Number,266,uhf104
+Pelham - Throgs Neck,5 to 17 Years,2011,Rate,51,uhf104
+Port  Richmond,0 to 4 years,2011,Rate,65.5,uhf501
+Port  Richmond,0 to 4 years,2011,Number,35,uhf501
+Port  Richmond,5 to 17 Years,2011,Number,30,uhf501
+Port  Richmond,5 to 17 Years,2011,Rate,22,uhf501
+Queens,0 to 4 years,2011,Number,731,36081
+Queens,0 to 4 years,2011,Rate,53.5,36081
+Queens,5 to 17 Years,2011,Number,578,36081
+Queens,5 to 17 Years,2011,Rate,17.7,36081
+Ridgewood - Forest Hills,0 to 4 years,2011,Rate,60.4,uhf405
+Ridgewood - Forest Hills,0 to 4 years,2011,Number,90,uhf405
+Ridgewood - Forest Hills,5 to 17 Years,2011,Number,59,uhf405
+Ridgewood - Forest Hills,5 to 17 Years,2011,Rate,18.3,uhf405
+Rockaway,0 to 4 years,2011,Number,64,uhf410
+Rockaway,0 to 4 years,2011,Rate,70.2,uhf410
+Rockaway,5 to 17 Years,2011,Number,68,uhf410
+Rockaway,5 to 17 Years,2011,Rate,30.5,uhf410
+South Beach - Tottenville,0 to 4 years,2011,Number,13,uhf504
+South Beach - Tottenville,0 to 4 years,2011,Rate,12.5,uhf504
+South Beach - Tottenville,5 to 17 Years,2011,Number,23,uhf504
+South Beach - Tottenville,5 to 17 Years,2011,Rate,7.1,uhf504
+Southeast Queens,0 to 4 years,2011,Rate,83.2,uhf409
+Southeast Queens,0 to 4 years,2011,Number,88,uhf409
+Southeast Queens,5 to 17 Years,2011,Number,69,uhf409
+Southeast Queens,5 to 17 Years,2011,Rate,21.4,uhf409
+Southwest Queens,0 to 4 years,2011,Rate,63.3,uhf407
+Southwest Queens,0 to 4 years,2011,Number,105,uhf407
+Southwest Queens,5 to 17 Years,2011,Number,65,uhf407
+Southwest Queens,5 to 17 Years,2011,Rate,13.8,uhf407
+Stapleton - St. George,0 to 4 years,2011,Number,30,uhf502
+Stapleton - St. George,0 to 4 years,2011,Rate,39,uhf502
+Stapleton - St. George,5 to 17 Years,2011,Number,33,uhf502
+Stapleton - St. George,5 to 17 Years,2011,Rate,16.2,uhf502
+Staten Island,0 to 4 years,2011,Rate,30.4,36085
+Staten Island,0 to 4 years,2011,Number,86,36085
+Staten Island,5 to 17 Years,2011,Number,97,36085
+Staten Island,5 to 17 Years,2011,Rate,12.2,36085
+Sunset Park,0 to 4 years,2011,Number,39,uhf205
+Sunset Park,0 to 4 years,2011,Rate,38.9,uhf205
+Sunset Park,5 to 17 Years,2011,Number,25,uhf205
+Sunset Park,5 to 17 Years,2011,Rate,12.6,uhf205
+Union Square - Lower East Side,0 to 4 years,2011,Rate,53.9,uhf309
+Union Square - Lower East Side,0 to 4 years,2011,Number,41,uhf309
+Union Square - Lower East Side,5 to 17 Years,2011,Number,26,uhf309
+Union Square - Lower East Side,5 to 17 Years,2011,Rate,16.1,uhf309
+Upper East Side,0 to 4 years,2011,Rate,28,uhf305
+Upper East Side,0 to 4 years,2011,Number,33,uhf305
+Upper East Side,5 to 17 Years,2011,Number,18,uhf305
+Upper East Side,5 to 17 Years,2011,Rate,9.2,uhf305
+Upper West Side,0 to 4 years,2011,Number,35,uhf304
+Upper West Side,0 to 4 years,2011,Rate,28.8,uhf304
+Upper West Side,5 to 17 Years,2011,Number,40,uhf304
+Upper West Side,5 to 17 Years,2011,Rate,20.3,uhf304
+Washington Heights - Inwood,0 to 4 years,2011,Rate,59.7,uhf301
+Washington Heights - Inwood,0 to 4 years,2011,Number,87,uhf301
+Washington Heights - Inwood,5 to 17 Years,2011,Number,77,uhf301
+Washington Heights - Inwood,5 to 17 Years,2011,Rate,21.8,uhf301
+West Queens,0 to 4 years,2011,Number,111,uhf402
+West Queens,0 to 4 years,2011,Rate,34,uhf402
+West Queens,5 to 17 Years,2011,Number,76,uhf402
+West Queens,5 to 17 Years,2011,Rate,11.7,uhf402
+Williamsburg - Bushwick,0 to 4 years,2011,Number,181,uhf211
+Williamsburg - Bushwick,0 to 4 years,2011,Rate,110.9,uhf211
+Williamsburg - Bushwick,5 to 17 Years,2011,Number,206,uhf211
+Williamsburg - Bushwick,5 to 17 Years,2011,Rate,52,uhf211
+Willowbrook,0 to 4 years,2011,Rate,16.4,uhf503
+Willowbrook,0 to 4 years,2011,Number,8,uhf503
+Willowbrook,5 to 17 Years,2011,Number,10,uhf503
+Willowbrook,5 to 17 Years,2011,Rate,7.5,uhf503
+Bayside - Little Neck,0 to 4 years,2012,Number,18,uhf404
+Bayside - Little Neck,0 to 4 years,2012,Rate,43.2,uhf404
+Bayside - Little Neck,5 to 17 Years,2012,Number,13,uhf404
+Bayside - Little Neck,5 to 17 Years,2012,Rate,10.3,uhf404
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2012,Number,291,uhf203
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2012,Rate,123.1,uhf203
+Bedford Stuyvesant - Crown Heights,5 to 17 Years,2012,Number,300,uhf203
+Bedford Stuyvesant - Crown Heights,5 to 17 Years,2012,Rate,55.7,uhf203
+Bensonhurst - Bay Ridge,0 to 4 years,2012,Number,24,uhf209
+Bensonhurst - Bay Ridge,0 to 4 years,2012,Rate,18.8,uhf209
+Bensonhurst - Bay Ridge,5 to 17 Years,2012,Number,20,uhf209
+Bensonhurst - Bay Ridge,5 to 17 Years,2012,Rate,7.1,uhf209
+Borough Park,0 to 4 years,2012,Rate,15.2,uhf206
+Borough Park,0 to 4 years,2012,Number,49,uhf206
+Borough Park,5 to 17 Years,2012,Number,41,uhf206
+Borough Park,5 to 17 Years,2012,Rate,6.2,uhf206
+Bronx,0 to 4 years,2012,Number,1601,36005
+Bronx,0 to 4 years,2012,Rate,148.8,36005
+Bronx,5 to 17 Years,2012,Number,1588,36005
+Bronx,5 to 17 Years,2012,Rate,61,36005
+Brooklyn,0 to 4 years,2012,Rate,64.1,36047
+Brooklyn,0 to 4 years,2012,Number,1202,36047
+Brooklyn,5 to 17 Years,2012,Number,1193,36047
+Brooklyn,5 to 17 Years,2012,Rate,29,36047
+Canarsie - Flatlands,0 to 4 years,2012,Rate,79.2,uhf208
+Canarsie - Flatlands,0 to 4 years,2012,Number,98,uhf208
+Canarsie - Flatlands,5 to 17 Years,2012,Number,93,uhf208
+Canarsie - Flatlands,5 to 17 Years,2012,Rate,26.9,uhf208
+Central Harlem - Morningside Heights,0 to 4 years,2012,Number,147,uhf302
+Central Harlem - Morningside Heights,0 to 4 years,2012,Rate,145.2,uhf302
+Central Harlem - Morningside Heights,5 to 17 Years,2012,Number,152,uhf302
+Central Harlem - Morningside Heights,5 to 17 Years,2012,Rate,62.1,uhf302
+Chelsea - Clinton,0 to 4 years,2012,Number,15,uhf306
+Chelsea - Clinton,0 to 4 years,2012,Rate,28.9,uhf306
+Chelsea - Clinton,5 to 17 Years,2012,Number,15,uhf306
+Chelsea - Clinton,5 to 17 Years,2012,Rate,21,uhf306
+Coney Island - Sheepshead Bay,0 to 4 years,2012,Rate,22.2,uhf210
+Coney Island - Sheepshead Bay,0 to 4 years,2012,Number,39,uhf210
+Coney Island - Sheepshead Bay,5 to 17 Years,2012,Number,46,uhf210
+Coney Island - Sheepshead Bay,5 to 17 Years,2012,Rate,11.7,uhf210
+Crotona - Tremont,0 to 4 years,2012,Rate,142.6,uhf105
+Crotona - Tremont,0 to 4 years,2012,Number,261,uhf105
+Crotona - Tremont,5 to 17 Years,2012,Number,263,uhf105
+Crotona - Tremont,5 to 17 Years,2012,Rate,59.4,uhf105
+Downtown  - Heights - Slope,0 to 4 years,2012,Rate,59.8,uhf202
+Downtown  - Heights - Slope,0 to 4 years,2012,Number,99,uhf202
+Downtown  - Heights - Slope,5 to 17 Years,2012,Number,72,uhf202
+Downtown  - Heights - Slope,5 to 17 Years,2012,Rate,26.9,uhf202
+East Flatbush - Flatbush,0 to 4 years,2012,Number,220,uhf207
+East Flatbush - Flatbush,0 to 4 years,2012,Rate,106.3,uhf207
+East Flatbush - Flatbush,5 to 17 Years,2012,Number,167,uhf207
+East Flatbush - Flatbush,5 to 17 Years,2012,Rate,35.1,uhf207
+East Harlem,0 to 4 years,2012,Rate,133.3,uhf303
+East Harlem,0 to 4 years,2012,Number,97,uhf303
+East Harlem,5 to 17 Years,2012,Number,106,uhf303
+East Harlem,5 to 17 Years,2012,Rate,62.4,uhf303
+East New York,0 to 4 years,2012,Rate,113,uhf204
+East New York,0 to 4 years,2012,Number,173,uhf204
+East New York,5 to 17 Years,2012,Number,156,uhf204
+East New York,5 to 17 Years,2012,Rate,41.3,uhf204
+Flushing - Clearview,0 to 4 years,2012,Rate,32.5,uhf403
+Flushing - Clearview,0 to 4 years,2012,Number,43,uhf403
+Flushing - Clearview,5 to 17 Years,2012,Number,25,uhf403
+Flushing - Clearview,5 to 17 Years,2012,Rate,8.2,uhf403
+Fordham - Bronx Park,0 to 4 years,2012,Rate,131.6,uhf103
+Fordham - Bronx Park,0 to 4 years,2012,Number,275,uhf103
+Fordham - Bronx Park,5 to 17 Years,2012,Number,284,uhf103
+Fordham - Bronx Park,5 to 17 Years,2012,Rate,60.8,uhf103
+Fresh Meadows,0 to 4 years,2012,Number,15,uhf406
+Fresh Meadows,0 to 4 years,2012,Rate,22.5,uhf406
+Fresh Meadows,5 to 17 Years,2012,Number,22,uhf406
+Fresh Meadows,5 to 17 Years,2012,Rate,15.3,uhf406
+Gramercy Park -  Murray Hill,0 to 4 years,2012,Rate,26.5,uhf307
+Gramercy Park -  Murray Hill,0 to 4 years,2012,Number,13,uhf307
+Gramercy Park -  Murray Hill,5 to 17 Years,2012,Number,0,uhf307
+Gramercy Park -  Murray Hill,5 to 17 Years,2012,Rate,12.8,uhf307
+Greenpoint,0 to 4 years,2012,Number,15,uhf201
+Greenpoint,0 to 4 years,2012,Rate,15.5,uhf201
+Greenpoint,5 to 17 Years,2012,Number,19,uhf201
+Greenpoint,5 to 17 Years,2012,Rate,10.3,uhf201
+Greenwich Village - Soho,0 to 4 years,2012,Number,7,uhf308
+Greenwich Village - Soho,0 to 4 years,2012,Rate,19.1,uhf308
+Greenwich Village - Soho,5 to 17 Years,2012,Number,0,uhf308
+Greenwich Village - Soho,5 to 17 Years,2012,Rate,5.7,uhf308
+High Bridge - Morrisania,0 to 4 years,2012,Number,296,uhf106
+High Bridge - Morrisania,0 to 4 years,2012,Rate,164.5,uhf106
+High Bridge - Morrisania,5 to 17 Years,2012,Number,275,uhf106
+High Bridge - Morrisania,5 to 17 Years,2012,Rate,62.5,uhf106
+Hunts Point - Mott Haven,0 to 4 years,2012,Rate,203.3,uhf107
+Hunts Point - Mott Haven,0 to 4 years,2012,Number,244,uhf107
+Hunts Point - Mott Haven,5 to 17 Years,2012,Number,257,uhf107
+Hunts Point - Mott Haven,5 to 17 Years,2012,Rate,87.6,uhf107
+Jamaica,0 to 4 years,2012,Number,153,uhf408
+Jamaica,0 to 4 years,2012,Rate,82.7,uhf408
+Jamaica,5 to 17 Years,2012,Number,104,uhf408
+Jamaica,5 to 17 Years,2012,Rate,21,uhf408
+Kingsbridge - Riverdale,0 to 4 years,2012,Rate,65.2,uhf101
+Kingsbridge - Riverdale,0 to 4 years,2012,Number,40,uhf101
+Kingsbridge - Riverdale,5 to 17 Years,2012,Number,27,uhf101
+Kingsbridge - Riverdale,5 to 17 Years,2012,Rate,22.4,uhf101
+Long Island City - Astoria,0 to 4 years,2012,Rate,31.3,uhf401
+Long Island City - Astoria,0 to 4 years,2012,Number,34,uhf401
+Long Island City - Astoria,5 to 17 Years,2012,Number,36,uhf401
+Long Island City - Astoria,5 to 17 Years,2012,Rate,16.6,uhf401
+Lower Manhattan,0 to 4 years,2012,Number,0,uhf310
+Lower Manhattan,0 to 4 years,2012,Rate,0,uhf310
+Lower Manhattan,5 to 17 Years,2012,Number,0,uhf310
+Lower Manhattan,5 to 17 Years,2012,Rate,9.9,uhf310
+Manhattan,0 to 4 years,2012,Number,477,36061
+Manhattan,0 to 4 years,2012,Rate,57.4,36061
+Manhattan,5 to 17 Years,2012,Number,462,36061
+Manhattan,5 to 17 Years,2012,Rate,29.5,36061
+New York City,0 to 4 years,2012,Rate,75.6,3651000
+New York City,0 to 4 years,2012,Number,4120,3651000
+New York City,5 to 17 Years,2012,Number,3947,3651000
+New York City,5 to 17 Years,2012,Rate,32,3651000
+Northeast Bronx,0 to 4 years,2012,Number,163,uhf102
+Northeast Bronx,0 to 4 years,2012,Rate,135.9,uhf102
+Northeast Bronx,5 to 17 Years,2012,Number,157,uhf102
+Northeast Bronx,5 to 17 Years,2012,Rate,47,uhf102
+Pelham - Throgs Neck,0 to 4 years,2012,Number,321,uhf104
+Pelham - Throgs Neck,0 to 4 years,2012,Rate,153.9,uhf104
+Pelham - Throgs Neck,5 to 17 Years,2012,Number,288,uhf104
+Pelham - Throgs Neck,5 to 17 Years,2012,Rate,55.4,uhf104
+Port  Richmond,0 to 4 years,2012,Rate,65.8,uhf501
+Port  Richmond,0 to 4 years,2012,Number,35,uhf501
+Port  Richmond,5 to 17 Years,2012,Number,44,uhf501
+Port  Richmond,5 to 17 Years,2012,Rate,32.6,uhf501
+Queens,0 to 4 years,2012,Rate,53.2,36081
+Queens,0 to 4 years,2012,Number,737,36081
+Queens,5 to 17 Years,2012,Number,600,36081
+Queens,5 to 17 Years,2012,Rate,18.4,36081
+Ridgewood - Forest Hills,0 to 4 years,2012,Rate,46.9,uhf405
+Ridgewood - Forest Hills,0 to 4 years,2012,Number,71,uhf405
+Ridgewood - Forest Hills,5 to 17 Years,2012,Number,75,uhf405
+Ridgewood - Forest Hills,5 to 17 Years,2012,Rate,23.2,uhf405
+Rockaway,0 to 4 years,2012,Number,42,uhf410
+Rockaway,0 to 4 years,2012,Rate,45.4,uhf410
+Rockaway,5 to 17 Years,2012,Number,44,uhf410
+Rockaway,5 to 17 Years,2012,Rate,19.9,uhf410
+South Beach - Tottenville,0 to 4 years,2012,Number,15,uhf504
+South Beach - Tottenville,0 to 4 years,2012,Rate,14.6,uhf504
+South Beach - Tottenville,5 to 17 Years,2012,Number,23,uhf504
+South Beach - Tottenville,5 to 17 Years,2012,Rate,7.2,uhf504
+Southeast Queens,0 to 4 years,2012,Rate,78.4,uhf409
+Southeast Queens,0 to 4 years,2012,Number,84,uhf409
+Southeast Queens,5 to 17 Years,2012,Number,92,uhf409
+Southeast Queens,5 to 17 Years,2012,Rate,28.9,uhf409
+Southwest Queens,0 to 4 years,2012,Rate,79.1,uhf407
+Southwest Queens,0 to 4 years,2012,Number,133,uhf407
+Southwest Queens,5 to 17 Years,2012,Number,85,uhf407
+Southwest Queens,5 to 17 Years,2012,Rate,18.1,uhf407
+Stapleton - St. George,0 to 4 years,2012,Number,39,uhf502
+Stapleton - St. George,0 to 4 years,2012,Rate,51.2,uhf502
+Stapleton - St. George,5 to 17 Years,2012,Number,26,uhf502
+Stapleton - St. George,5 to 17 Years,2012,Rate,12.9,uhf502
+Staten Island,0 to 4 years,2012,Number,103,36085
+Staten Island,0 to 4 years,2012,Rate,36.8,36085
+Staten Island,5 to 17 Years,2012,Number,104,36085
+Staten Island,5 to 17 Years,2012,Rate,13.2,36085
+Sunset Park,0 to 4 years,2012,Number,27,uhf205
+Sunset Park,0 to 4 years,2012,Rate,26.3,uhf205
+Sunset Park,5 to 17 Years,2012,Number,30,uhf205
+Sunset Park,5 to 17 Years,2012,Rate,15.1,uhf205
+Union Square - Lower East Side,0 to 4 years,2012,Rate,56.4,uhf309
+Union Square - Lower East Side,0 to 4 years,2012,Number,45,uhf309
+Union Square - Lower East Side,5 to 17 Years,2012,Number,32,uhf309
+Union Square - Lower East Side,5 to 17 Years,2012,Rate,19.8,uhf309
+Upper East Side,0 to 4 years,2012,Rate,28.7,uhf305
+Upper East Side,0 to 4 years,2012,Number,35,uhf305
+Upper East Side,5 to 17 Years,2012,Number,18,uhf305
+Upper East Side,5 to 17 Years,2012,Rate,9.1,uhf305
+Upper West Side,0 to 4 years,2012,Number,28,uhf304
+Upper West Side,0 to 4 years,2012,Rate,22.3,uhf304
+Upper West Side,5 to 17 Years,2012,Number,29,uhf304
+Upper West Side,5 to 17 Years,2012,Rate,14.5,uhf304
+Washington Heights - Inwood,0 to 4 years,2012,Rate,56.9,uhf301
+Washington Heights - Inwood,0 to 4 years,2012,Number,86,uhf301
+Washington Heights - Inwood,5 to 17 Years,2012,Number,74,uhf301
+Washington Heights - Inwood,5 to 17 Years,2012,Rate,21.2,uhf301
+West Queens,0 to 4 years,2012,Number,143,uhf402
+West Queens,0 to 4 years,2012,Rate,43.1,uhf402
+West Queens,5 to 17 Years,2012,Number,91,uhf402
+West Queens,5 to 17 Years,2012,Rate,14,uhf402
+Williamsburg - Bushwick,0 to 4 years,2012,Number,166,uhf211
+Williamsburg - Bushwick,0 to 4 years,2012,Rate,99.7,uhf211
+Williamsburg - Bushwick,5 to 17 Years,2012,Number,221,uhf211
+Williamsburg - Bushwick,5 to 17 Years,2012,Rate,56.4,uhf211
+Willowbrook,0 to 4 years,2012,Rate,29.1,uhf503
+Willowbrook,0 to 4 years,2012,Number,14,uhf503
+Willowbrook,5 to 17 Years,2012,Number,0,uhf503
+Willowbrook,5 to 17 Years,2012,Rate,6.8,uhf503
+Bayside - Little Neck,0 to 4 years,2013,Number,12,uhf404
+Bayside - Little Neck,0 to 4 years,2013,Rate,27.1,uhf404
+Bayside - Little Neck,5 to 17 Years,2013,Number,0,uhf404
+Bayside - Little Neck,5 to 17 Years,2013,Rate,7.1,uhf404
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2013,Number,295,uhf203
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2013,Rate,127.7,uhf203
+Bedford Stuyvesant - Crown Heights,5 to 17 Years,2013,Number,286,uhf203
+Bedford Stuyvesant - Crown Heights,5 to 17 Years,2013,Rate,54.1,uhf203
+Bensonhurst - Bay Ridge,0 to 4 years,2013,Number,15,uhf209
+Bensonhurst - Bay Ridge,0 to 4 years,2013,Rate,10.7,uhf209
+Bensonhurst - Bay Ridge,5 to 17 Years,2013,Number,15,uhf209
+Bensonhurst - Bay Ridge,5 to 17 Years,2013,Rate,5.3,uhf209
+Borough Park,0 to 4 years,2013,Rate,11.8,uhf206
+Borough Park,0 to 4 years,2013,Number,41,uhf206
+Borough Park,5 to 17 Years,2013,Number,29,uhf206
+Borough Park,5 to 17 Years,2013,Rate,4.4,uhf206
+Bronx,0 to 4 years,2013,Rate,145.9,36005
+Bronx,0 to 4 years,2013,Number,1574,36005
+Bronx,5 to 17 Years,2013,Number,1592,36005
+Bronx,5 to 17 Years,2013,Rate,61.4,36005
+Brooklyn,0 to 4 years,2013,Number,1107,36047
+Brooklyn,0 to 4 years,2013,Rate,56.9,36047
+Brooklyn,5 to 17 Years,2013,Number,1126,36047
+Brooklyn,5 to 17 Years,2013,Rate,27.4,36047
+Canarsie - Flatlands,0 to 4 years,2013,Rate,86.9,uhf208
+Canarsie - Flatlands,0 to 4 years,2013,Number,106,uhf208
+Canarsie - Flatlands,5 to 17 Years,2013,Number,85,uhf208
+Canarsie - Flatlands,5 to 17 Years,2013,Rate,24.9,uhf208
+Central Harlem - Morningside Heights,0 to 4 years,2013,Number,131,uhf302
+Central Harlem - Morningside Heights,0 to 4 years,2013,Rate,127.2,uhf302
+Central Harlem - Morningside Heights,5 to 17 Years,2013,Number,145,uhf302
+Central Harlem - Morningside Heights,5 to 17 Years,2013,Rate,60.1,uhf302
+Chelsea - Clinton,0 to 4 years,2013,Number,11,uhf306
+Chelsea - Clinton,0 to 4 years,2013,Rate,21,uhf306
+Chelsea - Clinton,5 to 17 Years,2013,Number,10,uhf306
+Chelsea - Clinton,5 to 17 Years,2013,Rate,13.8,uhf306
+Coney Island - Sheepshead Bay,0 to 4 years,2013,Rate,19.1,uhf210
+Coney Island - Sheepshead Bay,0 to 4 years,2013,Number,36,uhf210
+Coney Island - Sheepshead Bay,5 to 17 Years,2013,Number,38,uhf210
+Coney Island - Sheepshead Bay,5 to 17 Years,2013,Rate,9.6,uhf210
+Crotona - Tremont,0 to 4 years,2013,Rate,151.1,uhf105
+Crotona - Tremont,0 to 4 years,2013,Number,277,uhf105
+Crotona - Tremont,5 to 17 Years,2013,Number,282,uhf105
+Crotona - Tremont,5 to 17 Years,2013,Rate,63.9,uhf105
+Downtown  - Heights - Slope,0 to 4 years,2013,Rate,38.8,uhf202
+Downtown  - Heights - Slope,0 to 4 years,2013,Number,68,uhf202
+Downtown  - Heights - Slope,5 to 17 Years,2013,Number,62,uhf202
+Downtown  - Heights - Slope,5 to 17 Years,2013,Rate,22.9,uhf202
+East Flatbush - Flatbush,0 to 4 years,2013,Number,213,uhf207
+East Flatbush - Flatbush,0 to 4 years,2013,Rate,105.2,uhf207
+East Flatbush - Flatbush,5 to 17 Years,2013,Number,196,uhf207
+East Flatbush - Flatbush,5 to 17 Years,2013,Rate,41.8,uhf207
+East Harlem,0 to 4 years,2013,Rate,140.4,uhf303
+East Harlem,0 to 4 years,2013,Number,104,uhf303
+East Harlem,5 to 17 Years,2013,Number,118,uhf303
+East Harlem,5 to 17 Years,2013,Rate,70.4,uhf303
+East New York,0 to 4 years,2013,Rate,109,uhf204
+East New York,0 to 4 years,2013,Number,166,uhf204
+East New York,5 to 17 Years,2013,Number,180,uhf204
+East New York,5 to 17 Years,2013,Rate,48.5,uhf204
+Flushing - Clearview,0 to 4 years,2013,Rate,29.8,uhf403
+Flushing - Clearview,0 to 4 years,2013,Number,42,uhf403
+Flushing - Clearview,5 to 17 Years,2013,Number,40,uhf403
+Flushing - Clearview,5 to 17 Years,2013,Rate,13.1,uhf403
+Fordham - Bronx Park,0 to 4 years,2013,Rate,138.6,uhf103
+Fordham - Bronx Park,0 to 4 years,2013,Number,291,uhf103
+Fordham - Bronx Park,5 to 17 Years,2013,Number,298,uhf103
+Fordham - Bronx Park,5 to 17 Years,2013,Rate,64,uhf103
+Fresh Meadows,0 to 4 years,2013,Number,28,uhf406
+Fresh Meadows,0 to 4 years,2013,Rate,40.2,uhf406
+Fresh Meadows,5 to 17 Years,2013,Number,21,uhf406
+Fresh Meadows,5 to 17 Years,2013,Rate,14.6,uhf406
+Gramercy Park -  Murray Hill,0 to 4 years,2013,Rate,32.4,uhf307
+Gramercy Park -  Murray Hill,0 to 4 years,2013,Number,16,uhf307
+Gramercy Park -  Murray Hill,5 to 17 Years,2013,Number,0,uhf307
+Gramercy Park -  Murray Hill,5 to 17 Years,2013,Rate,12.6,uhf307
+Greenpoint,0 to 4 years,2013,Number,14,uhf201
+Greenpoint,0 to 4 years,2013,Rate,13.6,uhf201
+Greenpoint,5 to 17 Years,2013,Number,12,uhf201
+Greenpoint,5 to 17 Years,2013,Rate,6.4,uhf201
+Greenwich Village - Soho,0 to 4 years,2013,Number,6,uhf308
+Greenwich Village - Soho,0 to 4 years,2013,Rate,16.3,uhf308
+Greenwich Village - Soho,5 to 17 Years,2013,Number,0,uhf308
+Greenwich Village - Soho,5 to 17 Years,2013,Rate,0,uhf308
+High Bridge - Morrisania,0 to 4 years,2013,Number,343,uhf106
+High Bridge - Morrisania,0 to 4 years,2013,Rate,190.6,uhf106
+High Bridge - Morrisania,5 to 17 Years,2013,Number,284,uhf106
+High Bridge - Morrisania,5 to 17 Years,2013,Rate,64.9,uhf106
+Hunts Point - Mott Haven,0 to 4 years,2013,Rate,177.1,uhf107
+Hunts Point - Mott Haven,0 to 4 years,2013,Number,213,uhf107
+Hunts Point - Mott Haven,5 to 17 Years,2013,Number,240,uhf107
+Hunts Point - Mott Haven,5 to 17 Years,2013,Rate,82.1,uhf107
+Jamaica,0 to 4 years,2013,Number,166,uhf408
+Jamaica,0 to 4 years,2013,Rate,88.8,uhf408
+Jamaica,5 to 17 Years,2013,Number,122,uhf408
+Jamaica,5 to 17 Years,2013,Rate,24.8,uhf408
+Kingsbridge - Riverdale,0 to 4 years,2013,Rate,41.8,uhf101
+Kingsbridge - Riverdale,0 to 4 years,2013,Number,26,uhf101
+Kingsbridge - Riverdale,5 to 17 Years,2013,Number,46,uhf101
+Kingsbridge - Riverdale,5 to 17 Years,2013,Rate,38.3,uhf101
+Long Island City - Astoria,0 to 4 years,2013,Rate,22.1,uhf401
+Long Island City - Astoria,0 to 4 years,2013,Number,25,uhf401
+Long Island City - Astoria,5 to 17 Years,2013,Number,41,uhf401
+Long Island City - Astoria,5 to 17 Years,2013,Rate,18.8,uhf401
+Lower Manhattan,0 to 4 years,2013,Number,4,uhf310
+Lower Manhattan,0 to 4 years,2013,Rate,11,uhf310
+Lower Manhattan,5 to 17 Years,2013,Number,0,uhf310
+Lower Manhattan,5 to 17 Years,2013,Rate,7.3,uhf310
+Manhattan,0 to 4 years,2013,Rate,53.1,36061
+Manhattan,0 to 4 years,2013,Number,446,36061
+Manhattan,5 to 17 Years,2013,Number,455,36061
+Manhattan,5 to 17 Years,2013,Rate,29.1,36061
+New York City,0 to 4 years,2013,Rate,69.4,3651000
+New York City,0 to 4 years,2013,Number,3869,3651000
+New York City,5 to 17 Years,2013,Number,3869,3651000
+New York City,5 to 17 Years,2013,Rate,31.5,3651000
+Northeast Bronx,0 to 4 years,2013,Number,147,uhf102
+Northeast Bronx,0 to 4 years,2013,Rate,123.4,uhf102
+Northeast Bronx,5 to 17 Years,2013,Number,172,uhf102
+Northeast Bronx,5 to 17 Years,2013,Rate,52,uhf102
+Pelham - Throgs Neck,0 to 4 years,2013,Number,277,uhf104
+Pelham - Throgs Neck,0 to 4 years,2013,Rate,131.9,uhf104
+Pelham - Throgs Neck,5 to 17 Years,2013,Number,238,uhf104
+Pelham - Throgs Neck,5 to 17 Years,2013,Rate,46,uhf104
+Port  Richmond,0 to 4 years,2013,Rate,56.8,uhf501
+Port  Richmond,0 to 4 years,2013,Number,30,uhf501
+Port  Richmond,5 to 17 Years,2013,Number,34,uhf501
+Port  Richmond,5 to 17 Years,2013,Rate,25.3,uhf501
+Queens,0 to 4 years,2013,Rate,45.1,36081
+Queens,0 to 4 years,2013,Number,648,36081
+Queens,5 to 17 Years,2013,Number,591,36081
+Queens,5 to 17 Years,2013,Rate,18.2,36081
+Ridgewood - Forest Hills,0 to 4 years,2013,Rate,29.2,uhf405
+Ridgewood - Forest Hills,0 to 4 years,2013,Number,46,uhf405
+Ridgewood - Forest Hills,5 to 17 Years,2013,Number,41,uhf405
+Ridgewood - Forest Hills,5 to 17 Years,2013,Rate,12.6,uhf405
+Rockaway,0 to 4 years,2013,Number,46,uhf410
+Rockaway,0 to 4 years,2013,Rate,49.5,uhf410
+Rockaway,5 to 17 Years,2013,Number,40,uhf410
+Rockaway,5 to 17 Years,2013,Rate,18.2,uhf410
+South Beach - Tottenville,0 to 4 years,2013,Number,17,uhf504
+South Beach - Tottenville,0 to 4 years,2013,Rate,16.9,uhf504
+South Beach - Tottenville,5 to 17 Years,2013,Number,22,uhf504
+South Beach - Tottenville,5 to 17 Years,2013,Rate,6.9,uhf504
+Southeast Queens,0 to 4 years,2013,Rate,68.4,uhf409
+Southeast Queens,0 to 4 years,2013,Number,74,uhf409
+Southeast Queens,5 to 17 Years,2013,Number,84,uhf409
+Southeast Queens,5 to 17 Years,2013,Rate,26.7,uhf409
+Southwest Queens,0 to 4 years,2013,Rate,57.8,uhf407
+Southwest Queens,0 to 4 years,2013,Number,101,uhf407
+Southwest Queens,5 to 17 Years,2013,Number,80,uhf407
+Southwest Queens,5 to 17 Years,2013,Rate,17,uhf407
+Stapleton - St. George,0 to 4 years,2013,Number,35,uhf502
+Stapleton - St. George,0 to 4 years,2013,Rate,46.3,uhf502
+Stapleton - St. George,5 to 17 Years,2013,Number,42,uhf502
+Stapleton - St. George,5 to 17 Years,2013,Rate,20.9,uhf502
+Staten Island,0 to 4 years,2013,Number,94,36085
+Staten Island,0 to 4 years,2013,Rate,34,36085
+Staten Island,5 to 17 Years,2013,Number,105,36085
+Staten Island,5 to 17 Years,2013,Rate,13.4,36085
+Sunset Park,0 to 4 years,2013,Number,25,uhf205
+Sunset Park,0 to 4 years,2013,Rate,22.1,uhf205
+Sunset Park,5 to 17 Years,2013,Number,38,uhf205
+Sunset Park,5 to 17 Years,2013,Rate,19.1,uhf205
+Union Square - Lower East Side,0 to 4 years,2013,Rate,39.5,uhf309
+Union Square - Lower East Side,0 to 4 years,2013,Number,32,uhf309
+Union Square - Lower East Side,5 to 17 Years,2013,Number,35,uhf309
+Union Square - Lower East Side,5 to 17 Years,2013,Rate,21.8,uhf309
+Upper East Side,0 to 4 years,2013,Rate,23,uhf305
+Upper East Side,0 to 4 years,2013,Number,28,uhf305
+Upper East Side,5 to 17 Years,2013,Number,13,uhf305
+Upper East Side,5 to 17 Years,2013,Rate,6.5,uhf305
+Upper West Side,0 to 4 years,2013,Number,37,uhf304
+Upper West Side,0 to 4 years,2013,Rate,29.5,uhf304
+Upper West Side,5 to 17 Years,2013,Number,19,uhf304
+Upper West Side,5 to 17 Years,2013,Rate,9.4,uhf304
+Washington Heights - Inwood,0 to 4 years,2013,Rate,49.5,uhf301
+Washington Heights - Inwood,0 to 4 years,2013,Number,76,uhf301
+Washington Heights - Inwood,5 to 17 Years,2013,Number,85,uhf301
+Washington Heights - Inwood,5 to 17 Years,2013,Rate,24.6,uhf301
+West Queens,0 to 4 years,2013,Number,103,uhf402
+West Queens,0 to 4 years,2013,Rate,29.6,uhf402
+West Queens,5 to 17 Years,2013,Number,99,uhf402
+West Queens,5 to 17 Years,2013,Rate,15.2,uhf402
+Williamsburg - Bushwick,0 to 4 years,2013,Number,124,uhf211
+Williamsburg - Bushwick,0 to 4 years,2013,Rate,73.1,uhf211
+Williamsburg - Bushwick,5 to 17 Years,2013,Number,168,uhf211
+Williamsburg - Bushwick,5 to 17 Years,2013,Rate,43.3,uhf211
+Willowbrook,0 to 4 years,2013,Rate,25.4,uhf503
+Willowbrook,0 to 4 years,2013,Number,12,uhf503
+Willowbrook,5 to 17 Years,2013,Number,0,uhf503
+Willowbrook,5 to 17 Years,2013,Rate,0.8,uhf503
+Bayside - Little Neck,0 to 4 years,2014,Number,8,uhf404
+Bayside - Little Neck,0 to 4 years,2014,Rate,17.8,uhf404
+Bayside - Little Neck,5 to 17 Years,2014,Number,13,uhf404
+Bayside - Little Neck,5 to 17 Years,2014,Rate,10.2,uhf404
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2014,Number,296,uhf203
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2014,Rate,122.5,uhf203
+Bedford Stuyvesant - Crown Heights,5 to 17 Years,2014,Number,311,uhf203
+Bedford Stuyvesant - Crown Heights,5 to 17 Years,2014,Rate,59.9,uhf203
+Bensonhurst - Bay Ridge,0 to 4 years,2014,Number,17,uhf209
+Bensonhurst - Bay Ridge,0 to 4 years,2014,Rate,12,uhf209
+Bensonhurst - Bay Ridge,5 to 17 Years,2014,Number,0,uhf209
+Bensonhurst - Bay Ridge,5 to 17 Years,2014,Rate,2.4,uhf209
+Borough Park,0 to 4 years,2014,Rate,10.5,uhf206
+Borough Park,0 to 4 years,2014,Number,37,uhf206
+Borough Park,5 to 17 Years,2014,Number,36,uhf206
+Borough Park,5 to 17 Years,2014,Rate,5.3,uhf206
+Bronx,0 to 4 years,2014,Rate,144,36005
+Bronx,0 to 4 years,2014,Number,1569,36005
+Bronx,5 to 17 Years,2014,Number,1691,36005
+Bronx,5 to 17 Years,2014,Rate,65.6,36005
+Brooklyn,0 to 4 years,2014,Number,1147,36047
+Brooklyn,0 to 4 years,2014,Rate,57.5,36047
+Brooklyn,5 to 17 Years,2014,Number,1155,36047
+Brooklyn,5 to 17 Years,2014,Rate,28.2,36047
+Canarsie - Flatlands,0 to 4 years,2014,Rate,70,uhf208
+Canarsie - Flatlands,0 to 4 years,2014,Number,89,uhf208
+Canarsie - Flatlands,5 to 17 Years,2014,Number,70,uhf208
+Canarsie - Flatlands,5 to 17 Years,2014,Rate,20.8,uhf208
+Central Harlem - Morningside Heights,0 to 4 years,2014,Number,112,uhf302
+Central Harlem - Morningside Heights,0 to 4 years,2014,Rate,107.5,uhf302
+Central Harlem - Morningside Heights,5 to 17 Years,2014,Number,121,uhf302
+Central Harlem - Morningside Heights,5 to 17 Years,2014,Rate,51,uhf302
+Chelsea - Clinton,0 to 4 years,2014,Number,12,uhf306
+Chelsea - Clinton,0 to 4 years,2014,Rate,22.6,uhf306
+Chelsea - Clinton,5 to 17 Years,2014,Number,20,uhf306
+Chelsea - Clinton,5 to 17 Years,2014,Rate,27.3,uhf306
+Coney Island - Sheepshead Bay,0 to 4 years,2014,Rate,23.1,uhf210
+Coney Island - Sheepshead Bay,0 to 4 years,2014,Number,44,uhf210
+Coney Island - Sheepshead Bay,5 to 17 Years,2014,Number,38,uhf210
+Coney Island - Sheepshead Bay,5 to 17 Years,2014,Rate,9.5,uhf210
+Crotona - Tremont,0 to 4 years,2014,Rate,146.4,uhf105
+Crotona - Tremont,0 to 4 years,2014,Number,271,uhf105
+Crotona - Tremont,5 to 17 Years,2014,Number,296,uhf105
+Crotona - Tremont,5 to 17 Years,2014,Rate,67.6,uhf105
+Downtown  - Heights - Slope,0 to 4 years,2014,Rate,37,uhf202
+Downtown  - Heights - Slope,0 to 4 years,2014,Number,66,uhf202
+Downtown  - Heights - Slope,5 to 17 Years,2014,Number,55,uhf202
+Downtown  - Heights - Slope,5 to 17 Years,2014,Rate,20.1,uhf202
+East Flatbush - Flatbush,0 to 4 years,2014,Number,231,uhf207
+East Flatbush - Flatbush,0 to 4 years,2014,Rate,109.2,uhf207
+East Flatbush - Flatbush,5 to 17 Years,2014,Number,229,uhf207
+East Flatbush - Flatbush,5 to 17 Years,2014,Rate,49.7,uhf207
+East Harlem,0 to 4 years,2014,Rate,170.8,uhf303
+East Harlem,0 to 4 years,2014,Number,129,uhf303
+East Harlem,5 to 17 Years,2014,Number,110,uhf303
+East Harlem,5 to 17 Years,2014,Rate,66.4,uhf303
+East New York,0 to 4 years,2014,Rate,112.4,uhf204
+East New York,0 to 4 years,2014,Number,178,uhf204
+East New York,5 to 17 Years,2014,Number,188,uhf204
+East New York,5 to 17 Years,2014,Rate,51.5,uhf204
+Flushing - Clearview,0 to 4 years,2014,Rate,32.1,uhf403
+Flushing - Clearview,0 to 4 years,2014,Number,46,uhf403
+Flushing - Clearview,5 to 17 Years,2014,Number,29,uhf403
+Flushing - Clearview,5 to 17 Years,2014,Rate,9.5,uhf403
+Fordham - Bronx Park,0 to 4 years,2014,Rate,142.8,uhf103
+Fordham - Bronx Park,0 to 4 years,2014,Number,303,uhf103
+Fordham - Bronx Park,5 to 17 Years,2014,Number,345,uhf103
+Fordham - Bronx Park,5 to 17 Years,2014,Rate,74.5,uhf103
+Fresh Meadows,0 to 4 years,2014,Number,20,uhf406
+Fresh Meadows,0 to 4 years,2014,Rate,28.3,uhf406
+Fresh Meadows,5 to 17 Years,2014,Number,14,uhf406
+Fresh Meadows,5 to 17 Years,2014,Rate,9.7,uhf406
+Gramercy Park -  Murray Hill,0 to 4 years,2014,Rate,28,uhf307
+Gramercy Park -  Murray Hill,0 to 4 years,2014,Number,14,uhf307
+Gramercy Park -  Murray Hill,5 to 17 Years,2014,Number,0,uhf307
+Gramercy Park -  Murray Hill,5 to 17 Years,2014,Rate,14.2,uhf307
+Greenpoint,0 to 4 years,2014,Number,25,uhf201
+Greenpoint,0 to 4 years,2014,Rate,24.3,uhf201
+Greenpoint,5 to 17 Years,2014,Number,21,uhf201
+Greenpoint,5 to 17 Years,2014,Rate,10.9,uhf201
+Greenwich Village - Soho,0 to 4 years,2014,Number,4,uhf308
+Greenwich Village - Soho,0 to 4 years,2014,Rate,10.7,uhf308
+Greenwich Village - Soho,5 to 17 Years,2014,Number,0,uhf308
+Greenwich Village - Soho,5 to 17 Years,2014,Rate,7.4,uhf308
+High Bridge - Morrisania,0 to 4 years,2014,Number,323,uhf106
+High Bridge - Morrisania,0 to 4 years,2014,Rate,177.8,uhf106
+High Bridge - Morrisania,5 to 17 Years,2014,Number,301,uhf106
+High Bridge - Morrisania,5 to 17 Years,2014,Rate,69.3,uhf106
+Hunts Point - Mott Haven,0 to 4 years,2014,Rate,197.4,uhf107
+Hunts Point - Mott Haven,0 to 4 years,2014,Number,240,uhf107
+Hunts Point - Mott Haven,5 to 17 Years,2014,Number,238,uhf107
+Hunts Point - Mott Haven,5 to 17 Years,2014,Rate,82,uhf107
+Jamaica,0 to 4 years,2014,Number,153,uhf408
+Jamaica,0 to 4 years,2014,Rate,79.9,uhf408
+Jamaica,5 to 17 Years,2014,Number,123,uhf408
+Jamaica,5 to 17 Years,2014,Rate,25.3,uhf408
+Kingsbridge - Riverdale,0 to 4 years,2014,Rate,39.8,uhf101
+Kingsbridge - Riverdale,0 to 4 years,2014,Number,25,uhf101
+Kingsbridge - Riverdale,5 to 17 Years,2014,Number,46,uhf101
+Kingsbridge - Riverdale,5 to 17 Years,2014,Rate,38.5,uhf101
+Long Island City - Astoria,0 to 4 years,2014,Rate,14.8,uhf401
+Long Island City - Astoria,0 to 4 years,2014,Number,17,uhf401
+Long Island City - Astoria,5 to 17 Years,2014,Number,50,uhf401
+Long Island City - Astoria,5 to 17 Years,2014,Rate,22.8,uhf401
+Lower Manhattan,0 to 4 years,2014,Number,2,uhf310
+Lower Manhattan,0 to 4 years,2014,Rate,5.4,uhf310
+Lower Manhattan,5 to 17 Years,2014,Number,0,uhf310
+Lower Manhattan,5 to 17 Years,2014,Rate,19,uhf310
+Manhattan,0 to 4 years,2014,Rate,53.9,36061
+Manhattan,0 to 4 years,2014,Number,460,36061
+Manhattan,5 to 17 Years,2014,Number,482,36061
+Manhattan,5 to 17 Years,2014,Rate,30.9,36061
+New York City,0 to 4 years,2014,Rate,69.1,3651000
+New York City,0 to 4 years,2014,Number,3922,3651000
+New York City,5 to 17 Years,2014,Number,4106,3651000
+New York City,5 to 17 Years,2014,Rate,33.5,3651000
+Northeast Bronx,0 to 4 years,2014,Number,138,uhf102
+Northeast Bronx,0 to 4 years,2014,Rate,115.3,uhf102
+Northeast Bronx,5 to 17 Years,2014,Number,186,uhf102
+Northeast Bronx,5 to 17 Years,2014,Rate,56.6,uhf102
+Pelham - Throgs Neck,0 to 4 years,2014,Number,269,uhf104
+Pelham - Throgs Neck,0 to 4 years,2014,Rate,126.7,uhf104
+Pelham - Throgs Neck,5 to 17 Years,2014,Number,252,uhf104
+Pelham - Throgs Neck,5 to 17 Years,2014,Rate,48.9,uhf104
+Port  Richmond,0 to 4 years,2014,Rate,45.5,uhf501
+Port  Richmond,0 to 4 years,2014,Number,24,uhf501
+Port  Richmond,5 to 17 Years,2014,Number,43,uhf501
+Port  Richmond,5 to 17 Years,2014,Rate,32.3,uhf501
+Queens,0 to 4 years,2014,Number,654,36081
+Queens,0 to 4 years,2014,Rate,44.7,36081
+Queens,5 to 17 Years,2014,Number,663,36081
+Queens,5 to 17 Years,2014,Rate,20.4,36081
+Ridgewood - Forest Hills,0 to 4 years,2014,Rate,40.7,uhf405
+Ridgewood - Forest Hills,0 to 4 years,2014,Number,65,uhf405
+Ridgewood - Forest Hills,5 to 17 Years,2014,Number,44,uhf405
+Ridgewood - Forest Hills,5 to 17 Years,2014,Rate,13.5,uhf405
+Rockaway,0 to 4 years,2014,Number,50,uhf410
+Rockaway,0 to 4 years,2014,Rate,52.8,uhf410
+Rockaway,5 to 17 Years,2014,Number,50,uhf410
+Rockaway,5 to 17 Years,2014,Rate,23,uhf410
+South Beach - Tottenville,0 to 4 years,2014,Number,21,uhf504
+South Beach - Tottenville,0 to 4 years,2014,Rate,21,uhf504
+South Beach - Tottenville,5 to 17 Years,2014,Number,19,uhf504
+South Beach - Tottenville,5 to 17 Years,2014,Rate,6.1,uhf504
+Southeast Queens,0 to 4 years,2014,Rate,56.8,uhf409
+Southeast Queens,0 to 4 years,2014,Number,63,uhf409
+Southeast Queens,5 to 17 Years,2014,Number,99,uhf409
+Southeast Queens,5 to 17 Years,2014,Rate,31.9,uhf409
+Southwest Queens,0 to 4 years,2014,Rate,61.1,uhf407
+Southwest Queens,0 to 4 years,2014,Number,109,uhf407
+Southwest Queens,5 to 17 Years,2014,Number,100,uhf407
+Southwest Queens,5 to 17 Years,2014,Rate,21.2,uhf407
+Stapleton - St. George,0 to 4 years,2014,Number,36,uhf502
+Stapleton - St. George,0 to 4 years,2014,Rate,47.8,uhf502
+Stapleton - St. George,5 to 17 Years,2014,Number,44,uhf502
+Stapleton - St. George,5 to 17 Years,2014,Rate,22.1,uhf502
+Staten Island,0 to 4 years,2014,Rate,33.4,36085
+Staten Island,0 to 4 years,2014,Number,92,36085
+Staten Island,5 to 17 Years,2014,Number,115,36085
+Staten Island,5 to 17 Years,2014,Rate,14.8,36085
+Sunset Park,0 to 4 years,2014,Number,30,uhf205
+Sunset Park,0 to 4 years,2014,Rate,25.9,uhf205
+Sunset Park,5 to 17 Years,2014,Number,24,uhf205
+Sunset Park,5 to 17 Years,2014,Rate,12,uhf205
+Union Square - Lower East Side,0 to 4 years,2014,Rate,31.2,uhf309
+Union Square - Lower East Side,0 to 4 years,2014,Number,26,uhf309
+Union Square - Lower East Side,5 to 17 Years,2014,Number,31,uhf309
+Union Square - Lower East Side,5 to 17 Years,2014,Rate,19.3,uhf309
+Upper East Side,0 to 4 years,2014,Rate,14.6,uhf305
+Upper East Side,0 to 4 years,2014,Number,18,uhf305
+Upper East Side,5 to 17 Years,2014,Number,22,uhf305
+Upper East Side,5 to 17 Years,2014,Rate,10.8,uhf305
+Upper West Side,0 to 4 years,2014,Number,36,uhf304
+Upper West Side,0 to 4 years,2014,Rate,28.4,uhf304
+Upper West Side,5 to 17 Years,2014,Number,28,uhf304
+Upper West Side,5 to 17 Years,2014,Rate,13.8,uhf304
+Washington Heights - Inwood,0 to 4 years,2014,Rate,66.9,uhf301
+Washington Heights - Inwood,0 to 4 years,2014,Number,105,uhf301
+Washington Heights - Inwood,5 to 17 Years,2014,Number,112,uhf301
+Washington Heights - Inwood,5 to 17 Years,2014,Rate,32.8,uhf301
+West Queens,0 to 4 years,2014,Number,120,uhf402
+West Queens,0 to 4 years,2014,Rate,33.8,uhf402
+West Queens,5 to 17 Years,2014,Number,129,uhf402
+West Queens,5 to 17 Years,2014,Rate,19.8,uhf402
+Williamsburg - Bushwick,0 to 4 years,2014,Number,135,uhf211
+Williamsburg - Bushwick,0 to 4 years,2014,Rate,77.6,uhf211
+Williamsburg - Bushwick,5 to 17 Years,2014,Number,157,uhf211
+Williamsburg - Bushwick,5 to 17 Years,2014,Rate,40.7,uhf211
+Willowbrook,0 to 4 years,2014,Rate,23.4,uhf503
+Willowbrook,0 to 4 years,2014,Number,11,uhf503
+Willowbrook,5 to 17 Years,2014,Number,0,uhf503
+Willowbrook,5 to 17 Years,2014,Rate,6.1,uhf503
+Bayside - Little Neck,0 to 4 years,2015,Number,8,uhf404
+Bayside - Little Neck,0 to 4 years,2015,Rate,17.1,uhf404
+Bayside - Little Neck,5 to 17 Years,2015,Number,11,uhf404
+Bayside - Little Neck,5 to 17 Years,2015,Rate,8.6,uhf404
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2015,Number,254,uhf203
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2015,Rate,109.2,uhf203
+Bedford Stuyvesant - Crown Heights,5 to 17 Years,2015,Number,252,uhf203
+Bedford Stuyvesant - Crown Heights,5 to 17 Years,2015,Rate,49.4,uhf203
+Bensonhurst - Bay Ridge,0 to 4 years,2015,Number,13,uhf209
+Bensonhurst - Bay Ridge,0 to 4 years,2015,Rate,9.4,uhf209
+Bensonhurst - Bay Ridge,5 to 17 Years,2015,Number,14,uhf209
+Bensonhurst - Bay Ridge,5 to 17 Years,2015,Rate,4.8,uhf209
+Borough Park,0 to 4 years,2015,Rate,15.1,uhf206
+Borough Park,0 to 4 years,2015,Number,53,uhf206
+Borough Park,5 to 17 Years,2015,Number,22,uhf206
+Borough Park,5 to 17 Years,2015,Rate,3.2,uhf206
+Bronx,0 to 4 years,2015,Rate,130.2,36005
+Bronx,0 to 4 years,2015,Number,1407,36005
+Bronx,5 to 17 Years,2015,Number,1489,36005
+Bronx,5 to 17 Years,2015,Rate,57.6,36005
+Brooklyn,0 to 4 years,2015,Rate,52,36047
+Brooklyn,0 to 4 years,2015,Number,1023,36047
+Brooklyn,5 to 17 Years,2015,Number,994,36047
+Brooklyn,5 to 17 Years,2015,Rate,24.3,36047
+Canarsie - Flatlands,0 to 4 years,2015,Rate,75.7,uhf208
+Canarsie - Flatlands,0 to 4 years,2015,Number,94,uhf208
+Canarsie - Flatlands,5 to 17 Years,2015,Number,85,uhf208
+Canarsie - Flatlands,5 to 17 Years,2015,Rate,25.7,uhf208
+Central Harlem - Morningside Heights,0 to 4 years,2015,Number,123,uhf302
+Central Harlem - Morningside Heights,0 to 4 years,2015,Rate,115.2,uhf302
+Central Harlem - Morningside Heights,5 to 17 Years,2015,Number,111,uhf302
+Central Harlem - Morningside Heights,5 to 17 Years,2015,Rate,46.9,uhf302
+Chelsea - Clinton,0 to 4 years,2015,Number,10,uhf306
+Chelsea - Clinton,0 to 4 years,2015,Rate,19.3,uhf306
+Chelsea - Clinton,5 to 17 Years,2015,Number,11,uhf306
+Chelsea - Clinton,5 to 17 Years,2015,Rate,14.8,uhf306
+Coney Island - Sheepshead Bay,0 to 4 years,2015,Rate,14.1,uhf210
+Coney Island - Sheepshead Bay,0 to 4 years,2015,Number,25,uhf210
+Coney Island - Sheepshead Bay,5 to 17 Years,2015,Number,33,uhf210
+Coney Island - Sheepshead Bay,5 to 17 Years,2015,Rate,8.2,uhf210
+Crotona - Tremont,0 to 4 years,2015,Rate,129.9,uhf105
+Crotona - Tremont,0 to 4 years,2015,Number,242,uhf105
+Crotona - Tremont,5 to 17 Years,2015,Number,221,uhf105
+Crotona - Tremont,5 to 17 Years,2015,Rate,50.3,uhf105
+Downtown  - Heights - Slope,0 to 4 years,2015,Rate,28.8,uhf202
+Downtown  - Heights - Slope,0 to 4 years,2015,Number,57,uhf202
+Downtown  - Heights - Slope,5 to 17 Years,2015,Number,57,uhf202
+Downtown  - Heights - Slope,5 to 17 Years,2015,Rate,20.5,uhf202
+East Flatbush - Flatbush,0 to 4 years,2015,Number,205,uhf207
+East Flatbush - Flatbush,0 to 4 years,2015,Rate,103.2,uhf207
+East Flatbush - Flatbush,5 to 17 Years,2015,Number,208,uhf207
+East Flatbush - Flatbush,5 to 17 Years,2015,Rate,45.8,uhf207
+East Harlem,0 to 4 years,2015,Rate,122.4,uhf303
+East Harlem,0 to 4 years,2015,Number,87,uhf303
+East Harlem,5 to 17 Years,2015,Number,110,uhf303
+East Harlem,5 to 17 Years,2015,Rate,66.5,uhf303
+East New York,0 to 4 years,2015,Rate,132.4,uhf204
+East New York,0 to 4 years,2015,Number,193,uhf204
+East New York,5 to 17 Years,2015,Number,156,uhf204
+East New York,5 to 17 Years,2015,Rate,43.4,uhf204
+Flushing - Clearview,0 to 4 years,2015,Rate,26.2,uhf403
+Flushing - Clearview,0 to 4 years,2015,Number,37,uhf403
+Flushing - Clearview,5 to 17 Years,2015,Number,33,uhf403
+Flushing - Clearview,5 to 17 Years,2015,Rate,10.7,uhf403
+Fordham - Bronx Park,0 to 4 years,2015,Rate,126.7,uhf103
+Fordham - Bronx Park,0 to 4 years,2015,Number,260,uhf103
+Fordham - Bronx Park,5 to 17 Years,2015,Number,288,uhf103
+Fordham - Bronx Park,5 to 17 Years,2015,Rate,61.9,uhf103
+Fresh Meadows,0 to 4 years,2015,Number,28,uhf406
+Fresh Meadows,0 to 4 years,2015,Rate,38.9,uhf406
+Fresh Meadows,5 to 17 Years,2015,Number,29,uhf406
+Fresh Meadows,5 to 17 Years,2015,Rate,20,uhf406
+Gramercy Park -  Murray Hill,0 to 4 years,2015,Rate,10.9,uhf307
+Gramercy Park -  Murray Hill,0 to 4 years,2015,Number,5,uhf307
+Gramercy Park -  Murray Hill,5 to 17 Years,2015,Number,0,uhf307
+Gramercy Park -  Murray Hill,5 to 17 Years,2015,Rate,7,uhf307
+Greenpoint,0 to 4 years,2015,Number,16,uhf201
+Greenpoint,0 to 4 years,2015,Rate,13.8,uhf201
+Greenpoint,5 to 17 Years,2015,Number,11,uhf201
+Greenpoint,5 to 17 Years,2015,Rate,5.6,uhf201
+Greenwich Village - Soho,0 to 4 years,2015,Number,1,uhf308
+Greenwich Village - Soho,0 to 4 years,2015,Rate,2.9,uhf308
+Greenwich Village - Soho,5 to 17 Years,2015,Number,0,uhf308
+Greenwich Village - Soho,5 to 17 Years,2015,Rate,5.5,uhf308
+High Bridge - Morrisania,0 to 4 years,2015,Number,290,uhf106
+High Bridge - Morrisania,0 to 4 years,2015,Rate,158.7,uhf106
+High Bridge - Morrisania,5 to 17 Years,2015,Number,284,uhf106
+High Bridge - Morrisania,5 to 17 Years,2015,Rate,65.2,uhf106
+Hunts Point - Mott Haven,0 to 4 years,2015,Rate,180.4,uhf107
+Hunts Point - Mott Haven,0 to 4 years,2015,Number,218,uhf107
+Hunts Point - Mott Haven,5 to 17 Years,2015,Number,213,uhf107
+Hunts Point - Mott Haven,5 to 17 Years,2015,Rate,73.1,uhf107
+Jamaica,0 to 4 years,2015,Number,143,uhf408
+Jamaica,0 to 4 years,2015,Rate,71.3,uhf408
+Jamaica,5 to 17 Years,2015,Number,118,uhf408
+Jamaica,5 to 17 Years,2015,Rate,24.4,uhf408
+Kingsbridge - Riverdale,0 to 4 years,2015,Rate,51.5,uhf101
+Kingsbridge - Riverdale,0 to 4 years,2015,Number,31,uhf101
+Kingsbridge - Riverdale,5 to 17 Years,2015,Number,29,uhf101
+Kingsbridge - Riverdale,5 to 17 Years,2015,Rate,24.1,uhf101
+Long Island City - Astoria,0 to 4 years,2015,Rate,19.5,uhf401
+Long Island City - Astoria,0 to 4 years,2015,Number,22,uhf401
+Long Island City - Astoria,5 to 17 Years,2015,Number,25,uhf401
+Long Island City - Astoria,5 to 17 Years,2015,Rate,11.3,uhf401
+Lower Manhattan,0 to 4 years,2015,Number,4,uhf310
+Lower Manhattan,0 to 4 years,2015,Rate,10.4,uhf310
+Lower Manhattan,5 to 17 Years,2015,Number,0,uhf310
+Lower Manhattan,5 to 17 Years,2015,Rate,11.6,uhf310
+Manhattan,0 to 4 years,2015,Number,400,36061
+Manhattan,0 to 4 years,2015,Rate,48.5,36061
+Manhattan,5 to 17 Years,2015,Number,421,36061
+Manhattan,5 to 17 Years,2015,Rate,26.8,36061
+New York City,0 to 4 years,2015,Rate,62.6,3651000
+New York City,0 to 4 years,2015,Number,3514,3651000
+New York City,5 to 17 Years,2015,Number,3547,3651000
+New York City,5 to 17 Years,2015,Rate,28.9,3651000
+Northeast Bronx,0 to 4 years,2015,Number,108,uhf102
+Northeast Bronx,0 to 4 years,2015,Rate,88.4,uhf102
+Northeast Bronx,5 to 17 Years,2015,Number,160,uhf102
+Northeast Bronx,5 to 17 Years,2015,Rate,48.8,uhf102
+Pelham - Throgs Neck,0 to 4 years,2015,Number,258,uhf104
+Pelham - Throgs Neck,0 to 4 years,2015,Rate,123.7,uhf104
+Pelham - Throgs Neck,5 to 17 Years,2015,Number,265,uhf104
+Pelham - Throgs Neck,5 to 17 Years,2015,Rate,51.1,uhf104
+Port  Richmond,0 to 4 years,2015,Rate,65.3,uhf501
+Port  Richmond,0 to 4 years,2015,Number,31,uhf501
+Port  Richmond,5 to 17 Years,2015,Number,37,uhf501
+Port  Richmond,5 to 17 Years,2015,Rate,27.9,uhf501
+Queens,0 to 4 years,2015,Rate,41,36081
+Queens,0 to 4 years,2015,Number,602,36081
+Queens,5 to 17 Years,2015,Number,540,36081
+Queens,5 to 17 Years,2015,Rate,16.6,36081
+Ridgewood - Forest Hills,0 to 4 years,2015,Rate,34.7,uhf405
+Ridgewood - Forest Hills,0 to 4 years,2015,Number,56,uhf405
+Ridgewood - Forest Hills,5 to 17 Years,2015,Number,39,uhf405
+Ridgewood - Forest Hills,5 to 17 Years,2015,Rate,12,uhf405
+Rockaway,0 to 4 years,2015,Number,40,uhf410
+Rockaway,0 to 4 years,2015,Rate,41.3,uhf410
+Rockaway,5 to 17 Years,2015,Number,46,uhf410
+Rockaway,5 to 17 Years,2015,Rate,21.3,uhf410
+South Beach - Tottenville,0 to 4 years,2015,Number,11,uhf504
+South Beach - Tottenville,0 to 4 years,2015,Rate,10.6,uhf504
+South Beach - Tottenville,5 to 17 Years,2015,Number,27,uhf504
+South Beach - Tottenville,5 to 17 Years,2015,Rate,8.7,uhf504
+Southeast Queens,0 to 4 years,2015,Rate,68.1,uhf409
+Southeast Queens,0 to 4 years,2015,Number,78,uhf409
+Southeast Queens,5 to 17 Years,2015,Number,57,uhf409
+Southeast Queens,5 to 17 Years,2015,Rate,18.5,uhf409
+Southwest Queens,0 to 4 years,2015,Rate,54.4,uhf407
+Southwest Queens,0 to 4 years,2015,Number,104,uhf407
+Southwest Queens,5 to 17 Years,2015,Number,79,uhf407
+Southwest Queens,5 to 17 Years,2015,Rate,16.7,uhf407
+Stapleton - St. George,0 to 4 years,2015,Number,28,uhf502
+Stapleton - St. George,0 to 4 years,2015,Rate,38.5,uhf502
+Stapleton - St. George,5 to 17 Years,2015,Number,31,uhf502
+Stapleton - St. George,5 to 17 Years,2015,Rate,15.6,uhf502
+Staten Island,0 to 4 years,2015,Rate,30.3,36085
+Staten Island,0 to 4 years,2015,Number,82,36085
+Staten Island,5 to 17 Years,2015,Number,103,36085
+Staten Island,5 to 17 Years,2015,Rate,13.4,36085
+Sunset Park,0 to 4 years,2015,Number,17,uhf205
+Sunset Park,0 to 4 years,2015,Rate,15,uhf205
+Sunset Park,5 to 17 Years,2015,Number,20,uhf205
+Sunset Park,5 to 17 Years,2015,Rate,10,uhf205
+Union Square - Lower East Side,0 to 4 years,2015,Rate,42.1,uhf309
+Union Square - Lower East Side,0 to 4 years,2015,Number,32,uhf309
+Union Square - Lower East Side,5 to 17 Years,2015,Number,35,uhf309
+Union Square - Lower East Side,5 to 17 Years,2015,Rate,21.5,uhf309
+Upper East Side,0 to 4 years,2015,Rate,19.2,uhf305
+Upper East Side,0 to 4 years,2015,Number,22,uhf305
+Upper East Side,5 to 17 Years,2015,Number,20,uhf305
+Upper East Side,5 to 17 Years,2015,Rate,9.7,uhf305
+Upper West Side,0 to 4 years,2015,Number,33,uhf304
+Upper West Side,0 to 4 years,2015,Rate,27.9,uhf304
+Upper West Side,5 to 17 Years,2015,Number,18,uhf304
+Upper West Side,5 to 17 Years,2015,Rate,8.7,uhf304
+Washington Heights - Inwood,0 to 4 years,2015,Rate,52.3,uhf301
+Washington Heights - Inwood,0 to 4 years,2015,Number,83,uhf301
+Washington Heights - Inwood,5 to 17 Years,2015,Number,92,uhf301
+Washington Heights - Inwood,5 to 17 Years,2015,Rate,26.9,uhf301
+West Queens,0 to 4 years,2015,Number,85,uhf402
+West Queens,0 to 4 years,2015,Rate,25.4,uhf402
+West Queens,5 to 17 Years,2015,Number,92,uhf402
+West Queens,5 to 17 Years,2015,Rate,14,uhf402
+Williamsburg - Bushwick,0 to 4 years,2015,Number,96,uhf211
+Williamsburg - Bushwick,0 to 4 years,2015,Rate,55.4,uhf211
+Williamsburg - Bushwick,5 to 17 Years,2015,Number,123,uhf211
+Williamsburg - Bushwick,5 to 17 Years,2015,Rate,32.1,uhf211
+Willowbrook,0 to 4 years,2015,Rate,25.5,uhf503
+Willowbrook,0 to 4 years,2015,Number,12,uhf503
+Willowbrook,5 to 17 Years,2015,Number,0,uhf503
+Willowbrook,5 to 17 Years,2015,Rate,5.4,uhf503
+Bayside - Little Neck,0 to 4 years,2016,Number,7,uhf404
+Bayside - Little Neck,0 to 4 years,2016,Rate,15.2,uhf404
+Bayside - Little Neck,5 to 17 Years,2016,Number,0,uhf404
+Bayside - Little Neck,5 to 17 Years,2016,Rate,3.1,uhf404
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2016,Number,229,uhf203
+Bedford Stuyvesant - Crown Heights,0 to 4 years,2016,Rate,97.7,uhf203
+Bedford Stuyvesant - Crown Heights,5 to 17 Years,2016,Number,244,uhf203
+Bedford Stuyvesant - Crown Heights,5 to 17 Years,2016,Rate,48.4,uhf203
+Bensonhurst - Bay Ridge,0 to 4 years,2016,Number,13,uhf209
+Bensonhurst - Bay Ridge,0 to 4 years,2016,Rate,9.7,uhf209
+Bensonhurst - Bay Ridge,5 to 17 Years,2016,Number,17,uhf209
+Bensonhurst - Bay Ridge,5 to 17 Years,2016,Rate,5.8,uhf209
+Borough Park,0 to 4 years,2016,Rate,12.1,uhf206
+Borough Park,0 to 4 years,2016,Number,41,uhf206
+Borough Park,5 to 17 Years,2016,Number,31,uhf206
+Borough Park,5 to 17 Years,2016,Rate,4.5,uhf206
+Bronx,0 to 4 years,2016,Rate,123.4,36005
+Bronx,0 to 4 years,2016,Number,1317,36005
+Bronx,5 to 17 Years,2016,Number,1340,36005
+Bronx,5 to 17 Years,2016,Rate,51.1,36005
+Brooklyn,0 to 4 years,2016,Number,977,36047
+Brooklyn,0 to 4 years,2016,Rate,50.4,36047
+Brooklyn,5 to 17 Years,2016,Number,990,36047
+Brooklyn,5 to 17 Years,2016,Rate,24.1,36047
+Canarsie - Flatlands,0 to 4 years,2016,Rate,72.8,uhf208
+Canarsie - Flatlands,0 to 4 years,2016,Number,91,uhf208
+Canarsie - Flatlands,5 to 17 Years,2016,Number,81,uhf208
+Canarsie - Flatlands,5 to 17 Years,2016,Rate,24.8,uhf208
+Central Harlem - Morningside Heights,0 to 4 years,2016,Number,138,uhf302
+Central Harlem - Morningside Heights,0 to 4 years,2016,Rate,132.9,uhf302
+Central Harlem - Morningside Heights,5 to 17 Years,2016,Number,146,uhf302
+Central Harlem - Morningside Heights,5 to 17 Years,2016,Rate,62,uhf302
+Chelsea - Clinton,0 to 4 years,2016,Number,11,uhf306
+Chelsea - Clinton,0 to 4 years,2016,Rate,21.4,uhf306
+Chelsea - Clinton,5 to 17 Years,2016,Number,0,uhf306
+Chelsea - Clinton,5 to 17 Years,2016,Rate,10.5,uhf306
+Coney Island - Sheepshead Bay,0 to 4 years,2016,Rate,26.1,uhf210
+Coney Island - Sheepshead Bay,0 to 4 years,2016,Number,45,uhf210
+Coney Island - Sheepshead Bay,5 to 17 Years,2016,Number,39,uhf210
+Coney Island - Sheepshead Bay,5 to 17 Years,2016,Rate,9.6,uhf210
+Crotona - Tremont,0 to 4 years,2016,Rate,117.4,uhf105
+Crotona - Tremont,0 to 4 years,2016,Number,216,uhf105
+Crotona - Tremont,5 to 17 Years,2016,Number,211,uhf105
+Crotona - Tremont,5 to 17 Years,2016,Rate,47.8,uhf105
+Downtown  - Heights - Slope,0 to 4 years,2016,Rate,29.3,uhf202
+Downtown  - Heights - Slope,0 to 4 years,2016,Number,57,uhf202
+Downtown  - Heights - Slope,5 to 17 Years,2016,Number,55,uhf202
+Downtown  - Heights - Slope,5 to 17 Years,2016,Rate,19.5,uhf202
+East Flatbush - Flatbush,0 to 4 years,2016,Number,178,uhf207
+East Flatbush - Flatbush,0 to 4 years,2016,Rate,89,uhf207
+East Flatbush - Flatbush,5 to 17 Years,2016,Number,186,uhf207
+East Flatbush - Flatbush,5 to 17 Years,2016,Rate,41.4,uhf207
+East Harlem,0 to 4 years,2016,Rate,92.2,uhf303
+East Harlem,0 to 4 years,2016,Number,64,uhf303
+East Harlem,5 to 17 Years,2016,Number,87,uhf303
+East Harlem,5 to 17 Years,2016,Rate,52.6,uhf303
+East New York,0 to 4 years,2016,Rate,120.6,uhf204
+East New York,0 to 4 years,2016,Number,176,uhf204
+East New York,5 to 17 Years,2016,Number,185,uhf204
+East New York,5 to 17 Years,2016,Rate,52,uhf204
+Flushing - Clearview,0 to 4 years,2016,Rate,28.8,uhf403
+Flushing - Clearview,0 to 4 years,2016,Number,40,uhf403
+Flushing - Clearview,5 to 17 Years,2016,Number,39,uhf403
+Flushing - Clearview,5 to 17 Years,2016,Rate,12.5,uhf403
+Fordham - Bronx Park,0 to 4 years,2016,Rate,122.3,uhf103
+Fordham - Bronx Park,0 to 4 years,2016,Number,248,uhf103
+Fordham - Bronx Park,5 to 17 Years,2016,Number,297,uhf103
+Fordham - Bronx Park,5 to 17 Years,2016,Rate,63.6,uhf103
+Fresh Meadows,0 to 4 years,2016,Number,28,uhf406
+Fresh Meadows,0 to 4 years,2016,Rate,39.6,uhf406
+Fresh Meadows,5 to 17 Years,2016,Number,23,uhf406
+Fresh Meadows,5 to 17 Years,2016,Rate,15.7,uhf406
+Gramercy Park -  Murray Hill,0 to 4 years,2016,Rate,17.6,uhf307
+Gramercy Park -  Murray Hill,0 to 4 years,2016,Number,8,uhf307
+Gramercy Park -  Murray Hill,5 to 17 Years,2016,Number,0,uhf307
+Gramercy Park -  Murray Hill,5 to 17 Years,2016,Rate,13.7,uhf307
+Greenpoint,0 to 4 years,2016,Number,15,uhf201
+Greenpoint,0 to 4 years,2016,Rate,13.2,uhf201
+Greenpoint,5 to 17 Years,2016,Number,11,uhf201
+Greenpoint,5 to 17 Years,2016,Rate,5.5,uhf201
+Greenwich Village - Soho,0 to 4 years,2016,Number,4,uhf308
+Greenwich Village - Soho,0 to 4 years,2016,Rate,11.8,uhf308
+Greenwich Village - Soho,5 to 17 Years,2016,Number,0,uhf308
+Greenwich Village - Soho,5 to 17 Years,2016,Rate,1.8,uhf308
+High Bridge - Morrisania,0 to 4 years,2016,Number,287,uhf106
+High Bridge - Morrisania,0 to 4 years,2016,Rate,159,uhf106
+High Bridge - Morrisania,5 to 17 Years,2016,Number,278,uhf106
+High Bridge - Morrisania,5 to 17 Years,2016,Rate,63.7,uhf106
+Hunts Point - Mott Haven,0 to 4 years,2016,Rate,164.2,uhf107
+Hunts Point - Mott Haven,0 to 4 years,2016,Number,196,uhf107
+Hunts Point - Mott Haven,5 to 17 Years,2016,Number,165,uhf107
+Hunts Point - Mott Haven,5 to 17 Years,2016,Rate,56.5,uhf107
+Jamaica,0 to 4 years,2016,Number,118,uhf408
+Jamaica,0 to 4 years,2016,Rate,59,uhf408
+Jamaica,5 to 17 Years,2016,Number,121,uhf408
+Jamaica,5 to 17 Years,2016,Rate,25,uhf408
+Kingsbridge - Riverdale,0 to 4 years,2016,Rate,42.2,uhf101
+Kingsbridge - Riverdale,0 to 4 years,2016,Number,25,uhf101
+Kingsbridge - Riverdale,5 to 17 Years,2016,Number,28,uhf101
+Kingsbridge - Riverdale,5 to 17 Years,2016,Rate,23.2,uhf101
+Long Island City - Astoria,0 to 4 years,2016,Rate,28.7,uhf401
+Long Island City - Astoria,0 to 4 years,2016,Number,32,uhf401
+Long Island City - Astoria,5 to 17 Years,2016,Number,23,uhf401
+Long Island City - Astoria,5 to 17 Years,2016,Rate,10.3,uhf401
+Lower Manhattan,0 to 4 years,2016,Number,7,uhf310
+Lower Manhattan,0 to 4 years,2016,Rate,18.3,uhf310
+Lower Manhattan,5 to 17 Years,2016,Number,0,uhf310
+Lower Manhattan,5 to 17 Years,2016,Rate,20.4,uhf310
+Manhattan,0 to 4 years,2016,Number,416,36061
+Manhattan,0 to 4 years,2016,Rate,51.4,36061
+Manhattan,5 to 17 Years,2016,Number,440,36061
+Manhattan,5 to 17 Years,2016,Rate,27.9,36061
+New York City,0 to 4 years,2016,Rate,61.1,3651000
+New York City,0 to 4 years,2016,Number,3380,3651000
+New York City,5 to 17 Years,2016,Number,3373,3651000
+New York City,5 to 17 Years,2016,Rate,27.2,3651000
+Northeast Bronx,0 to 4 years,2016,Number,126,uhf102
+Northeast Bronx,0 to 4 years,2016,Rate,104.7,uhf102
+Northeast Bronx,5 to 17 Years,2016,Number,139,uhf102
+Northeast Bronx,5 to 17 Years,2016,Rate,42.4,uhf102
+Pelham - Throgs Neck,0 to 4 years,2016,Number,219,uhf104
+Pelham - Throgs Neck,0 to 4 years,2016,Rate,106.2,uhf104
+Pelham - Throgs Neck,5 to 17 Years,2016,Number,222,uhf104
+Pelham - Throgs Neck,5 to 17 Years,2016,Rate,42.7,uhf104
+Port  Richmond,0 to 4 years,2016,Rate,71.7,uhf501
+Port  Richmond,0 to 4 years,2016,Number,34,uhf501
+Port  Richmond,5 to 17 Years,2016,Number,49,uhf501
+Port  Richmond,5 to 17 Years,2016,Rate,36.6,uhf501
+Queens,0 to 4 years,2016,Rate,38.6,36081
+Queens,0 to 4 years,2016,Number,559,36081
+Queens,5 to 17 Years,2016,Number,506,36081
+Queens,5 to 17 Years,2016,Rate,15.4,36081
+Ridgewood - Forest Hills,0 to 4 years,2016,Rate,32.2,uhf405
+Ridgewood - Forest Hills,0 to 4 years,2016,Number,51,uhf405
+Ridgewood - Forest Hills,5 to 17 Years,2016,Number,46,uhf405
+Ridgewood - Forest Hills,5 to 17 Years,2016,Rate,14,uhf405
+Rockaway,0 to 4 years,2016,Number,36,uhf410
+Rockaway,0 to 4 years,2016,Rate,37.5,uhf410
+Rockaway,5 to 17 Years,2016,Number,37,uhf410
+Rockaway,5 to 17 Years,2016,Rate,17.1,uhf410
+South Beach - Tottenville,0 to 4 years,2016,Number,24,uhf504
+South Beach - Tottenville,0 to 4 years,2016,Rate,23.4,uhf504
+South Beach - Tottenville,5 to 17 Years,2016,Number,12,uhf504
+South Beach - Tottenville,5 to 17 Years,2016,Rate,3.9,uhf504
+Southeast Queens,0 to 4 years,2016,Rate,54.1,uhf409
+Southeast Queens,0 to 4 years,2016,Number,62,uhf409
+Southeast Queens,5 to 17 Years,2016,Number,53,uhf409
+Southeast Queens,5 to 17 Years,2016,Rate,17.2,uhf409
+Southwest Queens,0 to 4 years,2016,Rate,45.2,uhf407
+Southwest Queens,0 to 4 years,2016,Number,85,uhf407
+Southwest Queens,5 to 17 Years,2016,Number,61,uhf407
+Southwest Queens,5 to 17 Years,2016,Rate,12.8,uhf407
+Stapleton - St. George,0 to 4 years,2016,Number,41,uhf502
+Stapleton - St. George,0 to 4 years,2016,Rate,56.6,uhf502
+Stapleton - St. George,5 to 17 Years,2016,Number,31,uhf502
+Stapleton - St. George,5 to 17 Years,2016,Rate,15.5,uhf502
+Staten Island,0 to 4 years,2016,Number,111,36085
+Staten Island,0 to 4 years,2016,Rate,41.3,36085
+Staten Island,5 to 17 Years,2016,Number,97,36085
+Staten Island,5 to 17 Years,2016,Rate,12.4,36085
+Sunset Park,0 to 4 years,2016,Number,18,uhf205
+Sunset Park,0 to 4 years,2016,Rate,16.4,uhf205
+Sunset Park,5 to 17 Years,2016,Number,15,uhf205
+Sunset Park,5 to 17 Years,2016,Rate,7.4,uhf205
+Union Square - Lower East Side,0 to 4 years,2016,Rate,44.1,uhf309
+Union Square - Lower East Side,0 to 4 years,2016,Number,33,uhf309
+Union Square - Lower East Side,5 to 17 Years,2016,Number,40,uhf309
+Union Square - Lower East Side,5 to 17 Years,2016,Rate,24.3,uhf309
+Upper East Side,0 to 4 years,2016,Rate,21.3,uhf305
+Upper East Side,0 to 4 years,2016,Number,24,uhf305
+Upper East Side,5 to 17 Years,2016,Number,15,uhf305
+Upper East Side,5 to 17 Years,2016,Rate,7.2,uhf305
+Upper West Side,0 to 4 years,2016,Number,28,uhf304
+Upper West Side,0 to 4 years,2016,Rate,24,uhf304
+Upper West Side,5 to 17 Years,2016,Number,15,uhf304
+Upper West Side,5 to 17 Years,2016,Rate,7.2,uhf304
+Washington Heights - Inwood,0 to 4 years,2016,Rate,63.8,uhf301
+Washington Heights - Inwood,0 to 4 years,2016,Number,99,uhf301
+Washington Heights - Inwood,5 to 17 Years,2016,Number,111,uhf301
+Washington Heights - Inwood,5 to 17 Years,2016,Rate,32.4,uhf301
+West Queens,0 to 4 years,2016,Number,100,uhf402
+West Queens,0 to 4 years,2016,Rate,30.5,uhf402
+West Queens,5 to 17 Years,2016,Number,99,uhf402
+West Queens,5 to 17 Years,2016,Rate,14.9,uhf402
+Williamsburg - Bushwick,0 to 4 years,2016,Number,114,uhf211
+Williamsburg - Bushwick,0 to 4 years,2016,Rate,67,uhf211
+Williamsburg - Bushwick,5 to 17 Years,2016,Number,126,uhf211
+Williamsburg - Bushwick,5 to 17 Years,2016,Rate,33,uhf211
+Willowbrook,0 to 4 years,2016,Rate,25.7,uhf503
+Willowbrook,0 to 4 years,2016,Number,12,uhf503
+Willowbrook,5 to 17 Years,2016,Number,0,uhf503
+Willowbrook,5 to 17 Years,2016,Rate,3.8,uhf503
+Bronx,0 to 17 Years,2005,Number,3385,36005
+Brooklyn,0 to 17 Years,2005,Number,2895,36047
+Manhattan,0 to 17 Years,2005,Number,1295,36061
+Queens,0 to 17 Years,2005,Number,1857,36081
+Staten Island,0 to 17 Years,2005,Number,251,36085
+New York City,0 to 17 Years,2005,Number,9683,3651000
+Kingsbridge - Riverdale,0 to 17 Years,2005,Number,55,uhf101
+Northeast Bronx,0 to 17 Years,2005,Number,276,uhf102
+Fordham - Bronx Park,0 to 17 Years,2005,Number,574,uhf103
+Pelham - Throgs Neck,0 to 17 Years,2005,Number,523,uhf104
+Crotona - Tremont,0 to 17 Years,2005,Number,660,uhf105
+High Bridge - Morrisania,0 to 17 Years,2005,Number,713,uhf106
+Hunts Point - Mott Haven,0 to 17 Years,2005,Number,426,uhf107
+Greenpoint,0 to 17 Years,2005,Number,80,uhf201
+Downtown  - Heights - Slope,0 to 17 Years,2005,Number,129,uhf202
+Bedford Stuyvesant - Crown Heights,0 to 17 Years,2005,Number,677,uhf203
+East New York,0 to 17 Years,2005,Number,437,uhf204
+Sunset Park,0 to 17 Years,2005,Number,56,uhf205
+Borough Park,0 to 17 Years,2005,Number,78,uhf206
+East Flatbush - Flatbush,0 to 17 Years,2005,Number,458,uhf207
+Canarsie - Flatlands,0 to 17 Years,2005,Number,184,uhf208
+Bensonhurst - Bay Ridge,0 to 17 Years,2005,Number,31,uhf209
+Coney Island - Sheepshead Bay,0 to 17 Years,2005,Number,95,uhf210
+Williamsburg - Bushwick,0 to 17 Years,2005,Number,603,uhf211
+Washington Heights - Inwood,0 to 17 Years,2005,Number,203,uhf301
+Central Harlem - Morningside Heights,0 to 17 Years,2005,Number,383,uhf302
+East Harlem,0 to 17 Years,2005,Number,315,uhf303
+Upper West Side,0 to 17 Years,2005,Number,107,uhf304
+Upper East Side,0 to 17 Years,2005,Number,63,uhf305
+Chelsea - Clinton,0 to 17 Years,2005,Number,40,uhf306
+Gramercy Park -  Murray Hill,0 to 17 Years,2005,Number,14,uhf307
+Greenwich Village - Soho,0 to 17 Years,2005,Number,0,uhf308
+Union Square - Lower East Side,0 to 17 Years,2005,Number,106,uhf309
+Lower Manhattan,0 to 17 Years,2005,Number,8,uhf310
+Long Island City - Astoria,0 to 17 Years,2005,Number,128,uhf401
+West Queens,0 to 17 Years,2005,Number,298,uhf402
+Flushing - Clearview,0 to 17 Years,2005,Number,437,uhf403
+Bayside - Little Neck,0 to 17 Years,2005,Number,26,uhf404
+Ridgewood - Forest Hills,0 to 17 Years,2005,Number,171,uhf405
+Fresh Meadows,0 to 17 Years,2005,Number,52,uhf406
+Southwest Queens,0 to 17 Years,2005,Number,217,uhf407
+Jamaica,0 to 17 Years,2005,Number,361,uhf408
+Southeast Queens,0 to 17 Years,2005,Number,190,uhf409
+Rockaway,0 to 17 Years,2005,Number,231,uhf410
+Port  Richmond,0 to 17 Years,2005,Number,76,uhf501
+Stapleton - St. George,0 to 17 Years,2005,Number,91,uhf502
+Willowbrook,0 to 17 Years,2005,Number,34,uhf503
+South Beach - Tottenville,0 to 17 Years,2005,Number,48,uhf504
+Bronx,0 to 17 Years,2006,Number,3308,36005
+Brooklyn,0 to 17 Years,2006,Number,3004,36047
+Manhattan,0 to 17 Years,2006,Number,1259,36061
+Queens,0 to 17 Years,2006,Number,1871,36081
+Staten Island,0 to 17 Years,2006,Number,247,36085
+New York City,0 to 17 Years,2006,Number,9689,3651000
+Kingsbridge - Riverdale,0 to 17 Years,2006,Number,55,uhf101
+Northeast Bronx,0 to 17 Years,2006,Number,289,uhf102
+Fordham - Bronx Park,0 to 17 Years,2006,Number,567,uhf103
+Pelham - Throgs Neck,0 to 17 Years,2006,Number,560,uhf104
+Crotona - Tremont,0 to 17 Years,2006,Number,586,uhf105
+High Bridge - Morrisania,0 to 17 Years,2006,Number,657,uhf106
+Hunts Point - Mott Haven,0 to 17 Years,2006,Number,439,uhf107
+Greenpoint,0 to 17 Years,2006,Number,97,uhf201
+Downtown  - Heights - Slope,0 to 17 Years,2006,Number,152,uhf202
+Bedford Stuyvesant - Crown Heights,0 to 17 Years,2006,Number,769,uhf203
+East New York,0 to 17 Years,2006,Number,450,uhf204
+Sunset Park,0 to 17 Years,2006,Number,58,uhf205
+Borough Park,0 to 17 Years,2006,Number,89,uhf206
+East Flatbush - Flatbush,0 to 17 Years,2006,Number,476,uhf207
+Canarsie - Flatlands,0 to 17 Years,2006,Number,169,uhf208
+Bensonhurst - Bay Ridge,0 to 17 Years,2006,Number,32,uhf209
+Coney Island - Sheepshead Bay,0 to 17 Years,2006,Number,89,uhf210
+Williamsburg - Bushwick,0 to 17 Years,2006,Number,549,uhf211
+Washington Heights - Inwood,0 to 17 Years,2006,Number,202,uhf301
+Central Harlem - Morningside Heights,0 to 17 Years,2006,Number,349,uhf302
+East Harlem,0 to 17 Years,2006,Number,289,uhf303
+Upper West Side,0 to 17 Years,2006,Number,106,uhf304
+Upper East Side,0 to 17 Years,2006,Number,52,uhf305
+Chelsea - Clinton,0 to 17 Years,2006,Number,42,uhf306
+Gramercy Park -  Murray Hill,0 to 17 Years,2006,Number,34,uhf307
+Greenwich Village - Soho,0 to 17 Years,2006,Number,0,uhf308
+Union Square - Lower East Side,0 to 17 Years,2006,Number,129,uhf309
+Lower Manhattan,0 to 17 Years,2006,Number,7,uhf310
+Long Island City - Astoria,0 to 17 Years,2006,Number,111,uhf401
+West Queens,0 to 17 Years,2006,Number,279,uhf402
+Flushing - Clearview,0 to 17 Years,2006,Number,134,uhf403
+Bayside - Little Neck,0 to 17 Years,2006,Number,35,uhf404
+Ridgewood - Forest Hills,0 to 17 Years,2006,Number,172,uhf405
+Fresh Meadows,0 to 17 Years,2006,Number,52,uhf406
+Southwest Queens,0 to 17 Years,2006,Number,271,uhf407
+Jamaica,0 to 17 Years,2006,Number,342,uhf408
+Southeast Queens,0 to 17 Years,2006,Number,204,uhf409
+Rockaway,0 to 17 Years,2006,Number,212,uhf410
+Port  Richmond,0 to 17 Years,2006,Number,81,uhf501
+Stapleton - St. George,0 to 17 Years,2006,Number,77,uhf502
+Willowbrook,0 to 17 Years,2006,Number,39,uhf503
+South Beach - Tottenville,0 to 17 Years,2006,Number,48,uhf504
+Bronx,0 to 17 Years,2007,Number,3167,36005
+Brooklyn,0 to 17 Years,2007,Number,2509,36047
+Manhattan,0 to 17 Years,2007,Number,1124,36061
+Queens,0 to 17 Years,2007,Number,1847,36081
+Staten Island,0 to 17 Years,2007,Number,212,36085
+New York City,0 to 17 Years,2007,Number,8859,3651000
+Kingsbridge - Riverdale,0 to 17 Years,2007,Number,60,uhf101
+Northeast Bronx,0 to 17 Years,2007,Number,291,uhf102
+Fordham - Bronx Park,0 to 17 Years,2007,Number,596,uhf103
+Pelham - Throgs Neck,0 to 17 Years,2007,Number,480,uhf104
+Crotona - Tremont,0 to 17 Years,2007,Number,588,uhf105
+High Bridge - Morrisania,0 to 17 Years,2007,Number,576,uhf106
+Hunts Point - Mott Haven,0 to 17 Years,2007,Number,434,uhf107
+Greenpoint,0 to 17 Years,2007,Number,64,uhf201
+Downtown  - Heights - Slope,0 to 17 Years,2007,Number,130,uhf202
+Bedford Stuyvesant - Crown Heights,0 to 17 Years,2007,Number,570,uhf203
+East New York,0 to 17 Years,2007,Number,385,uhf204
+Sunset Park,0 to 17 Years,2007,Number,67,uhf205
+Borough Park,0 to 17 Years,2007,Number,80,uhf206
+East Flatbush - Flatbush,0 to 17 Years,2007,Number,401,uhf207
+Canarsie - Flatlands,0 to 17 Years,2007,Number,121,uhf208
+Bensonhurst - Bay Ridge,0 to 17 Years,2007,Number,52,uhf209
+Coney Island - Sheepshead Bay,0 to 17 Years,2007,Number,118,uhf210
+Williamsburg - Bushwick,0 to 17 Years,2007,Number,476,uhf211
+Washington Heights - Inwood,0 to 17 Years,2007,Number,152,uhf301
+Central Harlem - Morningside Heights,0 to 17 Years,2007,Number,310,uhf302
+East Harlem,0 to 17 Years,2007,Number,285,uhf303
+Upper West Side,0 to 17 Years,2007,Number,91,uhf304
+Upper East Side,0 to 17 Years,2007,Number,58,uhf305
+Chelsea - Clinton,0 to 17 Years,2007,Number,45,uhf306
+Gramercy Park -  Murray Hill,0 to 17 Years,2007,Number,28,uhf307
+Greenwich Village - Soho,0 to 17 Years,2007,Number,0,uhf308
+Union Square - Lower East Side,0 to 17 Years,2007,Number,109,uhf309
+Lower Manhattan,0 to 17 Years,2007,Number,14,uhf310
+Long Island City - Astoria,0 to 17 Years,2007,Number,117,uhf401
+West Queens,0 to 17 Years,2007,Number,267,uhf402
+Flushing - Clearview,0 to 17 Years,2007,Number,103,uhf403
+Bayside - Little Neck,0 to 17 Years,2007,Number,34,uhf404
+Ridgewood - Forest Hills,0 to 17 Years,2007,Number,197,uhf405
+Fresh Meadows,0 to 17 Years,2007,Number,57,uhf406
+Southwest Queens,0 to 17 Years,2007,Number,256,uhf407
+Jamaica,0 to 17 Years,2007,Number,377,uhf408
+Southeast Queens,0 to 17 Years,2007,Number,163,uhf409
+Rockaway,0 to 17 Years,2007,Number,193,uhf410
+Port  Richmond,0 to 17 Years,2007,Number,74,uhf501
+Stapleton - St. George,0 to 17 Years,2007,Number,67,uhf502
+Willowbrook,0 to 17 Years,2007,Number,34,uhf503
+South Beach - Tottenville,0 to 17 Years,2007,Number,32,uhf504
+Bronx,0 to 17 Years,2008,Number,3287,36005
+Brooklyn,0 to 17 Years,2008,Number,2462,36047
+Manhattan,0 to 17 Years,2008,Number,1037,36061
+Queens,0 to 17 Years,2008,Number,1760,36081
+Staten Island,0 to 17 Years,2008,Number,195,36085
+New York City,0 to 17 Years,2008,Number,8741,3651000
+Kingsbridge - Riverdale,0 to 17 Years,2008,Number,71,uhf101
+Northeast Bronx,0 to 17 Years,2008,Number,329,uhf102
+Fordham - Bronx Park,0 to 17 Years,2008,Number,615,uhf103
+Pelham - Throgs Neck,0 to 17 Years,2008,Number,535,uhf104
+Crotona - Tremont,0 to 17 Years,2008,Number,649,uhf105
+High Bridge - Morrisania,0 to 17 Years,2008,Number,611,uhf106
+Hunts Point - Mott Haven,0 to 17 Years,2008,Number,443,uhf107
+Greenpoint,0 to 17 Years,2008,Number,53,uhf201
+Downtown  - Heights - Slope,0 to 17 Years,2008,Number,138,uhf202
+Bedford Stuyvesant - Crown Heights,0 to 17 Years,2008,Number,587,uhf203
+East New York,0 to 17 Years,2008,Number,375,uhf204
+Sunset Park,0 to 17 Years,2008,Number,76,uhf205
+Borough Park,0 to 17 Years,2008,Number,76,uhf206
+East Flatbush - Flatbush,0 to 17 Years,2008,Number,357,uhf207
+Canarsie - Flatlands,0 to 17 Years,2008,Number,138,uhf208
+Bensonhurst - Bay Ridge,0 to 17 Years,2008,Number,32,uhf209
+Coney Island - Sheepshead Bay,0 to 17 Years,2008,Number,100,uhf210
+Williamsburg - Bushwick,0 to 17 Years,2008,Number,499,uhf211
+Washington Heights - Inwood,0 to 17 Years,2008,Number,149,uhf301
+Central Harlem - Morningside Heights,0 to 17 Years,2008,Number,302,uhf302
+East Harlem,0 to 17 Years,2008,Number,264,uhf303
+Upper West Side,0 to 17 Years,2008,Number,70,uhf304
+Upper East Side,0 to 17 Years,2008,Number,42,uhf305
+Chelsea - Clinton,0 to 17 Years,2008,Number,38,uhf306
+Gramercy Park -  Murray Hill,0 to 17 Years,2008,Number,23,uhf307
+Greenwich Village - Soho,0 to 17 Years,2008,Number,10,uhf308
+Union Square - Lower East Side,0 to 17 Years,2008,Number,99,uhf309
+Lower Manhattan,0 to 17 Years,2008,Number,17,uhf310
+Long Island City - Astoria,0 to 17 Years,2008,Number,96,uhf401
+West Queens,0 to 17 Years,2008,Number,261,uhf402
+Flushing - Clearview,0 to 17 Years,2008,Number,89,uhf403
+Bayside - Little Neck,0 to 17 Years,2008,Number,35,uhf404
+Ridgewood - Forest Hills,0 to 17 Years,2008,Number,171,uhf405
+Fresh Meadows,0 to 17 Years,2008,Number,45,uhf406
+Southwest Queens,0 to 17 Years,2008,Number,255,uhf407
+Jamaica,0 to 17 Years,2008,Number,404,uhf408
+Southeast Queens,0 to 17 Years,2008,Number,168,uhf409
+Rockaway,0 to 17 Years,2008,Number,195,uhf410
+Port  Richmond,0 to 17 Years,2008,Number,51,uhf501
+Stapleton - St. George,0 to 17 Years,2008,Number,78,uhf502
+Willowbrook,0 to 17 Years,2008,Number,23,uhf503
+South Beach - Tottenville,0 to 17 Years,2008,Number,41,uhf504
+Bronx,0 to 17 Years,2009,Number,3449,36005
+Brooklyn,0 to 17 Years,2009,Number,2750,36047
+Manhattan,0 to 17 Years,2009,Number,1022,36061
+Queens,0 to 17 Years,2009,Number,1767,36081
+Staten Island,0 to 17 Years,2009,Number,242,36085
+New York City,0 to 17 Years,2009,Number,9230,3651000
+Kingsbridge - Riverdale,0 to 17 Years,2009,Number,61,uhf101
+Northeast Bronx,0 to 17 Years,2009,Number,282,uhf102
+Fordham - Bronx Park,0 to 17 Years,2009,Number,693,uhf103
+Pelham - Throgs Neck,0 to 17 Years,2009,Number,588,uhf104
+Crotona - Tremont,0 to 17 Years,2009,Number,631,uhf105
+High Bridge - Morrisania,0 to 17 Years,2009,Number,657,uhf106
+Hunts Point - Mott Haven,0 to 17 Years,2009,Number,504,uhf107
+Greenpoint,0 to 17 Years,2009,Number,88,uhf201
+Downtown  - Heights - Slope,0 to 17 Years,2009,Number,176,uhf202
+Bedford Stuyvesant - Crown Heights,0 to 17 Years,2009,Number,645,uhf203
+East New York,0 to 17 Years,2009,Number,376,uhf204
+Sunset Park,0 to 17 Years,2009,Number,62,uhf205
+Borough Park,0 to 17 Years,2009,Number,97,uhf206
+East Flatbush - Flatbush,0 to 17 Years,2009,Number,446,uhf207
+Canarsie - Flatlands,0 to 17 Years,2009,Number,195,uhf208
+Bensonhurst - Bay Ridge,0 to 17 Years,2009,Number,34,uhf209
+Coney Island - Sheepshead Bay,0 to 17 Years,2009,Number,101,uhf210
+Williamsburg - Bushwick,0 to 17 Years,2009,Number,503,uhf211
+Washington Heights - Inwood,0 to 17 Years,2009,Number,168,uhf301
+Central Harlem - Morningside Heights,0 to 17 Years,2009,Number,298,uhf302
+East Harlem,0 to 17 Years,2009,Number,254,uhf303
+Upper West Side,0 to 17 Years,2009,Number,87,uhf304
+Upper East Side,0 to 17 Years,2009,Number,49,uhf305
+Chelsea - Clinton,0 to 17 Years,2009,Number,27,uhf306
+Gramercy Park -  Murray Hill,0 to 17 Years,2009,Number,17,uhf307
+Greenwich Village - Soho,0 to 17 Years,2009,Number,8,uhf308
+Union Square - Lower East Side,0 to 17 Years,2009,Number,80,uhf309
+Lower Manhattan,0 to 17 Years,2009,Number,10,uhf310
+Long Island City - Astoria,0 to 17 Years,2009,Number,79,uhf401
+West Queens,0 to 17 Years,2009,Number,225,uhf402
+Flushing - Clearview,0 to 17 Years,2009,Number,84,uhf403
+Bayside - Little Neck,0 to 17 Years,2009,Number,34,uhf404
+Ridgewood - Forest Hills,0 to 17 Years,2009,Number,157,uhf405
+Fresh Meadows,0 to 17 Years,2009,Number,50,uhf406
+Southwest Queens,0 to 17 Years,2009,Number,269,uhf407
+Jamaica,0 to 17 Years,2009,Number,431,uhf408
+Southeast Queens,0 to 17 Years,2009,Number,224,uhf409
+Rockaway,0 to 17 Years,2009,Number,185,uhf410
+Port  Richmond,0 to 17 Years,2009,Number,80,uhf501
+Stapleton - St. George,0 to 17 Years,2009,Number,78,uhf502
+Willowbrook,0 to 17 Years,2009,Number,35,uhf503
+South Beach - Tottenville,0 to 17 Years,2009,Number,47,uhf504
+Bronx,0 to 17 Years,2010,Number,2921,36005
+Brooklyn,0 to 17 Years,2010,Number,2271,36047
+Manhattan,0 to 17 Years,2010,Number,931,36061
+Queens,0 to 17 Years,2010,Number,1537,36081
+Staten Island,0 to 17 Years,2010,Number,205,36085
+New York City,0 to 17 Years,2010,Number,7865,3651000
+Kingsbridge - Riverdale,0 to 17 Years,2010,Number,74,uhf101
+Northeast Bronx,0 to 17 Years,2010,Number,285,uhf102
+Fordham - Bronx Park,0 to 17 Years,2010,Number,563,uhf103
+Pelham - Throgs Neck,0 to 17 Years,2010,Number,491,uhf104
+Crotona - Tremont,0 to 17 Years,2010,Number,552,uhf105
+High Bridge - Morrisania,0 to 17 Years,2010,Number,505,uhf106
+Hunts Point - Mott Haven,0 to 17 Years,2010,Number,435,uhf107
+Greenpoint,0 to 17 Years,2010,Number,48,uhf201
+Downtown  - Heights - Slope,0 to 17 Years,2010,Number,135,uhf202
+Bedford Stuyvesant - Crown Heights,0 to 17 Years,2010,Number,559,uhf203
+East New York,0 to 17 Years,2010,Number,348,uhf204
+Sunset Park,0 to 17 Years,2010,Number,56,uhf205
+Borough Park,0 to 17 Years,2010,Number,64,uhf206
+East Flatbush - Flatbush,0 to 17 Years,2010,Number,361,uhf207
+Canarsie - Flatlands,0 to 17 Years,2010,Number,160,uhf208
+Bensonhurst - Bay Ridge,0 to 17 Years,2010,Number,20,uhf209
+Coney Island - Sheepshead Bay,0 to 17 Years,2010,Number,90,uhf210
+Williamsburg - Bushwick,0 to 17 Years,2010,Number,402,uhf211
+Washington Heights - Inwood,0 to 17 Years,2010,Number,176,uhf301
+Central Harlem - Morningside Heights,0 to 17 Years,2010,Number,246,uhf302
+East Harlem,0 to 17 Years,2010,Number,240,uhf303
+Upper West Side,0 to 17 Years,2010,Number,77,uhf304
+Upper East Side,0 to 17 Years,2010,Number,48,uhf305
+Chelsea - Clinton,0 to 17 Years,2010,Number,32,uhf306
+Gramercy Park -  Murray Hill,0 to 17 Years,2010,Number,20,uhf307
+Greenwich Village - Soho,0 to 17 Years,2010,Number,0,uhf308
+Union Square - Lower East Side,0 to 17 Years,2010,Number,59,uhf309
+Lower Manhattan,0 to 17 Years,2010,Number,8,uhf310
+Long Island City - Astoria,0 to 17 Years,2010,Number,86,uhf401
+West Queens,0 to 17 Years,2010,Number,197,uhf402
+Flushing - Clearview,0 to 17 Years,2010,Number,89,uhf403
+Bayside - Little Neck,0 to 17 Years,2010,Number,23,uhf404
+Ridgewood - Forest Hills,0 to 17 Years,2010,Number,160,uhf405
+Fresh Meadows,0 to 17 Years,2010,Number,46,uhf406
+Southwest Queens,0 to 17 Years,2010,Number,226,uhf407
+Jamaica,0 to 17 Years,2010,Number,343,uhf408
+Southeast Queens,0 to 17 Years,2010,Number,173,uhf409
+Rockaway,0 to 17 Years,2010,Number,177,uhf410
+Port  Richmond,0 to 17 Years,2010,Number,56,uhf501
+Stapleton - St. George,0 to 17 Years,2010,Number,85,uhf502
+Willowbrook,0 to 17 Years,2010,Number,12,uhf503
+South Beach - Tottenville,0 to 17 Years,2010,Number,43,uhf504
+Bronx,0 to 17 Years,2011,Number,2995,36005
+Brooklyn,0 to 17 Years,2011,Number,2335,36047
+Manhattan,0 to 17 Years,2011,Number,903,36061
+Queens,0 to 17 Years,2011,Number,1309,36081
+Staten Island,0 to 17 Years,2011,Number,183,36085
+New York City,0 to 17 Years,2011,Number,7725,3651000
+Kingsbridge - Riverdale,0 to 17 Years,2011,Number,65,uhf101
+Northeast Bronx,0 to 17 Years,2011,Number,303,uhf102
+Fordham - Bronx Park,0 to 17 Years,2011,Number,528,uhf103
+Pelham - Throgs Neck,0 to 17 Years,2011,Number,552,uhf104
+Crotona - Tremont,0 to 17 Years,2011,Number,529,uhf105
+High Bridge - Morrisania,0 to 17 Years,2011,Number,533,uhf106
+Hunts Point - Mott Haven,0 to 17 Years,2011,Number,457,uhf107
+Greenpoint,0 to 17 Years,2011,Number,43,uhf201
+Downtown  - Heights - Slope,0 to 17 Years,2011,Number,176,uhf202
+Bedford Stuyvesant - Crown Heights,0 to 17 Years,2011,Number,582,uhf203
+East New York,0 to 17 Years,2011,Number,313,uhf204
+Sunset Park,0 to 17 Years,2011,Number,64,uhf205
+Borough Park,0 to 17 Years,2011,Number,103,uhf206
+East Flatbush - Flatbush,0 to 17 Years,2011,Number,361,uhf207
+Canarsie - Flatlands,0 to 17 Years,2011,Number,176,uhf208
+Bensonhurst - Bay Ridge,0 to 17 Years,2011,Number,42,uhf209
+Coney Island - Sheepshead Bay,0 to 17 Years,2011,Number,67,uhf210
+Williamsburg - Bushwick,0 to 17 Years,2011,Number,387,uhf211
+Washington Heights - Inwood,0 to 17 Years,2011,Number,164,uhf301
+Central Harlem - Morningside Heights,0 to 17 Years,2011,Number,259,uhf302
+East Harlem,0 to 17 Years,2011,Number,212,uhf303
+Upper West Side,0 to 17 Years,2011,Number,75,uhf304
+Upper East Side,0 to 17 Years,2011,Number,51,uhf305
+Chelsea - Clinton,0 to 17 Years,2011,Number,25,uhf306
+Gramercy Park -  Murray Hill,0 to 17 Years,2011,Number,9,uhf307
+Greenwich Village - Soho,0 to 17 Years,2011,Number,0,uhf308
+Union Square - Lower East Side,0 to 17 Years,2011,Number,67,uhf309
+Lower Manhattan,0 to 17 Years,2011,Number,9,uhf310
+Long Island City - Astoria,0 to 17 Years,2011,Number,80,uhf401
+West Queens,0 to 17 Years,2011,Number,187,uhf402
+Flushing - Clearview,0 to 17 Years,2011,Number,83,uhf403
+Bayside - Little Neck,0 to 17 Years,2011,Number,7,uhf404
+Ridgewood - Forest Hills,0 to 17 Years,2011,Number,149,uhf405
+Fresh Meadows,0 to 17 Years,2011,Number,48,uhf406
+Southwest Queens,0 to 17 Years,2011,Number,170,uhf407
+Jamaica,0 to 17 Years,2011,Number,267,uhf408
+Southeast Queens,0 to 17 Years,2011,Number,157,uhf409
+Rockaway,0 to 17 Years,2011,Number,132,uhf410
+Port  Richmond,0 to 17 Years,2011,Number,65,uhf501
+Stapleton - St. George,0 to 17 Years,2011,Number,63,uhf502
+Willowbrook,0 to 17 Years,2011,Number,18,uhf503
+South Beach - Tottenville,0 to 17 Years,2011,Number,36,uhf504
+Bronx,0 to 17 Years,2012,Number,3189,36005
+Brooklyn,0 to 17 Years,2012,Number,2395,36047
+Manhattan,0 to 17 Years,2012,Number,939,36061
+Queens,0 to 17 Years,2012,Number,1337,36081
+Staten Island,0 to 17 Years,2012,Number,207,36085
+New York City,0 to 17 Years,2012,Number,8067,3651000
+Kingsbridge - Riverdale,0 to 17 Years,2012,Number,67,uhf101
+Northeast Bronx,0 to 17 Years,2012,Number,320,uhf102
+Fordham - Bronx Park,0 to 17 Years,2012,Number,559,uhf103
+Pelham - Throgs Neck,0 to 17 Years,2012,Number,609,uhf104
+Crotona - Tremont,0 to 17 Years,2012,Number,524,uhf105
+High Bridge - Morrisania,0 to 17 Years,2012,Number,571,uhf106
+Hunts Point - Mott Haven,0 to 17 Years,2012,Number,501,uhf107
+Greenpoint,0 to 17 Years,2012,Number,34,uhf201
+Downtown  - Heights - Slope,0 to 17 Years,2012,Number,171,uhf202
+Bedford Stuyvesant - Crown Heights,0 to 17 Years,2012,Number,591,uhf203
+East New York,0 to 17 Years,2012,Number,329,uhf204
+Sunset Park,0 to 17 Years,2012,Number,57,uhf205
+Borough Park,0 to 17 Years,2012,Number,90,uhf206
+East Flatbush - Flatbush,0 to 17 Years,2012,Number,387,uhf207
+Canarsie - Flatlands,0 to 17 Years,2012,Number,191,uhf208
+Bensonhurst - Bay Ridge,0 to 17 Years,2012,Number,44,uhf209
+Coney Island - Sheepshead Bay,0 to 17 Years,2012,Number,85,uhf210
+Williamsburg - Bushwick,0 to 17 Years,2012,Number,387,uhf211
+Washington Heights - Inwood,0 to 17 Years,2012,Number,160,uhf301
+Central Harlem - Morningside Heights,0 to 17 Years,2012,Number,299,uhf302
+East Harlem,0 to 17 Years,2012,Number,203,uhf303
+Upper West Side,0 to 17 Years,2012,Number,57,uhf304
+Upper East Side,0 to 17 Years,2012,Number,53,uhf305
+Chelsea - Clinton,0 to 17 Years,2012,Number,30,uhf306
+Gramercy Park -  Murray Hill,0 to 17 Years,2012,Number,13,uhf307
+Greenwich Village - Soho,0 to 17 Years,2012,Number,7,uhf308
+Union Square - Lower East Side,0 to 17 Years,2012,Number,77,uhf309
+Lower Manhattan,0 to 17 Years,2012,Number,0,uhf310
+Long Island City - Astoria,0 to 17 Years,2012,Number,70,uhf401
+West Queens,0 to 17 Years,2012,Number,234,uhf402
+Flushing - Clearview,0 to 17 Years,2012,Number,68,uhf403
+Bayside - Little Neck,0 to 17 Years,2012,Number,31,uhf404
+Ridgewood - Forest Hills,0 to 17 Years,2012,Number,146,uhf405
+Fresh Meadows,0 to 17 Years,2012,Number,37,uhf406
+Southwest Queens,0 to 17 Years,2012,Number,218,uhf407
+Jamaica,0 to 17 Years,2012,Number,257,uhf408
+Southeast Queens,0 to 17 Years,2012,Number,176,uhf409
+Rockaway,0 to 17 Years,2012,Number,86,uhf410
+Port  Richmond,0 to 17 Years,2012,Number,79,uhf501
+Stapleton - St. George,0 to 17 Years,2012,Number,65,uhf502
+Willowbrook,0 to 17 Years,2012,Number,14,uhf503
+South Beach - Tottenville,0 to 17 Years,2012,Number,38,uhf504
+Bronx,0 to 17 Years,2013,Number,3166,36005
+Brooklyn,0 to 17 Years,2013,Number,2233,36047
+Manhattan,0 to 17 Years,2013,Number,901,36061
+Queens,0 to 17 Years,2013,Number,1239,36081
+Staten Island,0 to 17 Years,2013,Number,199,36085
+New York City,0 to 17 Years,2013,Number,7738,3651000
+Kingsbridge - Riverdale,0 to 17 Years,2013,Number,72,uhf101
+Northeast Bronx,0 to 17 Years,2013,Number,319,uhf102
+Fordham - Bronx Park,0 to 17 Years,2013,Number,589,uhf103
+Pelham - Throgs Neck,0 to 17 Years,2013,Number,515,uhf104
+Crotona - Tremont,0 to 17 Years,2013,Number,559,uhf105
+High Bridge - Morrisania,0 to 17 Years,2013,Number,627,uhf106
+Hunts Point - Mott Haven,0 to 17 Years,2013,Number,453,uhf107
+Greenpoint,0 to 17 Years,2013,Number,26,uhf201
+Downtown  - Heights - Slope,0 to 17 Years,2013,Number,130,uhf202
+Bedford Stuyvesant - Crown Heights,0 to 17 Years,2013,Number,581,uhf203
+East New York,0 to 17 Years,2013,Number,346,uhf204
+Sunset Park,0 to 17 Years,2013,Number,63,uhf205
+Borough Park,0 to 17 Years,2013,Number,70,uhf206
+East Flatbush - Flatbush,0 to 17 Years,2013,Number,409,uhf207
+Canarsie - Flatlands,0 to 17 Years,2013,Number,191,uhf208
+Bensonhurst - Bay Ridge,0 to 17 Years,2013,Number,30,uhf209
+Coney Island - Sheepshead Bay,0 to 17 Years,2013,Number,74,uhf210
+Williamsburg - Bushwick,0 to 17 Years,2013,Number,292,uhf211
+Washington Heights - Inwood,0 to 17 Years,2013,Number,161,uhf301
+Central Harlem - Morningside Heights,0 to 17 Years,2013,Number,276,uhf302
+East Harlem,0 to 17 Years,2013,Number,222,uhf303
+Upper West Side,0 to 17 Years,2013,Number,56,uhf304
+Upper East Side,0 to 17 Years,2013,Number,41,uhf305
+Chelsea - Clinton,0 to 17 Years,2013,Number,21,uhf306
+Gramercy Park -  Murray Hill,0 to 17 Years,2013,Number,16,uhf307
+Greenwich Village - Soho,0 to 17 Years,2013,Number,6,uhf308
+Union Square - Lower East Side,0 to 17 Years,2013,Number,67,uhf309
+Lower Manhattan,0 to 17 Years,2013,Number,4,uhf310
+Long Island City - Astoria,0 to 17 Years,2013,Number,66,uhf401
+West Queens,0 to 17 Years,2013,Number,202,uhf402
+Flushing - Clearview,0 to 17 Years,2013,Number,82,uhf403
+Bayside - Little Neck,0 to 17 Years,2013,Number,12,uhf404
+Ridgewood - Forest Hills,0 to 17 Years,2013,Number,87,uhf405
+Fresh Meadows,0 to 17 Years,2013,Number,49,uhf406
+Southwest Queens,0 to 17 Years,2013,Number,181,uhf407
+Jamaica,0 to 17 Years,2013,Number,288,uhf408
+Southeast Queens,0 to 17 Years,2013,Number,158,uhf409
+Rockaway,0 to 17 Years,2013,Number,86,uhf410
+Port  Richmond,0 to 17 Years,2013,Number,64,uhf501
+Stapleton - St. George,0 to 17 Years,2013,Number,77,uhf502
+Willowbrook,0 to 17 Years,2013,Number,12,uhf503
+South Beach - Tottenville,0 to 17 Years,2013,Number,39,uhf504
+Bronx,0 to 17 Years,2014,Number,3260,36005
+Brooklyn,0 to 17 Years,2014,Number,2302,36047
+Manhattan,0 to 17 Years,2014,Number,942,36061
+Queens,0 to 17 Years,2014,Number,1317,36081
+Staten Island,0 to 17 Years,2014,Number,207,36085
+New York City,0 to 17 Years,2014,Number,8028,3651000
+Kingsbridge - Riverdale,0 to 17 Years,2014,Number,71,uhf101
+Northeast Bronx,0 to 17 Years,2014,Number,324,uhf102
+Fordham - Bronx Park,0 to 17 Years,2014,Number,648,uhf103
+Pelham - Throgs Neck,0 to 17 Years,2014,Number,521,uhf104
+Crotona - Tremont,0 to 17 Years,2014,Number,567,uhf105
+High Bridge - Morrisania,0 to 17 Years,2014,Number,624,uhf106
+Hunts Point - Mott Haven,0 to 17 Years,2014,Number,478,uhf107
+Greenpoint,0 to 17 Years,2014,Number,46,uhf201
+Downtown  - Heights - Slope,0 to 17 Years,2014,Number,121,uhf202
+Bedford Stuyvesant - Crown Heights,0 to 17 Years,2014,Number,607,uhf203
+East New York,0 to 17 Years,2014,Number,366,uhf204
+Sunset Park,0 to 17 Years,2014,Number,54,uhf205
+Borough Park,0 to 17 Years,2014,Number,73,uhf206
+East Flatbush - Flatbush,0 to 17 Years,2014,Number,460,uhf207
+Canarsie - Flatlands,0 to 17 Years,2014,Number,159,uhf208
+Bensonhurst - Bay Ridge,0 to 17 Years,2014,Number,17,uhf209
+Coney Island - Sheepshead Bay,0 to 17 Years,2014,Number,82,uhf210
+Williamsburg - Bushwick,0 to 17 Years,2014,Number,292,uhf211
+Washington Heights - Inwood,0 to 17 Years,2014,Number,217,uhf301
+Central Harlem - Morningside Heights,0 to 17 Years,2014,Number,233,uhf302
+East Harlem,0 to 17 Years,2014,Number,239,uhf303
+Upper West Side,0 to 17 Years,2014,Number,64,uhf304
+Upper East Side,0 to 17 Years,2014,Number,40,uhf305
+Chelsea - Clinton,0 to 17 Years,2014,Number,32,uhf306
+Gramercy Park -  Murray Hill,0 to 17 Years,2014,Number,14,uhf307
+Greenwich Village - Soho,0 to 17 Years,2014,Number,4,uhf308
+Union Square - Lower East Side,0 to 17 Years,2014,Number,57,uhf309
+Lower Manhattan,0 to 17 Years,2014,Number,2,uhf310
+Long Island City - Astoria,0 to 17 Years,2014,Number,67,uhf401
+West Queens,0 to 17 Years,2014,Number,249,uhf402
+Flushing - Clearview,0 to 17 Years,2014,Number,75,uhf403
+Bayside - Little Neck,0 to 17 Years,2014,Number,21,uhf404
+Ridgewood - Forest Hills,0 to 17 Years,2014,Number,109,uhf405
+Fresh Meadows,0 to 17 Years,2014,Number,34,uhf406
+Southwest Queens,0 to 17 Years,2014,Number,209,uhf407
+Jamaica,0 to 17 Years,2014,Number,276,uhf408
+Southeast Queens,0 to 17 Years,2014,Number,162,uhf409
+Rockaway,0 to 17 Years,2014,Number,100,uhf410
+Port  Richmond,0 to 17 Years,2014,Number,67,uhf501
+Stapleton - St. George,0 to 17 Years,2014,Number,80,uhf502
+Willowbrook,0 to 17 Years,2014,Number,11,uhf503
+South Beach - Tottenville,0 to 17 Years,2014,Number,40,uhf504
+Bronx,0 to 17 Years,2015,Number,2896,36005
+Brooklyn,0 to 17 Years,2015,Number,2017,36047
+Manhattan,0 to 17 Years,2015,Number,821,36061
+Queens,0 to 17 Years,2015,Number,1142,36081
+Staten Island,0 to 17 Years,2015,Number,185,36085
+New York City,0 to 17 Years,2015,Number,7061,3651000
+Kingsbridge - Riverdale,0 to 17 Years,2015,Number,60,uhf101
+Northeast Bronx,0 to 17 Years,2015,Number,268,uhf102
+Fordham - Bronx Park,0 to 17 Years,2015,Number,548,uhf103
+Pelham - Throgs Neck,0 to 17 Years,2015,Number,523,uhf104
+Crotona - Tremont,0 to 17 Years,2015,Number,463,uhf105
+High Bridge - Morrisania,0 to 17 Years,2015,Number,574,uhf106
+Hunts Point - Mott Haven,0 to 17 Years,2015,Number,431,uhf107
+Greenpoint,0 to 17 Years,2015,Number,27,uhf201
+Downtown  - Heights - Slope,0 to 17 Years,2015,Number,114,uhf202
+Bedford Stuyvesant - Crown Heights,0 to 17 Years,2015,Number,506,uhf203
+East New York,0 to 17 Years,2015,Number,349,uhf204
+Sunset Park,0 to 17 Years,2015,Number,37,uhf205
+Borough Park,0 to 17 Years,2015,Number,75,uhf206
+East Flatbush - Flatbush,0 to 17 Years,2015,Number,413,uhf207
+Canarsie - Flatlands,0 to 17 Years,2015,Number,179,uhf208
+Bensonhurst - Bay Ridge,0 to 17 Years,2015,Number,27,uhf209
+Coney Island - Sheepshead Bay,0 to 17 Years,2015,Number,58,uhf210
+Williamsburg - Bushwick,0 to 17 Years,2015,Number,219,uhf211
+Washington Heights - Inwood,0 to 17 Years,2015,Number,175,uhf301
+Central Harlem - Morningside Heights,0 to 17 Years,2015,Number,234,uhf302
+East Harlem,0 to 17 Years,2015,Number,197,uhf303
+Upper West Side,0 to 17 Years,2015,Number,51,uhf304
+Upper East Side,0 to 17 Years,2015,Number,42,uhf305
+Chelsea - Clinton,0 to 17 Years,2015,Number,21,uhf306
+Gramercy Park -  Murray Hill,0 to 17 Years,2015,Number,5,uhf307
+Greenwich Village - Soho,0 to 17 Years,2015,Number,1,uhf308
+Union Square - Lower East Side,0 to 17 Years,2015,Number,67,uhf309
+Lower Manhattan,0 to 17 Years,2015,Number,4,uhf310
+Long Island City - Astoria,0 to 17 Years,2015,Number,47,uhf401
+West Queens,0 to 17 Years,2015,Number,177,uhf402
+Flushing - Clearview,0 to 17 Years,2015,Number,70,uhf403
+Bayside - Little Neck,0 to 17 Years,2015,Number,19,uhf404
+Ridgewood - Forest Hills,0 to 17 Years,2015,Number,95,uhf405
+Fresh Meadows,0 to 17 Years,2015,Number,57,uhf406
+Southwest Queens,0 to 17 Years,2015,Number,183,uhf407
+Jamaica,0 to 17 Years,2015,Number,261,uhf408
+Southeast Queens,0 to 17 Years,2015,Number,135,uhf409
+Rockaway,0 to 17 Years,2015,Number,86,uhf410
+Port  Richmond,0 to 17 Years,2015,Number,68,uhf501
+Stapleton - St. George,0 to 17 Years,2015,Number,59,uhf502
+Willowbrook,0 to 17 Years,2015,Number,12,uhf503
+South Beach - Tottenville,0 to 17 Years,2015,Number,38,uhf504
+Bronx,0 to 17 Years,2016,Number,2657,36005
+Brooklyn,0 to 17 Years,2016,Number,1967,36047
+Manhattan,0 to 17 Years,2016,Number,856,36061
+Queens,0 to 17 Years,2016,Number,1065,36081
+Staten Island,0 to 17 Years,2016,Number,208,36085
+New York City,0 to 17 Years,2016,Number,6753,3651000
+Kingsbridge - Riverdale,0 to 17 Years,2016,Number,53,uhf101
+Northeast Bronx,0 to 17 Years,2016,Number,265,uhf102
+Fordham - Bronx Park,0 to 17 Years,2016,Number,545,uhf103
+Pelham - Throgs Neck,0 to 17 Years,2016,Number,441,uhf104
+Crotona - Tremont,0 to 17 Years,2016,Number,427,uhf105
+High Bridge - Morrisania,0 to 17 Years,2016,Number,565,uhf106
+Hunts Point - Mott Haven,0 to 17 Years,2016,Number,361,uhf107
+Greenpoint,0 to 17 Years,2016,Number,26,uhf201
+Downtown  - Heights - Slope,0 to 17 Years,2016,Number,112,uhf202
+Bedford Stuyvesant - Crown Heights,0 to 17 Years,2016,Number,473,uhf203
+East New York,0 to 17 Years,2016,Number,361,uhf204
+Sunset Park,0 to 17 Years,2016,Number,33,uhf205
+Borough Park,0 to 17 Years,2016,Number,72,uhf206
+East Flatbush - Flatbush,0 to 17 Years,2016,Number,364,uhf207
+Canarsie - Flatlands,0 to 17 Years,2016,Number,172,uhf208
+Bensonhurst - Bay Ridge,0 to 17 Years,2016,Number,30,uhf209
+Coney Island - Sheepshead Bay,0 to 17 Years,2016,Number,84,uhf210
+Williamsburg - Bushwick,0 to 17 Years,2016,Number,240,uhf211
+Washington Heights - Inwood,0 to 17 Years,2016,Number,210,uhf301
+Central Harlem - Morningside Heights,0 to 17 Years,2016,Number,284,uhf302
+East Harlem,0 to 17 Years,2016,Number,151,uhf303
+Upper West Side,0 to 17 Years,2016,Number,43,uhf304
+Upper East Side,0 to 17 Years,2016,Number,39,uhf305
+Chelsea - Clinton,0 to 17 Years,2016,Number,11,uhf306
+Gramercy Park -  Murray Hill,0 to 17 Years,2016,Number,8,uhf307
+Greenwich Village - Soho,0 to 17 Years,2016,Number,4,uhf308
+Union Square - Lower East Side,0 to 17 Years,2016,Number,73,uhf309
+Lower Manhattan,0 to 17 Years,2016,Number,7,uhf310
+Long Island City - Astoria,0 to 17 Years,2016,Number,55,uhf401
+West Queens,0 to 17 Years,2016,Number,199,uhf402
+Flushing - Clearview,0 to 17 Years,2016,Number,79,uhf403
+Bayside - Little Neck,0 to 17 Years,2016,Number,7,uhf404
+Ridgewood - Forest Hills,0 to 17 Years,2016,Number,97,uhf405
+Fresh Meadows,0 to 17 Years,2016,Number,51,uhf406
+Southwest Queens,0 to 17 Years,2016,Number,146,uhf407
+Jamaica,0 to 17 Years,2016,Number,239,uhf408
+Southeast Queens,0 to 17 Years,2016,Number,115,uhf409
+Rockaway,0 to 17 Years,2016,Number,73,uhf410
+Port  Richmond,0 to 17 Years,2016,Number,83,uhf501
+Stapleton - St. George,0 to 17 Years,2016,Number,72,uhf502
+Willowbrook,0 to 17 Years,2016,Number,12,uhf503
+South Beach - Tottenville,0 to 17 Years,2016,Number,36,uhf504
