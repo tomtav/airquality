@@ -39,6 +39,6 @@ def create_app():
         except:
             document = {}
 
-        return render_template('index.html', data=document)
+        return render_template('content.html', data=document)
 
     return app
