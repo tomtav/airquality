@@ -1,0 +1,1 @@
+{"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"OBJECTID": 1, "postalCode": "11372", "PO_NAME": "Jackson Heights", "STATE": "NY", "borough": "Queens", "ST_FIPS": "36", "CTY_FIPS": "081", "BLDGpostal": 0, "@id": "http://nyc.pediacities.com/Resource/PostalCode/11372", "longitude": -73.883573184, "latitude": 40.751662187, "UHF_FIPS": 
