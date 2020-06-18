@@ -9,6 +9,30 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  var mapboxAccessToken = API_KEY;
+  var map = L.map('map').setView([40.8075, -73.9626], 14);
+  
+  L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=' + mapboxAccessToken, {
+    id: 'mapbox/light-v10',
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    tileSize: 512,
+    zoomOffset: -1
+  }).addTo(map);
+  
+  function onEachFeature(feature, layer) {
+    let tooltip = "<h5>" + feature.properties.borough + " (" + feature.properties.uhf_neigh + ")" +
+      "</h5><hr><p>" + "Er Visits : " + feature.properties.ervisits + "</p>";
+    if (feature.properties.ervisits.length) {
+      feature.properties.ervisits.forEach(income => {
+        tooltip += "<p>" + income.level + " - " + income.amount + "</p>"
+      })
+    }
+    layer.bindPopup(tooltip);
+
+    
+  }
+  
+
 
 
 
@@ -73,7 +97,34 @@ document.addEventListener('DOMContentLoaded', function () {
   var dropDown = d3.select('select').attr('id', 'chooser')
     .on('change', onChange)
   
-  var options = dropDown.selectAll(null)
+    // Load in geojson data
+var geoData = "static/data/uhf_final.geojson";
+  d3.json(geoData)
+  .then(function(data){
+    L.choropleth(data, {
+        onEachFeature: onEachFeature,
+        // Define what  property in the features to use
+    valueProperty: "ervisits",
+
+    // Set color scale (in hex values)
+    scale: ["#ccff99", "#003399"],
+
+    // Number of breaks in step range
+    steps: 10,
+
+    // q for quantile, e for equidistant, k for k-means
+    mode: "q",
+    style: {
+      // Border color
+      color: "#fff",
+      weight: 1,
+      fillOpacity: 0.8
+    }
+    })
+    .addTo(map);
+  })
+  
+    var options = dropDown.selectAll(null)
     .data(ervisits_zip.map(d => d.Location).filter((v,i,a) => a.indexOf(v) === i).sort())
     .enter()
     .append('option')
@@ -120,27 +171,8 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   })
   
-  var mapboxAccessToken = API_KEY;
-  var map = L.map('map').setView([40.8075, -73.9626], 14);
   
-  L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=' + mapboxAccessToken, {
-    id: 'mapbox/light-v10',
-    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-    tileSize: 512,
-    zoomOffset: -1
-  }).addTo(map);
-  
-  function onEachFeature(feature, layer) {
-    let tooltip = "<h5>" + feature.properties.PO_NAME + " (" + feature.properties.postalCode + ")" +
-      "</h5><hr><p>" + feature.properties.Fips + " - " + feature.properties.UHF_NAME + "</p>";
-    if (feature.properties.INCOME.length) {
-      feature.properties.INCOME.forEach(income => {
-        tooltip += "<p>" + income.level + " - " + income.amount + "</p>"
-      })
-    }
-    layer.bindPopup(tooltip);
-  }
-  
+ 
   
   function style(feature) {
     return {
@@ -153,10 +185,41 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
   
-  L.geoJson(locations, {
+ /* L.geoJson(locations, {
     style: style,
     onEachFeature: onEachFeature
   }).addTo(map)
-  
+  */
   this.map.invalidateSize(true);
+  
+  
+
+// Grab data with d3
+d3.json(geoData, function(data) {
+
+  // Create a new choropleth layer
+  var geojson = L.choropleth(data, {
+
+    // Define what  property in the features to use
+    valueProperty: "ervisits",
+
+    // Set color scale (in hex values)
+    scale: ["#ffffb2", "#b10026"],
+
+    // Number of breaks in step range
+    steps: 10,
+
+    // q for quantile, e for equidistant, k for k-means
+    mode: "q",
+    style: {
+      // Border color
+      color: "#fff",
+      weight: 1,
+      fillOpacity: 0.8
+    }
+})
+// Add the choropleth layer to the map
+geojson.addTo(map);
+});
+
   
