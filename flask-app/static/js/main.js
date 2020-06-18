@@ -77,11 +77,13 @@ var locations = {
 //d3.json('flask-app/static/data/incomes.json').then(d => {
 //  households = d.households
 
-demo = households.map(d => {
+demo = households.filter(d => d.Fips <= 1000 && d.DataFormat === 'Number' && d.TimeFrame >= 2015)
+
+/* demo = households.map(d => {
   uhf = uhf_codes.filter(c => c.Fips === d.Fips)
   d.Borough = uhf.length ? uhf[0].Borough : ''
   return d
-}).filter(d => d.Fips <= 1000 && d.Borough.length && d.DataFormat === 'Number' && d.TimeFrame >= 2015)
+}).filter(d => d.Fips <= 1000 && d.Borough.length && d.DataFormat === 'Number' && d.TimeFrame >= 2015) */
 
 years = demo.map(d => d.TimeFrame).filter((v, i, a) => a.indexOf(v) === i).sort()
 
@@ -112,7 +114,7 @@ function onChange() {
   }
 }
 
-ntas.features.forEach(feature => {
+/* ntas.features.forEach(feature => {
   let id = feature.properties.OBJECTID
   let postalCode = feature.properties.postalCode
 
@@ -129,46 +131,50 @@ ntas.features.forEach(feature => {
       locations.features.push(feature)
     })
   }
+}) */
+d3.json('flask-app/static/data/uhf_lookup.geojson').then(data => {
+  locations = data
+  console.log(locations)
+  var mapboxAccessToken = API_KEY;
+  // [40.8075, -73.9626] // CU
+  var map = L.map('map').setView([40.6892, -74.0445], 10);
+
+  L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=' + mapboxAccessToken, {
+    id: 'mapbox/light-v10',
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    tileSize: 512,
+    zoomOffset: -1
+  }).addTo(map);
+
+  function onEachFeature(feature, layer) {
+    let tooltip = "<h5>" + feature.properties.PO_NAME + " (" + feature.properties.postalCode + ")" +
+      "</h5><hr><p>" + feature.properties.UHF_FIPS + " - " + feature.properties.UHF_NAME + "</p>";
+    if (feature.properties.INCOME.length) {
+      feature.properties.INCOME.forEach(income => {
+        tooltip += "<p>" + income.level + " - " + income.amount + "</p>"
+      })
+    }
+    layer.bindPopup(tooltip)
+    //layer.bindPopup(JSON.stringify(feature.properties))
+  }
+
+
+  function style(feature) {
+    return {
+      fillColor: getBoroColor(feature.properties.borough),
+      weight: 2,
+      opacity: 1,
+      color: 'gray',
+      dashArray: '3',
+      fillOpacity: 0.9
+    }
+  }
+
+  L.geoJson(locations, {
+    style: style,
+    //onEachFeature: onEachFeature
+  }).addTo(map)
+
 })
-var mapboxAccessToken = API_KEY;
-// [40.8075, -73.9626] // CU
-var map = L.map('map').setView([40.6892, -74.0445], 10);
-
-L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=' + mapboxAccessToken, {
-  id: 'mapbox/light-v10',
-  attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-  tileSize: 512,
-  zoomOffset: -1
-}).addTo(map);
-
-function onEachFeature(feature, layer) {
-  let tooltip = "<h5>" + feature.properties.PO_NAME + " (" + feature.properties.postalCode + ")" +
-    "</h5><hr><p>" + feature.properties.UHF_FIPS + " - " + feature.properties.UHF_NAME + "</p>";
-  if (feature.properties.INCOME.length) {
-    feature.properties.INCOME.forEach(income => {
-      tooltip += "<p>" + income.level + " - " + income.amount + "</p>"
-    })
-  }
-  layer.bindPopup(tooltip)
-  //layer.bindPopup(JSON.stringify(feature.properties))
-}
-
-
-function style(feature) {
-  return {
-    fillColor: getBoroColor(feature.properties.borough),
-    weight: 2,
-    opacity: 1,
-    color: 'gray',
-    dashArray: '3',
-    fillOpacity: 0.9
-  }
-}
-
-L.geoJson(locations, {
-  style: style,
-  onEachFeature: onEachFeature
-}).addTo(map)
-
 //})
 //this.map.invalidateSize(true);
