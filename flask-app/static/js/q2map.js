@@ -1,4 +1,4 @@
-d3.json('flask-app/static/data/uhf_final.geojson').then(data => {
+d3.json('flask-app/static/data/uhf_final_w_trees.geojson').then(data => {
 
   data.features = data.features.filter(d => d.properties.uhfcode <= 1000 && d.properties.year === 2015)
 
@@ -33,8 +33,9 @@ d3.json('flask-app/static/data/uhf_final.geojson').then(data => {
       `<b>${props.uhf_neigh} (${props.borough})</b><br/>
        <table class="no-lines"><tbody>
        <tr><td>Year:</td><td><b>${props.year}</b></td></tr>
-       <tr><td>Visits:</td><td><b>${format(props.ervisits)}</b></td></tr>
        <tr><td>Age Group:</td><td><b>${props.age}</b></td></tr>
+       <tr><td>Visits:</td><td><b>${format(props.ervisits_count)}</b></td></tr>
+       <tr><td>Trees:</td><td><b>${format(props.tree_cnt_uhf)}</b></td></tr>
        </tbody></table>
         `
       : '<span>Hover over a neighborhood</span>');
@@ -68,7 +69,7 @@ d3.json('flask-app/static/data/uhf_final.geojson').then(data => {
   }
 
   function onEachFeature(feature, layer) {
-    let tooltip = "<h5>" + feature.properties.borough + " (" + feature.properties.uhf_neigh + ")" +
+    /* let tooltip = "<h5>" + feature.properties.borough + " (" + feature.properties.uhf_neigh + ")" +
       "</h5><hr><p>" + "Er Visits : " + feature.properties.ervisits + "</p>" +
       "</h5><hr><p>" + "Age : " + feature.properties.age + "</p>" +
       "</h5><hr><p>" + "Year : " + feature.properties.year + "</p>";
@@ -76,7 +77,7 @@ d3.json('flask-app/static/data/uhf_final.geojson').then(data => {
       feature.properties.ervisits.forEach(income => {
         tooltip += "<p>" + income.level + " - " + format(income.amount) + "</p>"
       })
-    }
+    } */
     layer.on({
       mouseover: highlightFeature,
       mouseout: resetHighlight,
@@ -90,7 +91,7 @@ d3.json('flask-app/static/data/uhf_final.geojson').then(data => {
   let geojson = L.choropleth(data, {
     onEachFeature: onEachFeature,
 
-    valueProperty: "ervisits",
+    valueProperty: "ervisits_count",
 
     scale: [
       "#ffffcc",
