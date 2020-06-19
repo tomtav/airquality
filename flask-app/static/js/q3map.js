@@ -1,4 +1,4 @@
-d3.json('flask-app/static/data/uhf_final.geojson').then(data => {
+d3.json('flask-app/static/data/uhf_final_w_trees.geojson').then(data => {
 
   data.features = data.features.filter(d => d.properties.uhfcode <= 1000 && d.properties.year === 2015)
 
@@ -31,14 +31,14 @@ d3.json('flask-app/static/data/uhf_final.geojson').then(data => {
 
   info.update = function (props) {
     this._div.innerHTML = '<h6>NYC Trees Distribution</h6>' + (props ?
-      `<b>${props.uhf_neigh} (${props.borough})</b>`
-      /* < br />
+      `<b>${props.uhf_neigh} (${props.borough})</b>
+      <br/>
        <table class="no-lines"><tbody>
        <tr><td>Year:</td><td><b>${props.year}</b></td></tr>
-       <tr><td>No. Trees:</td><td><b>${format(props.ervisits)}</b></td></tr>
-       <tr><td>Average DBH:</td><td><b>${props.age}</b></td></tr>
+       <tr><td>Neighborhood:</td><td><b>${format(props.tree_cnt_uhf)}</b></td></tr>
+       <tr><td>Borough:</td><td><b>${format(props.tree_cnt_boro)}</b></td></tr>
        </tbody></table>
-        ` */
+        `
       : '<span>Hover over a neighborhood</span>');
   };
 
@@ -148,7 +148,7 @@ d3.json('flask-app/static/data/uhf_final.geojson').then(data => {
   markers.addLayer(oldest_marker);
 
   const treeData = 'flask-app/static/data/Trees.json';
-  d3.json(treeData).then(trees => {
+  /* d3.json(treeData).then(trees => {
     let markers = L.markerClusterGroup({
       showCoverageOnHover: false,
       removeOutsideVisibleBounds: true,
@@ -170,6 +170,6 @@ d3.json('flask-app/static/data/uhf_final.geojson').then(data => {
       map.addLayer(markers)
     })
   }).catch(error => console.error(error))
-
+ */
 
 })
