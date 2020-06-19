@@ -21,7 +21,9 @@ document.addEventListener('DOMContentLoaded', function () {
   
   function onEachFeature(feature, layer) {
     let tooltip = "<h5>" + feature.properties.borough + " (" + feature.properties.uhf_neigh + ")" +
-      "</h5><hr><p>" + "Er Visits : " + feature.properties.ervisits + "</p>";
+      "</h5><hr><p>" + "Er Visits : " + feature.properties.ervisits + "</p>" +
+      "</h5><hr><p>" + "Age : " + feature.properties.age + "</p>" +
+      "</h5><hr><p>" + "Year : " + feature.properties.year + "</p>";
     if (feature.properties.ervisits.length) {
       feature.properties.ervisits.forEach(income => {
         tooltip += "<p>" + income.level + " - " + income.amount + "</p>"
@@ -101,27 +103,68 @@ document.addEventListener('DOMContentLoaded', function () {
 var geoData = "static/data/uhf_final.geojson";
   d3.json(geoData)
   .then(function(data){
-    L.choropleth(data, {
+  var geojson = L.choropleth(data, {
         onEachFeature: onEachFeature,
         // Define what  property in the features to use
     valueProperty: "ervisits",
 
     // Set color scale (in hex values)
-    scale: ["#ccff99", "#003399"],
+    scale: [
+        "#ffffcc",
+        "#c2e699",
+        "#78c679",
+        "#31a354",
+        "#006837",
+    ].reverse(),
 
     // Number of breaks in step range
-    steps: 10,
+    steps: 5,
 
     // q for quantile, e for equidistant, k for k-means
     mode: "q",
     style: {
       // Border color
-      color: "#fff",
+      color: "#006d2c",
       weight: 1,
       fillOpacity: 0.8
     }
     })
     .addTo(map);
+    // Set up the legend
+    var legend = L.control({ position: "bottomleft" });
+
+  // onAdd: "the map calls the onAdd() method of the layer, then the layer
+  //        creates its HTML element(s) (commonly named ‘container’ element)
+  //        and adds them to the map pane."
+  // Ref: https://leafletjs.com/examples/extending/extending-2-layers.html
+    legend.onAdd = function() {
+    var div = L.DomUtil.create("div", "info legend");
+    var limits = geojson.options.limits;
+    var colors = geojson.options.colors;
+    var labels = [];
+
+    // Add min & max
+    var legendInfo = "<h6>Number of Ervisits</h6>" +
+      "<div class=\"labels\">" +
+        "<div class=\"min\">" + limits[0] + "</div>" +
+        "<div class=\"max\">" + limits[limits.length - 1] + "</div>" +
+      "</div>";
+
+    div.innerHTML = legendInfo;
+
+    limits.forEach(function(limit, index) {
+      labels.push("<li style=\"background-color: " + colors[index] + "\"></li>");
+    });
+
+    div.innerHTML += "<ul>" + labels.join("") + "</ul>";
+    return div;
+  };
+
+  // Adding legend to the map
+  legend.addTo(map);
+
+    
+    
   })
   
     var options = dropDown.selectAll(null)
@@ -204,7 +247,7 @@ d3.json(geoData, function(data) {
     valueProperty: "ervisits",
 
     // Set color scale (in hex values)
-    scale: ["#ffffb2", "#b10026"],
+    scale: ["#efedf5", "#bcbddc", "#756bb1"],
 
     // Number of breaks in step range
     steps: 10,
@@ -220,6 +263,8 @@ d3.json(geoData, function(data) {
 })
 // Add the choropleth layer to the map
 geojson.addTo(map);
+
+
 });
 
   
