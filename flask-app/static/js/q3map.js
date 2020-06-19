@@ -148,7 +148,7 @@ d3.json('flask-app/static/data/uhf_final.geojson').then(data => {
   markers.addLayer(oldest_marker);
 
   const treeData = 'flask-app/static/data/Trees.json';
-  /* d3.json(treeData).then(trees => {
+  d3.json(treeData).then(trees => {
     let markers = L.markerClusterGroup({
       showCoverageOnHover: false,
       removeOutsideVisibleBounds: true,
@@ -169,7 +169,7 @@ d3.json('flask-app/static/data/uhf_final.geojson').then(data => {
       // Add our marker cluster layer to the map
       map.addLayer(markers)
     })
-  }).catch(error => console.error(error)) */
+  }).catch(error => console.error(error))
 
 
 })
