@@ -2,19 +2,23 @@ d3.json('flask-app/static/data/uhf_final.geojson').then(data => {
 
   data.features = data.features.filter(d => d.properties.uhfcode <= 1000 && d.properties.year === 2015)
 
-  const mapboxAccessToken = API_KEY;
-
   let format = d3.format(',d')
 
   let map2 = L.map('map2', { scrollWheelZoom: false }).setView([40.7484, -73.9857], 10);
 
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map2);
+
+  /* 
+  const mapboxAccessToken = API_KEY;
   L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=' + mapboxAccessToken, {
     id: 'mapbox/light-v10',
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
     tileSize: 512,
     zoomOffset: -1
-  }).addTo(map2);
-
+  }).addTo(map2); 
+  */
 
   let info = L.control();
 

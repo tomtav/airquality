@@ -1,7 +1,5 @@
 d3.json('flask-app/static/data/uhf_final.geojson').then(data => {
 
-  const mapboxAccessToken = API_KEY;
-
   data.features = data.features.filter(d => d.properties.uhfcode <= 1000 && d.properties.year === 2015)
 
   let locations = data
@@ -9,12 +7,19 @@ d3.json('flask-app/static/data/uhf_final.geojson').then(data => {
 
   let map = L.map('map', { scrollWheelZoom: false }).setView([40.6892, -74.0445], 10);
 
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  /* 
+    const mapboxAccessToken = API_KEY;
   L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=' + mapboxAccessToken, {
     id: 'mapbox/light-v10',
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
     tileSize: 512,
     zoomOffset: -1
-  }).addTo(map);
+  }).addTo(map); 
+  */
 
   let info = L.control();
 
@@ -143,13 +148,13 @@ d3.json('flask-app/static/data/uhf_final.geojson').then(data => {
   markers.addLayer(oldest_marker);
 
   const treeData = 'flask-app/static/data/Trees.json';
-  d3.json(treeData).then(trees => {
+  /* d3.json(treeData).then(trees => {
     let markers = L.markerClusterGroup({
       showCoverageOnHover: false,
       removeOutsideVisibleBounds: true,
-      /* iconCreateFunction: function (cluster) {
-        return L.divIcon({ html: '<b>' + cluster.getChildCount() + '</b>' });
-      } */
+      //iconCreateFunction: function (cluster) {
+      //  return L.divIcon({ html: '<b>' + cluster.getChildCount() + '</b>' });
+      //} 
     });
     trees.forEach(tree => {
       if (tree.latitude && tree.longitude) {
@@ -164,7 +169,7 @@ d3.json('flask-app/static/data/uhf_final.geojson').then(data => {
       // Add our marker cluster layer to the map
       map.addLayer(markers)
     })
-  }).catch(error => console.error(error))
+  }).catch(error => console.error(error)) */
 
 
 })
