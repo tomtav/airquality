@@ -1,7 +1,7 @@
 var sunburst_data = { name: 'Incomes', children: [] }
 d3.json('flask-app/static/data/uhf_final.geojson').then(data => {
 
-  demo = data['features'].filter(d => d.properties.uhfcode <= 1000 && d.properties.year >= 2015)
+  demo = data['features'].filter(d => d.properties.uhfcode <= 1000 && d.properties.year === 2015)
   years = demo.map(d => d.properties.year).filter((v, i, a) => a.indexOf(v) === i).sort()
   boroughs = demo.map(d => d.properties.borough).filter((v, i, a) => a.indexOf(v) === i).sort()
   levels = demo.map(d => d.properties.income_level).filter((v, i, a) => a.indexOf(v) === i).sort((a, b) => parseFloat(b.split(' ')[0].split('$')[1]) - parseFloat(a.split(' ')[0].split('$')[1]))
@@ -26,8 +26,8 @@ d3.json('flask-app/static/data/uhf_final.geojson').then(data => {
   })
 
 
-  const width = 600;
-  const height = 600;
+  const width = 500;
+  const height = 500;
   const radius = Math.min(width, height) / 6;
   //const color = d3.scaleOrdinal(d3.schemeDark2)
   const color = d3.scaleOrdinal(d3.quantize(d3.interpolateViridis, sunburst_data.children.length + 1))
@@ -36,8 +36,8 @@ d3.json('flask-app/static/data/uhf_final.geojson').then(data => {
   const format = d3.format('.0%')
 
   const q1 = d3.select('#question_1')
-  q1.append('label').html('<input class="sizeSelect" type="radio" name="mode" value="count" checked /><span>Number of Households</span>')
-  q1.append('label').html('<input class="sizeSelect" type="radio" name="mode" value="percent" /><span>Percentage of Households</span>')
+  //q1.append('label').html('<input class="sizeSelect" type="radio" name="mode" value="count" checked /><span>Number of Households</span>')
+  //q1.append('label').html('<input class="sizeSelect" type="radio" name="mode" value="percent" /><span>Percentage of Households</span>')
 
   const svg = q1.append('svg')
     .attr('viewBox', [0, 0, width, height])
@@ -69,7 +69,7 @@ d3.json('flask-app/static/data/uhf_final.geojson').then(data => {
 
   const path = g.append('g')
     .selectAll('path')
-    .data(root.descendants().slice(1))
+    .data(root.descendants().slice(2))
     .enter().append('path')
     .attr('fill', d => { while (d.depth > 1) d = d.parent; return color(d.data.name) })
     .attr('fill-opacity', d => arcVisible(d.current) ? (d.children ? 0.6 : 0.4) : 0)
@@ -80,14 +80,14 @@ d3.json('flask-app/static/data/uhf_final.geojson').then(data => {
     .on('click', onClick);
 
   path.append('title')
-    .text(d => `${d.ancestors().map(d => d.data.name).reverse().join('/')}\n${d.data.uhfcode ? format(d.data.value) : ''}`);
+    .text(d => `${d.ancestors().map(d => d.data.name).reverse().join('/')}\n${format(d.data.children ? (d.data.value / d.data.children.length) : d.data.value)}`);
 
   const label = g.append('g')
     .attr('pointer-events', 'none')
     .attr('text-anchor', 'middle')
     .style('user-select', 'none')
     .selectAll('text')
-    .data(root.descendants().slice(1))
+    .data(root.descendants().slice(2))
     .enter().append('text')
     .attr('dy', '0.35em')
     .style('font-weight', d => labelVisible(d.current) ? 'bold' : 'normal')
