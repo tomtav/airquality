@@ -24,9 +24,6 @@ function createIncomeChart(data) {
   neighs = geoData.map(d => d.properties.uhf_neigh).filter((v, i, a) => a.indexOf(v) === i).sort()
 
 
-
-
-
   years.forEach(year => {
     y = { name: year, children: [] }
     boroughs.forEach(b => {
@@ -35,22 +32,28 @@ function createIncomeChart(data) {
         n = { name: neigh, children: [] }
         for (let level of levels) {
           l = { name: level }
-          l.value = geoData.filter(d => d.properties.uhf_neigh === neigh && d.properties.borough === b && d.properties.income_level === level && d.properties.year === year).map(d => d.properties.income_count)[0]
-          l.trees = geoData.filter(d => d.properties.uhf_neigh === neigh && d.properties.borough === b && d.properties.income_level === level && d.properties.year === year).map(d => d.tree_cnt_uhf)[0]
-          //l.children = geoData.filter(d => d.properties.uhf_neigh === neigh && d.properties.borough === b && d.properties.income_level === level && d.properties.year === year).map(d => { d.properties.name = d.properties.uhf_neigh; d.properties.value = d.properties.income_count; return d.properties })
-          /* l.value = geoData.filter(d => d.properties.uhf_neigh === neight && d.properties.borough === b && d.properties.income_level === level && d.properties.year === year)
+          //l.value = geoData.filter(d => d.properties.uhf_neigh === neigh && d.properties.borough === b && d.properties.income_level === level && d.properties.year === year).map(d => d.properties.income_count)[0]
+          //l.trees = geoData.filter(d => d.properties.uhf_neigh === neigh && d.properties.borough === b && d.properties.income_level === level && d.properties.year === year).map(d => d.tree_cnt_uhf)[0]
+          l.children = geoData.filter(d => d.properties.uhf_neigh === neigh && d.properties.borough === b && d.properties.income_level === level && d.properties.year === year).map(d => { d.properties.name = d.properties.uhf_neigh; d.properties.value = d.properties.income_count; return d.properties })
+          l.value = geoData.filter(d => d.properties.uhf_neigh === neigh && d.properties.borough === b && d.properties.income_level === level && d.properties.year === year)
             .map(d => { d.properties.name = d.properties.uhf_neigh; return d.properties })
-            .reduce((cnt, d) => cnt + d.households, 0) */
+            .reduce((cnt, d) => cnt + d.income_count, 0)
+          l.trees = geoData.filter(d => d.properties.uhf_neigh === neigh && d.properties.borough === b && d.properties.income_level === level && d.properties.year === year)
+            .map(d => { d.properties.name = d.properties.uhf_neigh; return d.properties })
+            .reduce((cnt, d) => cnt + d.tree_cnt_uhf, 0)
           n.children.push(l)
-          n.trees = geoData.filter(d => d.properties.uhf_neigh === neigh && d.properties.borough === b && d.properties.income_level === level && d.properties.year === year).map(d => d.properties.tree_cnt_uhf)[0]
-          t.trees = geoData.filter(d => d.properties.uhf_neigh === neigh && d.properties.borough === b && d.properties.income_level === level && d.properties.year === year).map(d => d.properties.tree_cnt_boro)[0]
+          //n.trees = geoData.filter(d => d.properties.uhf_neigh === neigh && d.properties.borough === b && d.properties.income_level === level && d.properties.year === year).map(d => d.properties.tree_cnt_uhf)[0]
+          //t.trees = geoData.filter(d => d.properties.uhf_neigh === neigh && d.properties.borough === b && d.properties.income_level === level && d.properties.year === year).map(d => d.properties.tree_cnt_boro)[0]
         }
         n.value = n.children.reduce((cnt, d) => cnt + d.value, 0)
+        n.trees = n.children.reduce((cnt, d) => cnt + d.trees, 0)
         t.children.push(n)
       }
       t.value = t.children.reduce((cnt, d) => cnt + d.value, 0)
+      t.trees = t.children.reduce((cnt, d) => cnt + d.trees, 0)
       y.children.push(t)
       y.value = y.children.reduce((cnt, d) => cnt + d.value, 0)
+      y.trees = y.children.reduce((cnt, d) => cnt + d.trees, 0)
     })
     sunburst_data.children.push(y)
   })
@@ -61,15 +64,20 @@ function createIncomeChart(data) {
       t = { "name": b, "children": [] }
       for (let level of levels) {
         l = { 'name': level, "children": [] }
-        l.children = geoData.filter(d => d.properties.borough === b && d.properties.income_level === level && d.properties.year === year).map(d => { d.properties.name = d.properties.uhf_neigh; d.properties.value = d.properties.households; return d.properties })
+        l.children = geoData.filter(d => d.properties.borough === b && d.properties.income_level === level && d.properties.year === year).map(d => { d.properties.name = d.properties.uhf_neigh; d.properties.value = d.properties.income_count, d.properties.trees = d.properties.tree_cnt_uhf; return d.properties })
         l.value = geoData.filter(d => d.properties.borough === b && d.properties.income_level === level && d.properties.year === year)
           .map(d => { d.properties.name = d.properties.uhf_neigh; return d.properties })
-          .reduce((cnt, d) => cnt + d.households, 0)
+          .reduce((cnt, d) => cnt + d.income_count, 0)
+        l.trees = geoData.filter(d => d.properties.borough === b && d.properties.income_level === level && d.properties.year === year)
+          .map(d => { d.properties.name = d.properties.uhf_neigh; return d.properties })
+          .reduce((cnt, d) => cnt + d.tree_cnt_uhf, 0)
         t.children.push(l)
       }
       t.value = t.children.reduce((cnt, d) => cnt + d.value, 0)
+      t.trees = t.children.reduce((cnt, d) => cnt + d.trees, 0)
       y.children.push(t)
       y.value = y.children.reduce((cnt, d) => cnt + d.value, 0)
+      y.trees = y.children.reduce((cnt, d) => cnt + d.trees, 0)
     })
     sunburst_data.children.push(y)
   }) */
@@ -126,7 +134,8 @@ function createIncomeChart(data) {
     .on('click', onClick);
 
   path.append('title')
-    .text(d => `${d.ancestors().map(d => d.data.name).reverse().join('/')}\nHouseholds: ${format(d.data.value)}\nTrees: ${format(d.data)}`);
+    .text(d => `${d.ancestors().map(d => d.data.name).reverse().join('/')}\nHouseholds: ${format(d.data.value)}`);
+  //\nTrees: ${format(d.data)}
 
   const label = g.append('g')
     .attr('pointer-events', 'none')

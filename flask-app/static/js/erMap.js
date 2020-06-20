@@ -47,6 +47,7 @@ function createERmap(data) {
   };
 
   info.addTo(map2);
+  let highlighted = []
 
   function highlightFeature(e) {
     let layer = e.target;
@@ -71,6 +72,11 @@ function createERmap(data) {
 
   function zoomToFeature(e) {
     map2.fitBounds(e.target.getBounds());
+    if (highlighted.length) {
+      highlighted = highlighted.map(d => resetHighlight(d)).filter(d => false)
+    }
+    highlighted.push(e)
+    highlightFeature(e)
   }
 
   function onEachFeature(feature, layer) {
@@ -94,18 +100,20 @@ function createERmap(data) {
 
   }
 
+  let ev = data.features.map(d => d.properties.ervisits_count).filter((v, i, a) => a.indexOf(v) === i).sort((a, b) => a - b)
+
+  let linearScale = d3.scaleLinear()
+    .domain([d3.min(ev), d3.median(ev), d3.max(ev)])
+    .range(['#006d2c', '#fed98e', '#de2d26']);
+
+  let colorArray = ev.map(d => linearScale(d));
+
   let geojson = L.choropleth(data, {
     onEachFeature: onEachFeature,
 
     valueProperty: "ervisits_count",
 
-    scale: [
-      "#ffffcc",
-      "#c2e699",
-      "#78c679",
-      "#31a354",
-      "#006837",
-    ].reverse(),
+    scale: colorArray,
 
     steps: 5,
 

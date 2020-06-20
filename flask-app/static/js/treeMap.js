@@ -49,12 +49,13 @@ function createTreeMap(data) {
   };
 
   info.addTo(map);
+  var highlighted = []
 
   function highlightFeature(e) {
     let layer = e.target;
     layer.setStyle({
       weight: 3,
-      color: 'darkgreen',
+      color: 'purple',
       dashArray: '',
       fillOpacity: 0.7
     });
@@ -62,35 +63,32 @@ function createTreeMap(data) {
     if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
       layer.bringToFront();
     }
-
     info.update(layer.feature.properties);
   }
 
   function resetHighlight(e) {
-    geojson.resetStyle(e.target);
+    let layer = e.target
+    geojson.resetStyle(layer);
     info.update();
   }
 
   function zoomToFeature(e) {
     map.fitBounds(e.target.getBounds());
+    if (highlighted.length) {
+      highlighted = highlighted.map(d => resetHighlight(d)).filter(d => false)
+    }
+    highlighted.push(e)
+    highlightFeature(e)
   }
 
 
   function onEachFeature(feature, layer) {
-    /* let tooltip = "<h5>" + feature.properties.PO_NAME + " (" + feature.properties.postalCode + ")" +
-      "</h5><hr><p>" + feature.properties.UHF_FIPS + " - " + feature.properties.UHF_NAME + "</p>";
-    if (feature.properties.INCOME.length) {
-      feature.properties.INCOME.forEach(income => {
-        tooltip += "<p>" + income.level + " - " + income.amount + "</p>"
-      })
-    } */
     layer._leaflet_id = feature.properties.uhfcode
     layer.on({
       mouseover: highlightFeature,
       mouseout: resetHighlight,
       click: zoomToFeature
     });
-    //layer.bindPopup(tooltip)
   }
 
   /*
@@ -196,7 +194,7 @@ function addOldestTree(markers) {
   oldest.marker.bindPopup(`<h6>${oldest.common}</h6>
 <hr>
 <table class="no-lines"><tbody>
-<tr><td>DBH:</td><td><b>${oldest.dbh}</b></td></tr>
+<tr><td>DBH (cm):</td><td><b>${oldest.dbh}</b></td></tr>
 <tr><td>Status:</td><td><b>${oldest.status}</b></td></tr>
 </tbody></table>
 `);
@@ -225,14 +223,17 @@ function addClusters(markers) {
       //  return L.divIcon({ html: '<b>' + cluster.getChildCount() + '</b>' });
       //}
     });
+
     trees.forEach(tree => {
       if (tree.latitude && tree.longitude) {
         let marker = L.marker([tree.latitude, tree.longitude], { icon: greenIcon });
-        marker.bindPopup(`<h3>${tree.spc_common}</h3>
-    <hr>
-    <p>DBH: ${tree.tree_dbh}</p>
-    <p>Status: ${tree.status}</p>
-`);
+        marker.bindPopup(`<h6>${tree.spc_common}</h6>
+        <hr>
+        <table class="no-lines"><tbody>
+        <tr><td>DBH:</td><td><b>${tree.tree_dbh}</b></td></tr>
+        <tr><td>Status:</td><td><b>${tree.status}</b></td></tr>
+        </tbody></table>
+        `);
         markers.addLayer(marker);
       }
       // Add our marker cluster layer to the map
