@@ -1,6 +1,13 @@
 # 2105 NYC Air Quality Analysis Dashboard
 Flask web application that shows if air quality differs significantly among neighborhoods.
 
+![dbh_diagram.jpg](flask-app/static/images/dbh_diagram.jpg)
+
+### Background
+For parents of children with chronic respiratory illnesses, there are many factors to consider when looking for a place to call home. We hope this dashboard will give families an additional resource during the home buying/renting process.
+
+![](flask-app/static/images/.gif)
+
 ### Web Scraping
 - NYC Neighborhood Zipcodes
 - BeautifulSoup script collects the zipcodes for every neighborhood in New York City as determined by the United Hospital Fund
@@ -27,3 +34,8 @@ Alternatively, it can run locally. First, clone or download the entire directory
 - OS
 - D3
 - Python
+
+### Resources
+![dbh_diagram.jpg](flask-app/static/images/itree_logo.jpg)
+
+Learn about [i-Tree](https://www.itreetools.org)
