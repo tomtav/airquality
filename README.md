@@ -1,5 +1,6 @@
 # 2105 NYC Air Quality Analysis Dashboard
 Flask web application that shows if air quality differs significantly among neighborhoods.
+![Trees](https://media.giphy.com/media/XBbe8ApwcblsY/giphy.gif)
 
 ![dbh_diagram.jpg](flask-app/static/images/dbh_diagram.jpg)
 
