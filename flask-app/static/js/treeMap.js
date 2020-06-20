@@ -7,8 +7,8 @@ const mapDefaultZoom = {
 }
 function createTreeMap(data) {
 
-  let boroughs = data.features.map(d => d.properties.borough).filter((v, i, a) => a.indexOf(v) === i).sort()
-
+  let boros = data.features.map(d => ({ name: d.properties.borough, count: d.properties.tree_cnt_boro })).filter((v, i, a) => a.findIndex(e => e.name === v.name) === i).sort((a, b) => b.count - a.count)
+  console.log(boros)
   let locations = data
   const format = d3.format(',d')
 
@@ -104,16 +104,6 @@ function createTreeMap(data) {
   #00441b. dark
   */
 
-  var getColor = (count) => {
-    const colors = {
-      '60663': '#C7E9C0',
-      '82433': '#a1d99b',
-      '98223': '#74c476',
-      '126538': '#41ab5d',
-      '133886': '#006d2c'
-    }
-    return colors[count]
-  }
 
   function style(feature) {
     return {
@@ -131,8 +121,6 @@ function createTreeMap(data) {
     onEachFeature: onEachFeature
   }).addTo(map)
 
-  //addLegend()
-
   // Create a new marker cluster group
   let markers = L.markerClusterGroup({
     showCoverageOnHover: false,
@@ -140,21 +128,33 @@ function createTreeMap(data) {
   });
 
   addOldestTree(map, markers)
+  addLegend(boros)
   //addClusters(map, markers)
   //addTrees(map, markers)
 
 
 }
 
-function addLegend() {
+getColor = (count) => {
+  const colors = {
+    '60663': '#C7E9C0',
+    '82433': '#a1d99b',
+    '98223': '#74c476',
+    '126538': '#41ab5d',
+    '133886': '#006d2c'
+  }
+  return colors[count]
+}
+
+addLegend = (boros) => {
 
   let legend = L.control({ position: "bottomright" });
 
   legend.onAdd = (map) => {
     let div = L.DomUtil.create("div", "info legend"),
       labels = [];
-
-    boroughs.forEach(boro => labels.push('<i style="background:' + getBoroColor(boro) + '"></i> ' + boro));
+    console.log(boros)
+    boros.forEach(boro => labels.push('<i style="background:' + getColor(boro.count) + '"></i> ' + boro.name));
 
     div.innerHTML = labels.join('<br/>');
 
@@ -165,10 +165,7 @@ function addLegend() {
   legend.addTo(map);
 }
 
-//})
-
-
-function addOldestTree(markers) {
+addOldestTree = (markers) => {
   // Oldest Tree
   let orangeIcon = L.icon({
     iconUrl: 'flask-app/static/images/leaf-orange.png',
@@ -201,7 +198,7 @@ function addOldestTree(markers) {
   markers.addLayer(oldest.marker);
 }
 
-function addClusters(markers) {
+addClusters = (markers) => {
 
   let greenIcon = L.icon({
     iconUrl: 'flask-app/static/images/leaf-green.png',
