@@ -33,7 +33,6 @@ function buildCharts(data) {
   createFilters(data);
   createTreeMap(data);
   createIncomeChart(data);
-  createIncomeBubbles(data);
   createERmap(data);
 }
 
