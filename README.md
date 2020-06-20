@@ -40,3 +40,35 @@ Alternatively, it can run locally. First, clone or download the entire directory
 ![dbh_diagram.jpg](flask-app/static/images/itree_logo.jpg)
 
 Learn about [i-Tree](https://www.itreetools.org)
+
+Datasets:
+Air Quality 
+https://aqs.epa.gov/aqsweb/documents/data_api.html
+	
+Tree Census
+https://data.cityofnewyork.us/Environment/2015-Street-Tree-Census-Tree-Data/uvpi-gqnh
+
+NYC Census
+https://www.census.gov/programs-surveys/acs/data/pums.html
+      
+NYC Uhf Zip Codes 
+            https://www.nycfoodpolicy.org/nyc-foodscapes-community/
+
+https://jsspina.carto.com/tables/nyc_zip_code_tabulation_areas_polygons/public/map
+
+NYC Zipcodes GeoJSON
+https://data.beta.nyc/dataset/nyc-zip-code-tabulation-areas/resource/6df127b1-6d04-4bb7-b983-07402a2c3f90
+
+NYC UHF Neighborhoods Zip Codes Table to Scrape
+https://www.health.ny.gov/statistics/cancer/registry/appendix/neighborhoods.htm
+https://www1.nyc.gov/assets/doh/downloads/pdf/ah/zipcodetable.pdf
+
+Modified Zip Code Tabulation Areas
+https://data.cityofnewyork.us/Health/Modified-Zip-Code-Tabulation-Areas-MODZCTA-Map/5fzm-kpwv
+
+NYC Neighborhoods GeoJSON
+https://data.cityofnewyork.us/City-Government/Neighborhood-Tabulation-Areas-NTA-/cpf4-rkhq
+
+NYC Million Trees Project
+https://www.milliontreesnyc.org/html/about/about.shtml
+
