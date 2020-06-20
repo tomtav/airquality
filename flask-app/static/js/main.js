@@ -1,94 +1,136 @@
 document.addEventListener('DOMContentLoaded', function () {
-  var elems = document.querySelectorAll('select')
-  M.FormSelect.init(elems)
+  var instances = [];
+  var selectors = document.querySelectorAll('select');
+  instances.push(M.FormSelect.init(selectors));
+
+  var collapsibles = document.querySelectorAll('.collapsible');
+  instances.push(M.Collapsible.init(collapsibles));
 })
+
+
 function onMapReady() {
   setTimeout(() => {
     map.invalidateSize();
   });
 }
 
-var boros = {
-  'Bronx': '#ffffcc',
-  'Queens': '#a1dab4',
-  'Brooklyn': '#41b6c4',
-  'Manhattan': '#2c7fb8',
-  'Staten Island': '#253494'
-}
-
 function getBoroColor(d) {
+  const boros = {
+    'Bronx': '#ffffcc',
+    'Queens': '#a1dab4',
+    'Brooklyn': '#41b6c4',
+    'Manhattan': '#2c7fb8',
+    'Staten Island': '#253494'
+  }
   return boros[d] ? boros[d] : '#999'
 }
 
-function getIncomeColor(d) {
-  return d === '$200,000 or more' ? '#005a32' :
-    d === '$100,000 to $199,999' ? '#238443' :
-      d === '$75,000 to $99,999' ? '#41ab5d' :
-        d === '$50,000 to $74,999' ? '#78c679' :
-          d === '$35,000 to $49,999' ? '#addd8e' :
-            d === '$25,000 to $34,999' ? '#d9f0a3' :
-              d === '$15,000 to $24,999' ? '#f7fcb9' :
-                '#ffffcc';
+
+const dataFile = 'flask-app/static/data/uhf_final_w_trees.geojson';
+d3.json(dataFile).then(buildCharts);
+
+function buildCharts(data) {
+  createFilters(data);
+  createTreeMap(data);
+  createIncomeChart(data);
+  createIncomeBubbles(data);
+  createERmap(data);
 }
 
-demo = households.filter(d => d.Fips <= 1000 && d.DataFormat === 'Number' && d.TimeFrame >= 2015)
+function createFilters(data) {
 
-years = demo.map(d => d.TimeFrame).filter((v, i, a) => a.indexOf(v) === i).sort()
+  years = data.features.map(d => d.properties.year).filter((v, i, a) => a.indexOf(v) === i).sort()
+  areas = data.features.map(d => ({ uhf_code: d.properties.uhfcode, uhf_neigh: d.properties.uhf_neigh })).sort((a, b) => a.uhf_neigh > b.uhf_neigh).filter((v, i, a) => a.findIndex(e => e.uhf_code === v.uhf_code) === i)
+  boroughs = data.features.map(d => d.properties.borough).filter((v, i, a) => a.indexOf(v) === i).sort()
+  levels = data.features.map(d => d.properties.income_level).filter((v, i, a) => a.indexOf(v) === i).sort((a, b) => parseFloat(b.split(' ')[0].split('$')[1]) - parseFloat(a.split(' ')[0].split('$')[1]))
 
-areas = demo.map(d => ({ fips: d.Fips, location: d.Location })).sort((a, b) => a.location > b.location).filter((v, i, a) => a.findIndex(e => e.fips === v.fips) === i)
+  var filters = d3.select('#filters')
+  addNeighborhoodDD(filters, areas);
+  //addIncomeSelector(filters, levels);
 
-boroughs = demo.map(d => d.Borough).filter((v, i, a) => a.indexOf(v) === i).sort()
+}
 
-levels = demo.map(d => d['Income Level']).filter((v, i, a) => a.indexOf(v) === i).sort((a, b) => parseFloat(b.split(' ')[0].split('$')[1]) - parseFloat(a.split(' ')[0].split('$')[1]))
+function addNeighborhoodDD(container, data) {
+  var inputField = container
+    .append('div')
 
-var filters = d3.select('#filters')
+  inputField.classed('input-field col s12', true)
 
-var dropDown = filters
-  .append('div').attr('class', 'input-field')
-  .append('select')
-  .attr('id', 'chooser')
-  .on('change', onChange)
+  //inputField.append('h6').style('color', '#fff').text('Neighborhood:')
 
-dropDown.append('option')
-  .attr('value', 'None')
-  .property('disabled', true)
-  .property('selected', true)
-  .text('Choose your option')
+  let dropDown = inputField
+    .append('select')
+    .attr('id', 'chooser')
+    //.classed('browser-default', true)
+    .on('change', onChange)
 
-dropDown.selectAll(null)
-  .data(areas)
-  .enter()
-  .append('option')
-  .attr('value', d => d.fips)
-  .text(d => d.location)
+  dropDown.append('option')
+    .attr('value', '')
+    .property('disabled', false)
+    .property('selected', true)
+    .text('Choose your option')
 
-var incomeSelector = filters.append('form')
+  dropDown.selectAll(null)
+    .data(data)
+    .enter()
+    .append('option')
+    .attr('value', d => d.uhf_code)
+    .text(d => d.uhf_neigh);
 
-var incomeSelections = incomeSelector.selectAll('p')
-  .data(levels.reverse())
-  .enter()
-  .append('p')
+  inputField.append('label')
+    .style('color', '#000')
+    .style('font-size', '1.1em')
+    .style('font-weight', 'bold')
+    .text('Neighborhood:')
 
-var incomeRadios = incomeSelections.append('label')
+  M.FormSelect.init(document.querySelectorAll('select'))
 
-incomeRadios.append('input')
-  .attr('name', 'income_level')
-  .attr('type', 'radio')
-  .attr('value', d => d)
-  .property('checked', (d, i) => i === 0)
-  .on('change', onChange)
+}
 
-incomeRadios.append('span')
-  .style('color', '#fff')
-  .text(d => d)
+function addIncomeSelector(container, data) {
+  var incomeSelector = container.append('div').append('form')
+  incomeSelector.append('h6')
+    //.style('font-weight', 'bold')
+    .style('color', '#fff')
+    .text('Income Level:')
+
+  var incomeSelections = incomeSelector.selectAll('p')
+    .data(data.reverse())
+    .enter()
+    .append('p')
+
+  var incomeRadios = incomeSelections.append('label')
+
+  incomeRadios.append('input')
+    .attr('name', 'income_level')
+    .attr('type', 'radio')
+    .attr('value', d => d)
+    .property('checked', (d, i) => i === 0)
+    .on('change', onChange)
+
+  incomeRadios.append('span')
+    .style('color', '#fff')
+    .text(d => d)
+
+}
+
 
 function onChange() {
   let name = this.name ? this.name : 'select'
   let value = this.value;
 
-  if (value === 'None') {
-    console.error('Nothing selected')
+  if (value === '') {
+    console.log('Nothing selected')
+    map.setView(mapDefaultZoom.center, mapDefaultZoom.zoom);
+    map2.setView(map2DefaultZoom.center, map2DefaultZoom.zoom);
   } else {
     console.log(`filter selected : ${name} - ${value}`)
+    map._layers[value].fire('click')
+    var layer = map._layers[value]
+    map.fitBounds(layer.getBounds())
+
+    map2._layers[value].fire('click')
+    var layer2 = map2._layers[value]
+    map2.fitBounds(layer2.getBounds())
   }
 }

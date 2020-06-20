@@ -1,13 +1,33 @@
 var sunburst_data = { name: 'Incomes', children: [] }
-d3.json('flask-app/static/data/uhf_final_w_trees.geojson').then(data => {
-  demo = data['features'].filter(d => d.properties.uhfcode <= 1000 && d.properties.year === 2015)
-  console.log(demo)
-  years = demo.map(d => d.properties.year).filter((v, i, a) => a.indexOf(v) === i).sort()
-  boroughs = demo.map(d => d.properties.borough).filter((v, i, a) => a.indexOf(v) === i).sort()
-  neighs = demo.map(d => d.properties.uhf_neigh).filter((v, i, a) => a.indexOf(v) === i).sort()
-  levels = demo.map(d => d.properties.income_level).filter((v, i, a) => a.indexOf(v) === i).sort((a, b) => parseFloat(b.split(' ')[0].split('$')[1]) - parseFloat(a.split(' ')[0].split('$')[1]))
+var full_data
 
-  years.forEach(async year => {
+function createIncomeChart(data) {
+
+  function getIncomeColor(d) {
+    return d === '$200,000 or more' ? '#005a32' :
+      d === '$100,000 to $199,999' ? '#238443' :
+        d === '$75,000 to $99,999' ? '#41ab5d' :
+          d === '$50,000 to $74,999' ? '#78c679' :
+            d === '$35,000 to $49,999' ? '#addd8e' :
+              d === '$25,000 to $34,999' ? '#d9f0a3' :
+                d === '$15,000 to $24,999' ? '#f7fcb9' :
+                  '#ffffcc';
+  }
+  console.log(data)
+  geoData = data.features.filter(d => d.properties.uhfcode <= 1000 && d.properties.year === 2015)
+  full_data = geoData
+
+  years = geoData.map(d => d.properties.year).filter((v, i, a) => a.indexOf(v) === i).sort()
+  //areas = geoData.map(d => ({ uhf_code: d.properties.uhfcode, uhf_neigh: d.properties.uhf_neigh })).sort((a, b) => a.uhf_neigh > b.uhf_neigh).filter((v, i, a) => a.findIndex(e => e.uhf_code === v.uhf_code) === i)
+  boroughs = geoData.map(d => d.properties.borough).filter((v, i, a) => a.indexOf(v) === i).sort()
+  levels = geoData.map(d => d.properties.income_level).filter((v, i, a) => a.indexOf(v) === i).sort((a, b) => parseFloat(b.split(' ')[0].split('$')[1]) - parseFloat(a.split(' ')[0].split('$')[1]))
+  neighs = geoData.map(d => d.properties.uhf_neigh).filter((v, i, a) => a.indexOf(v) === i).sort()
+
+
+
+
+
+  years.forEach(year => {
     y = { name: year, children: [] }
     boroughs.forEach(b => {
       t = { name: b, children: [] }
@@ -15,14 +35,15 @@ d3.json('flask-app/static/data/uhf_final_w_trees.geojson').then(data => {
         n = { name: neigh, children: [] }
         for (let level of levels) {
           l = { name: level }
-          l.value = demo.filter(d => d.properties.uhf_neigh === neigh && d.properties.borough === b && d.properties.income_level === level && d.properties.year === year).map(d => d.properties.income_count)[0]
-          l.children = demo.filter(d => d.properties.uhf_neigh === neigh && d.properties.borough === b && d.properties.income_level === level && d.properties.year === year).map(d => { d.properties.name = d.properties.uhf_neigh; d.properties.value = d.properties.income_count; return d.properties })
-          /* l.value = demo.filter(d => d.properties.uhf_neigh === neight && d.properties.borough === b && d.properties.income_level === level && d.properties.year === year)
+          l.value = geoData.filter(d => d.properties.uhf_neigh === neigh && d.properties.borough === b && d.properties.income_level === level && d.properties.year === year).map(d => d.properties.income_count)[0]
+          l.trees = geoData.filter(d => d.properties.uhf_neigh === neigh && d.properties.borough === b && d.properties.income_level === level && d.properties.year === year).map(d => d.tree_cnt_uhf)[0]
+          //l.children = geoData.filter(d => d.properties.uhf_neigh === neigh && d.properties.borough === b && d.properties.income_level === level && d.properties.year === year).map(d => { d.properties.name = d.properties.uhf_neigh; d.properties.value = d.properties.income_count; return d.properties })
+          /* l.value = geoData.filter(d => d.properties.uhf_neigh === neight && d.properties.borough === b && d.properties.income_level === level && d.properties.year === year)
             .map(d => { d.properties.name = d.properties.uhf_neigh; return d.properties })
             .reduce((cnt, d) => cnt + d.households, 0) */
           n.children.push(l)
-          n.trees = demo.filter(d => d.properties.uhf_neigh === neigh && d.properties.borough === b && d.properties.income_level === level && d.properties.year === year).map(d => d.properties.tree_cnt_uhf)[0]
-          t.trees = demo.filter(d => d.properties.uhf_neigh === neigh && d.properties.borough === b && d.properties.income_level === level && d.properties.year === year).map(d => d.properties.tree_cnt_boro)[0]
+          n.trees = geoData.filter(d => d.properties.uhf_neigh === neigh && d.properties.borough === b && d.properties.income_level === level && d.properties.year === year).map(d => d.properties.tree_cnt_uhf)[0]
+          t.trees = geoData.filter(d => d.properties.uhf_neigh === neigh && d.properties.borough === b && d.properties.income_level === level && d.properties.year === year).map(d => d.properties.tree_cnt_boro)[0]
         }
         n.value = n.children.reduce((cnt, d) => cnt + d.value, 0)
         t.children.push(n)
@@ -40,8 +61,8 @@ d3.json('flask-app/static/data/uhf_final_w_trees.geojson').then(data => {
       t = { "name": b, "children": [] }
       for (let level of levels) {
         l = { 'name': level, "children": [] }
-        l.children = demo.filter(d => d.properties.borough === b && d.properties.income_level === level && d.properties.year === year).map(d => { d.properties.name = d.properties.uhf_neigh; d.properties.value = d.properties.households; return d.properties })
-        l.value = demo.filter(d => d.properties.borough === b && d.properties.income_level === level && d.properties.year === year)
+        l.children = geoData.filter(d => d.properties.borough === b && d.properties.income_level === level && d.properties.year === year).map(d => { d.properties.name = d.properties.uhf_neigh; d.properties.value = d.properties.households; return d.properties })
+        l.value = geoData.filter(d => d.properties.borough === b && d.properties.income_level === level && d.properties.year === year)
           .map(d => { d.properties.name = d.properties.uhf_neigh; return d.properties })
           .reduce((cnt, d) => cnt + d.households, 0)
         t.children.push(l)
@@ -53,20 +74,16 @@ d3.json('flask-app/static/data/uhf_final_w_trees.geojson').then(data => {
     sunburst_data.children.push(y)
   }) */
 
-
-
   const width = 500;
   const height = 500;
   const radius = Math.min(width, height) / 6;
   //const color = d3.scaleOrdinal(d3.schemeDark2)
-  const color = d3.scaleOrdinal(d3.quantize(d3.interpolateViridis, sunburst_data.children.length + 1))
-  //const color = d3.scaleOrdinal(d3.quantize(d3.interpolateRainbow, sunburst_data.children[0].children[0].children.length + 5))
-  const format = d3.format(",d")
-  //const format = d3.format('.0%')
+  //const color = d3.scaleOrdinal(d3.quantize(d3.interpolateViridis, sunburst_data.children.length + 1))
+  const color = d3.scaleOrdinal(d3.quantize(d3.interpolateRainbow, sunburst_data.children[0].children[0].children.length + 5))
 
-  const q1 = d3.select('#question_1')
-  //q1.append('label').html('<input class="sizeSelect" type="radio" name="mode" value="count" checked /><span>Number of Households</span>')
-  //q1.append('label').html('<input class="sizeSelect" type="radio" name="mode" value="percent" /><span>Percentage of Households</span>')
+  const format = d3.format(",d")
+
+  const q1 = d3.select('#chart')
 
   const svg = q1.append('svg')
     .attr('viewBox', [0, 0, width, height])
@@ -85,7 +102,7 @@ d3.json('flask-app/static/data/uhf_final_w_trees.geojson').then(data => {
   }
 
   const root = partition(sunburst_data)
-  console.log(root)
+
   root.each(d => d.current = d)
 
   const arc = d3.arc()
@@ -109,7 +126,7 @@ d3.json('flask-app/static/data/uhf_final_w_trees.geojson').then(data => {
     .on('click', onClick);
 
   path.append('title')
-    .text(d => `${d.ancestors().map(d => d.data.name).reverse().join('/')}\n${format(d.data.children ? (d.data.value / d.data.children.length) : d.data.value)}`);
+    .text(d => `${d.ancestors().map(d => d.data.name).reverse().join('/')}\nHouseholds: ${format(d.data.value)}\nTrees: ${format(d.data)}`);
 
   const label = g.append('g')
     .attr('pointer-events', 'none')
@@ -132,6 +149,7 @@ d3.json('flask-app/static/data/uhf_final_w_trees.geojson').then(data => {
     .on('click', onClick)
 
   function onClick(p) {
+    //console.log(p)
     parent.datum(p.parent || root);
 
     root.each(d => d.target = {
@@ -163,6 +181,7 @@ d3.json('flask-app/static/data/uhf_final_w_trees.geojson').then(data => {
 
   }
 
+
   function arcVisible(d) {
     return d.y1 <= 3 && d.y0 >= 1 && d.x1 > d.x0;
   }
@@ -177,4 +196,4 @@ d3.json('flask-app/static/data/uhf_final_w_trees.geojson').then(data => {
     return `rotate(${x - 90}) translate(${y},0) rotate(${x < 180 ? 0 : 180})`;
   }
 
-})
+}
