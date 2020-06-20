@@ -7,13 +7,13 @@
   <title>Dashboard</title>
   <!-- <link rel="shortcut icon" href="flask-app/static/favicon.ico"> -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="flask-app/static/css/materialize.min.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
     integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
     crossorigin="" />
   <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
   <link rel="stylesheet" type="text/css"
     href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+  <link rel="stylesheet" href="flask-app/static/css/materialize.min.css">
   <link rel="stylesheet" href="flask-app/static/css/main.css">
 </head>
 
@@ -33,33 +33,58 @@
           <div>
             <div class="row">
               <aside class="col s12 l3">
-                <div class="card blue-grey darken-1 z-depth-3">
-                  <div id="filters" class="card-content" style="padding-top: 10px;"></div>
+                <div>
+                  <div id="filters" class="card-content" style="margin-top: 15px;"></div>
+                  <ul class="collapsible">
+                    <li>
+                      <div class="collapsible-header"><i class="material-icons">help</i>How To</div>
+                      <div class="collapsible-body"><span>
+                          For parents of children with chronic respiratory illnesses, there are many factors to
+                          consider when looking for a place
+                          to call home. We hope this dashboard will give families an additional resource during the
+                          home buying/renting process.
+                          <br /><br />
+                          <b>Step 1:</b> Choose a neighborhood in the Tree map<br />
+                          <b>Step 2:</b> Choose a neighborhood in the ER visits map<br />
+                          <b>Step 3:</b> Choose a neighborhood in the income sunburst<br />
+                          <b>Step 4:</b> Evaluate if the number of er visits and trees are higher or lower between two
+                          or
+                          more neighborhoods.<br />
+                        </span></div>
+                    </li>
+                    <li class="active">
+                      <div class="collapsible-header"><i class="material-icons">toys</i>Trees vs Air Quality</div>
+                      <div class="collapsible-body">
+                        <p style="margin-top: 0;display: inline-block;">
+                          <a href="flask-app/static/images/dbh_diagram.jpg" target="_blank"><img
+                              src="flask-app/static/images/dbh_diagram.jpg" alt="Tree DBH Explanation Diagram"
+                              width="175" style="float:left; padding-right: 10px; padding-bottom: 10px;"></a>
+                        </p>
+                        <p>
+                          Tree data
+                          is
+                          rich in
+                          locations and addresses.
+                          Lat, Longitude, zipcode,
+                          borocode, boroname.
+                          Easy to connect to zipcode.
+                          Hard part was scraping the web to connect zipcodes to the UHF code.<br /><br />
+
+                          Half a million trees in our dataset.</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header"><i class="material-icons">info</i>Important Note</div>
+                      <div class="collapsible-body"><span>Hospital and income data is grouped
+                          by UFHcode(United Hospital Fund). A UHF code contains multiple
+                          zip codes in any given area a local hospital serves. Our tree data is grouped by
+                          zipcode.
+                        </span></div>
+                    </li>
+                  </ul>
                 </div>
               </aside>
               <main class="col s12 l9">
-                <!-- <div class="row">
-                  <div class="col s12">
-                    <div id="question_1" class="card z-depth-3">
-                      <h3 style="text-align:center;">Household Income Distribution</h3>
-                    </div>
-                  </div>
-                </div> -->
-                <div class="row">
-                  <div class="col s12">
-                    <div class="card z-depth-3">
-                      <div id="map"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col s12">
-                    <div id="question_1" class="card z-depth-3">
-                      <h3 style="text-align:center; margin-top: 0px;">Household Income Distribution</h3>
-                      <!-- style="background-color: #1e1f26;" -->
-                    </div>
-                  </div>
-                </div>
                 <div class="row">
                   <div class="col s12">
                     <div class="card z-depth-3">
@@ -67,25 +92,22 @@
                     </div>
                   </div>
                 </div>
+                <div class="row">
+                  <div class="col s12">
+                    <div class="card z-depth-3">
+                      <div id="map"></div>
+                    </div>
+                  </div>
+                </div>
               </main>
             </div>
-            <!-- <div class="row">
-              <div class="col s12 l4">
-                <div class="card z-depth-3">
-                  <div id="map"></div>
+            <div class="row">
+              <div class="col s12 l9 offset-l3">
+                <div id="chart" class="card z-depth-3">
+                  <h3 class="chart-title">Household Income Distribution</h3>
                 </div>
               </div>
-              <div class="col s12 l4">
-                <div id="question_1" class="card z-depth-3">
-                  <h3 style="text-align:center; margin-top: 0px;">Household Income Distribution</h3>
-          </div>
-      </div>
-      <div class="col s12 l4">
-        <div class="card z-depth-3">
-          <div id="map2"></div>
-        </div>
-      </div>
-    </div> -->
+            </div>
           </div>
         </section>
       </div>
@@ -96,22 +118,24 @@
       © 2020 Data Analytics Team
     </div>
   </footer>
-  <!-- Leaflet JS -->
+
   <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
     integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
     crossorigin=""></script>
   <script type="text/javascript"
     src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+  <script src="https://unpkg.com/supercluster@6.0.2/dist/supercluster.min.js"></script>
   <script type="text/javascript" src="flask-app/static/js/choropleth.js"></script>
+  <!-- Load d3.js -->
   <script src="https://d3js.org/d3.v5.min.js"></script>
+  <!-- Load color scale -->
+  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
   <script type="text/javascript" src="flask-app/static/js/materialize.min.js"></script>
   <script type="text/javascript" src="flask-app/static/js/config.js"></script>
-  <script type="text/javascript" src="flask-app/static/data/incomes.js"></script>
+  <script type="text/javascript" src="flask-app/static/js/incomeChart.js"></script>
+  <script type="text/javascript" src="flask-app/static/js/treeMap.js"></script>
+  <script type="text/javascript" src="flask-app/static/js/erMap.js"></script>
   <script type="text/javascript" src="flask-app/static/js/main.js"></script>
-  <script type="text/javascript" src="flask-app/static/js/sunburst.js"></script>
-  <script type="text/javascript" src="flask-app/static/js/q2map.js"></script>
-  <script type="text/javascript" src="flask-app/static/js/q3map.js"></script>
-
 </body>
 
 </html>

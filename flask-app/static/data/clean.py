@@ -138,3 +138,21 @@ for index, row in df.iterrows():
 
 # with open('uhf_final.geojson', 'w') as outfile:
 #     json.dump(geojson, outfile, indent=4)
+    
+""" 
+## For use with supercluster leaflet plugin
+ 
+with open('Trees.json') as f:
+    trees_json = json.load(f)
+    
+geopoints = { type: 'FeatureCollection', 'features': [] }
+
+for tree in trees_json:
+    point = { 'type': 'Feature', 'geometry': { 'type': 'Point', 'coordinates': [] }, 'properties': {}}
+    point['geometry']['coordinates'] = [tree['latitude'],tree['longitude']]
+    point['properties'] = tree
+    geopoints['features'].append(point)
+
+with open('tree_points.geojson', 'w') as outfile:
+    json.dump(geojson,outfile,indent=4)
+"""

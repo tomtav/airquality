@@ -1,10 +1,15 @@
-d3.json('flask-app/static/data/uhf_final_w_trees.geojson').then(data => {
+var map2;
+
+const map2DefaultZoom = {
+  center: [40.7484, -73.9857],
+  zoom: 10
+}
+function createERmap(data) {
 
   data.features = data.features.filter(d => d.properties.uhfcode <= 1000 && d.properties.year === 2015)
+  const format = d3.format(',d')
 
-  let format = d3.format(',d')
-
-  let map2 = L.map('map2', { scrollWheelZoom: false }).setView([40.7484, -73.9857], 10);
+  map2 = L.map('map2', { scrollWheelZoom: false }).setView(map2DefaultZoom.center, map2DefaultZoom.zoom);
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -78,6 +83,7 @@ d3.json('flask-app/static/data/uhf_final_w_trees.geojson').then(data => {
         tooltip += "<p>" + income.level + " - " + format(income.amount) + "</p>"
       })
     } */
+    layer._leaflet_id = feature.properties.uhfcode
     layer.on({
       mouseover: highlightFeature,
       mouseout: resetHighlight,
@@ -145,4 +151,4 @@ d3.json('flask-app/static/data/uhf_final_w_trees.geojson').then(data => {
   // Adding legend to the map
   legend.addTo(map2);
 
-})
+}
