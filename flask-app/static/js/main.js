@@ -67,7 +67,7 @@ function addNeighborhoodDD(container, data) {
     .attr('value', '')
     .property('disabled', false)
     .property('selected', true)
-    .text('Choose your option')
+    .text('All Neighborhoods')
 
   dropDown.selectAll(null)
     .data(data)
@@ -80,7 +80,7 @@ function addNeighborhoodDD(container, data) {
     .style('color', '#000')
     .style('font-size', '1.1em')
     .style('font-weight', 'bold')
-    .text('Neighborhood:')
+    .text('Select a Neighborhood:')
 
   M.FormSelect.init(document.querySelectorAll('select'))
 
