@@ -1,21 +1,37 @@
 var cluster;
 var ready = false;
-var map;
-const mapDefaultZoom = {
+var treeMap, treeLayer, treeInfo;
+var treeMapHighlighted = []
+const treeMapDefault = {
   center: [40.6892, -74.0445],
   zoom: 10
 }
+function treeMapResetZoom() {
+  if (treeMapHighlighted.length) {
+    treeMapHighlighted = treeMapHighlighted.map(d => treeLayer.resetStyle(d.target)).filter(d => false)
+  }
+  treeMap.setView(treeMapDefault.center, treeMapDefault.zoom)
+  treeInfo.update()
+}
+
+function treeMapZoomToFeature(e) {
+  var layer = treeMap._layers[e]
+  layer.fire('click')
+  treeMap.fitBounds(layer.getBounds())
+}
+
+
 function createTreeMap(data) {
 
   let boros = data.features.map(d => ({ name: d.properties.borough, count: d.properties.tree_cnt_boro })).filter((v, i, a) => a.findIndex(e => e.name === v.name) === i).sort((a, b) => b.count - a.count)
-  console.log(boros)
+
   let locations = data
   const format = d3.format(',d')
 
-  map = L.map('map', { scrollWheelZoom: false }).setView(mapDefaultZoom.center, mapDefaultZoom.zoom);
+  treeMap = L.map('map', { scrollWheelZoom: false }).setView(treeMapDefault.center, treeMapDefault.zoom);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-  }).addTo(map);
+  }).addTo(treeMap);
 
   /* 
     const mapboxAccessToken = API_KEY;
@@ -24,18 +40,18 @@ function createTreeMap(data) {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
     tileSize: 512,
     zoomOffset: -1
-  }).addTo(map); 
+  }).addTo(treeMap); 
   */
 
-  let info = L.control();
+  treeInfo = L.control();
 
-  info.onAdd = function (map) {
+  treeInfo.onAdd = function (map) {
     this._div = L.DomUtil.create('div', 'info');
     this.update();
     return this._div;
   };
 
-  info.update = function (props) {
+  treeInfo.update = function (props) {
     this._div.innerHTML = '<h6>NYC Trees Distribution</h6>' + (props ?
       `<b>${props.uhf_neigh} (${props.borough})</b>
       <br/>
@@ -48,8 +64,7 @@ function createTreeMap(data) {
       : '<span>Hover over a neighborhood</span>');
   };
 
-  info.addTo(map);
-  var highlighted = []
+  treeInfo.addTo(treeMap);
 
   function highlightFeature(e) {
     let layer = e.target;
@@ -63,21 +78,21 @@ function createTreeMap(data) {
     if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
       layer.bringToFront();
     }
-    info.update(layer.feature.properties);
+    treeInfo.update(layer.feature.properties);
   }
 
   function resetHighlight(e) {
     let layer = e.target
-    geojson.resetStyle(layer);
-    info.update();
+    treeLayer.resetStyle(layer);
+    treeInfo.update();
   }
 
   function zoomToFeature(e) {
-    map.fitBounds(e.target.getBounds());
-    if (highlighted.length) {
-      highlighted = highlighted.map(d => resetHighlight(d)).filter(d => false)
+    treeMap.fitBounds(e.target.getBounds());
+    if (treeMapHighlighted.length) {
+      treeMapHighlighted = treeMapHighlighted.map(d => resetHighlight(d)).filter(d => false)
     }
-    highlighted.push(e)
+    treeMapHighlighted.push(e)
     highlightFeature(e)
   }
 
@@ -116,10 +131,10 @@ function createTreeMap(data) {
     }
   }
 
-  let geojson = L.geoJson(locations, {
+  treeLayer = L.geoJson(locations, {
     style: style,
     onEachFeature: onEachFeature
-  }).addTo(map)
+  }).addTo(treeMap)
 
   // Create a new marker cluster group
   let markers = L.markerClusterGroup({
@@ -127,7 +142,7 @@ function createTreeMap(data) {
     removeOutsideVisibleBounds: true
   });
 
-  addOldestTree(map, markers)
+  addOldestTree(treeMap, markers)
   addLegend(boros)
   //addClusters(map, markers)
   //addTrees(map, markers)
@@ -153,7 +168,7 @@ addLegend = (boros) => {
   legend.onAdd = (map) => {
     let div = L.DomUtil.create("div", "info legend"),
       labels = [];
-    console.log(boros)
+
     boros.forEach(boro => labels.push('<i style="background:' + getColor(boro.count) + '"></i> ' + boro.name));
 
     div.innerHTML = labels.join('<br/>');
@@ -162,7 +177,7 @@ addLegend = (boros) => {
   };
 
   // Adding legend to the map
-  legend.addTo(map);
+  legend.addTo(treeMap);
 }
 
 addOldestTree = (markers) => {
@@ -185,7 +200,7 @@ addOldestTree = (markers) => {
     common: "KING OF QUEENS",
     dbh: 2100,
     status: "Good Old Maple",
-    marker: L.marker([40.708175, -73.809574], { icon: orangeIcon }).addTo(map)
+    marker: L.marker([40.708175, -73.809574], { icon: orangeIcon }).addTo(treeMap)
   }
 
   oldest.marker.bindPopup(`<h6>${oldest.common}</h6>
