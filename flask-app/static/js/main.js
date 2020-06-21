@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', function () {
   instances.push(M.Collapsible.init(collapsibles));
 })
 
-
 function onMapReady() {
   setTimeout(() => {
     map.invalidateSize();
@@ -119,17 +118,10 @@ function onChange() {
   let value = this.value;
 
   if (value === '') {
-    console.log('Nothing selected')
-    map.setView(mapDefaultZoom.center, mapDefaultZoom.zoom);
-    map2.setView(map2DefaultZoom.center, map2DefaultZoom.zoom);
+    treeMapResetZoom()
+    erMapResetZoom()
   } else {
-    console.log(`filter selected : ${name} - ${value}`)
-    map._layers[value].fire('click')
-    var layer = map._layers[value]
-    map.fitBounds(layer.getBounds())
-
-    map2._layers[value].fire('click')
-    var layer2 = map2._layers[value]
-    map2.fitBounds(layer2.getBounds())
+    treeMapZoomToFeature(value)
+    erMapZoomToFeature(value)
   }
 }

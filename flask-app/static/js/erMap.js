@@ -1,19 +1,33 @@
-var map2;
-
-const map2DefaultZoom = {
+var erMap, erLayer, erInfo;
+var erMapHighlighted = []
+const erMapDefault = {
   center: [40.7484, -73.9857],
   zoom: 10
 }
+function erMapResetZoom() {
+  if (erMapHighlighted.length) {
+    erMapHighlighted = erMapHighlighted.map(d => erLayer.resetStyle(d.target)).filter(d => false)
+  }
+  erMap.setView(erMapDefault.center, erMapDefault.zoom)
+  erInfo.update()
+}
+
+function erMapZoomToFeature(e) {
+  var layer = erMap._layers[e]
+  layer.fire('click')
+  erMap.fitBounds(layer.getBounds())
+}
+
 function createERmap(data) {
 
   data.features = data.features.filter(d => d.properties.uhfcode <= 1000 && d.properties.year === 2015)
   const format = d3.format(',d')
 
-  map2 = L.map('map2', { scrollWheelZoom: false }).setView(map2DefaultZoom.center, map2DefaultZoom.zoom);
+  erMap = L.map('map2', { scrollWheelZoom: false }).setView(erMapDefault.center, erMapDefault.zoom);
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-  }).addTo(map2);
+  }).addTo(erMap);
 
   /* 
   const mapboxAccessToken = API_KEY;
@@ -22,18 +36,18 @@ function createERmap(data) {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
     tileSize: 512,
     zoomOffset: -1
-  }).addTo(map2); 
+  }).addTo(erMap); 
   */
 
-  let info = L.control();
+  erInfo = L.control();
 
-  info.onAdd = function (map) {
+  erInfo.onAdd = function (map) {
     this._div = L.DomUtil.create('div', 'info');
     this.update();
     return this._div;
   };
 
-  info.update = function (props) {
+  erInfo.update = function (props) {
     this._div.innerHTML = '<h6>NYC Children Asthma ER Visits</h6>' + (props ?
       `<b>${props.uhf_neigh} (${props.borough})</b><br/>
        <table class="no-lines"><tbody>
@@ -46,7 +60,7 @@ function createERmap(data) {
       : '<span>Hover over a neighborhood</span>');
   };
 
-  info.addTo(map2);
+  erInfo.addTo(erMap);
   let highlighted = []
 
   function highlightFeature(e) {
@@ -62,20 +76,20 @@ function createERmap(data) {
       layer.bringToFront();
     }
 
-    info.update(layer.feature.properties);
+    erInfo.update(layer.feature.properties);
   }
 
   function resetHighlight(e) {
-    geojson.resetStyle(e.target);
-    info.update();
+    erLayer.resetStyle(e.target);
+    erInfo.update();
   }
 
   function zoomToFeature(e) {
-    map2.fitBounds(e.target.getBounds());
-    if (highlighted.length) {
-      highlighted = highlighted.map(d => resetHighlight(d)).filter(d => false)
+    erMap.fitBounds(e.target.getBounds());
+    if (erMapHighlighted.length) {
+      erMapHighlighted = erMapHighlighted.map(d => resetHighlight(d)).filter(d => false)
     }
-    highlighted.push(e)
+    erMapHighlighted.push(e)
     highlightFeature(e)
   }
 
@@ -96,8 +110,6 @@ function createERmap(data) {
       click: zoomToFeature
     });
     //layer.bindPopup(tooltip);
-
-
   }
 
   let ev = data.features.map(d => d.properties.ervisits_count).filter((v, i, a) => a.indexOf(v) === i).sort((a, b) => a - b)
@@ -108,7 +120,7 @@ function createERmap(data) {
 
   let colorArray = ev.map(d => linearScale(d));
 
-  let geojson = L.choropleth(data, {
+  erLayer = L.choropleth(data, {
     onEachFeature: onEachFeature,
 
     valueProperty: "ervisits_count",
@@ -123,14 +135,14 @@ function createERmap(data) {
       weight: 1,
       fillOpacity: 0.7
     }
-  }).addTo(map2);
+  }).addTo(erMap);
 
   let legend = L.control({ position: "bottomright" });
 
-  legend.onAdd = function (map2) {
+  legend.onAdd = function (erMap) {
     let div = L.DomUtil.create("div", "info legend"),
-      limits = geojson.options.limits,
-      colors = geojson.options.colors,
+      limits = erLayer.options.limits,
+      colors = erLayer.options.colors,
       labels = [],
       from, to, range_str;
 
@@ -157,6 +169,6 @@ function createERmap(data) {
   };
 
   // Adding legend to the map
-  legend.addTo(map2);
+  legend.addTo(erMap);
 
 }
