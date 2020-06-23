@@ -61,11 +61,11 @@ ervisits = ervisits[
     (ervisits['properties.data_format'] == 'Number')
     &
     (ervisits['properties.uhfcode'] < 1000)
-][['properties.uhfcode', 'properties.year', 'properties.age', 'properties.data_format','properties.ervisits_count']]
+][['properties.uhfcode', 'properties.year', 'properties.age', 'properties.data_format', 'properties.ervisits_count']]
 
 
 df = df.merge(ervisits, how='inner', on=[
-              'properties.uhfcode', 'properties.year','properties.data_format'], left_index=False, right_index=False)
+              'properties.uhfcode', 'properties.year', 'properties.data_format'], left_index=False, right_index=False)
 
 
 # Load and merge trees census data with uhf areas using zipcodes
@@ -73,7 +73,7 @@ trees = pd.read_csv('trees.csv', encoding='utf8')
 print(trees.columns)
 trees['year'] = pd.DatetimeIndex(trees['created_at']).year
 trees = trees[trees['year'] == 2015]
-trees = trees[['postcode', 'year', 'borough','tree_id', 'tree_dbh', 'health', 'spc_common', 'spc_latin', 'latitude', 'longitude']].rename(columns={
+trees = trees[['postcode', 'year', 'borough', 'tree_id', 'tree_dbh', 'health', 'spc_common', 'spc_latin', 'latitude', 'longitude']].rename(columns={
     'postcode': 'properties.postalCode',
     'year': 'properties.year',
     'borough': 'properties.borough',
@@ -89,14 +89,20 @@ trees = trees[['postcode', 'year', 'borough','tree_id', 'tree_dbh', 'health', 's
 
 #trees.loc[trees['properties.postalCode'].isin(uhf_codes['properties.postalCode'].values),'properties.uhfcode'] = uhf_codes['properties.uhfcode']
 
-uhf_zips = pd.concat([pd.Series(row['properties.uhfcode'], row['properties.postalCode'].split(',')) for _, row in uhf_codes.iterrows()]).reset_index().rename(columns={'index': 'properties.postalCode', 0: 'properties.uhfcode'})
-uhf_zips['properties.postalCode'] = uhf_zips['properties.postalCode'].astype(int)
-trees = pd.merge(trees,uhf_zips,on=['properties.postalCode'], how='inner')
-trees = trees.assign(dbh_bin=np.select([trees['properties.tree_dbh'] <= 12, (trees['properties.tree_dbh']>12)&(trees['properties.tree_dbh']<=20),trees['properties.tree_dbh']>20],['small','medium','large'])).rename(columns={'dbh_bin': 'properties.tree_dbh_bin'})
+uhf_zips = pd.concat([pd.Series(row['properties.uhfcode'], row['properties.postalCode'].split(
+    ',')) for _, row in uhf_codes.iterrows()]).reset_index().rename(columns={'index': 'properties.postalCode', 0: 'properties.uhfcode'})
+uhf_zips['properties.postalCode'] = uhf_zips['properties.postalCode'].astype(
+    int)
+trees = pd.merge(trees, uhf_zips, on=['properties.postalCode'], how='inner')
+trees = trees.assign(dbh_bin=np.select([trees['properties.tree_dbh'] <= 12, (trees['properties.tree_dbh'] > 12) & (
+    trees['properties.tree_dbh'] <= 20), trees['properties.tree_dbh'] > 20], ['small', 'medium', 'large'])).rename(columns={'dbh_bin': 'properties.tree_dbh_bin'})
 
-zip_counts = (trees.groupby('properties.postalCode')[['properties.postalCode']].count()).rename(columns={'properties.postalCode': 'properties.tree_cnt_zip'}).reset_index()
-uhf_counts = (trees.groupby('properties.uhfcode')[['properties.uhfcode']].count()).rename(columns={'properties.uhfcode': 'properties.tree_cnt_uhf'}).reset_index()
-boro_counts = (trees.groupby('properties.borough')[['properties.borough']].count()).rename(columns={'properties.borough': 'properties.tree_cnt_boro'}).reset_index()
+zip_counts = (trees.groupby('properties.postalCode')[['properties.postalCode']].count(
+)).rename(columns={'properties.postalCode': 'properties.tree_cnt_zip'}).reset_index()
+uhf_counts = (trees.groupby('properties.uhfcode')[['properties.uhfcode']].count(
+)).rename(columns={'properties.uhfcode': 'properties.tree_cnt_uhf'}).reset_index()
+boro_counts = (trees.groupby('properties.borough')[['properties.borough']].count(
+)).rename(columns={'properties.borough': 'properties.tree_cnt_boro'}).reset_index()
 
 trees = trees.merge(zip_counts, on=['properties.postalCode'], how='inner')
 trees = trees.merge(uhf_counts, on=['properties.uhfcode'], how='inner')
@@ -110,20 +116,19 @@ tree_health = (trees.groupby([
 ).rename(columns={'properties.tree_health': 'health_count'
                   }).reset_index().pivot_table('health_count', ['properties.year', 'properties.postalCode'], 'properties.tree_health')
 
-   
-                  
+
 df = df.merge(uhf_counts, on=['properties.uhfcode'],
-    how='inner',
-    left_index=False,
-    right_index=False)
+              how='inner',
+              left_index=False,
+              right_index=False)
 print(df.shape)
 df = df.merge(boro_counts, on=['properties.borough'],
-    how='inner',
-    left_index=False,
-    right_index=False)    
-print(df.shape)         
+              how='inner',
+              left_index=False,
+              right_index=False)
+print(df.shape)
 
-                  
+
 geojson = {'type': 'FeatureCollection', 'features': []}
 props = [key for key in list(set([col.split('.')[0]
                                   for col in df.columns if '.' in col]))]
@@ -138,7 +143,7 @@ for index, row in df.iterrows():
 
 # with open('uhf_final.geojson', 'w') as outfile:
 #     json.dump(geojson, outfile, indent=4)
-    
+
 """ 
 ## For use with supercluster leaflet plugin
  
@@ -155,4 +160,40 @@ for tree in trees_json:
 
 with open('tree_points.geojson', 'w') as outfile:
     json.dump(geojson,outfile,indent=4)
+"""
+
+# Split Trees Data into multiple files
+# in order to upload on GitHub
+trees_json = json.loads(trees.rename(columns={
+    'properties.postalCode': 'postcode',
+    'properties.year': 'year',
+    'properties.borough': 'borough',
+    'properties.tree_id': 'tree_id',
+    'properties.tree_dbh': 'tree_dbh',
+    'properties.tree_health': 'health',
+    'properties.tree_common': 'spc_common',
+    'properties.tree_latin': 'spc_latin',
+    'properties.tree_lat': 'latitude',
+    'properties.tree_lon': 'longitude',
+    'properties.uhfcode': 'uhfcode',
+    'properties.tree_dbh_bin': 'dbh_bin',
+    'properties.tree_cnt_zip': 'tree_cnt_zip',
+    'properties.tree_cnt_uhf': 'tree_cnt_uhf',
+    'properties.tree_cnt_boro': 'tree_cnt_boro'
+}).to_json(orient='records'))
+
+arrays = {}
+counter = 0
+for i, tree in enumerate(trees_json):
+    if(i % 200000 == 0):
+        counter += 1
+        arrays[f'trees_{counter}'] = []
+        print(f'processing group trees_{counter}')
+        arrays[f'trees_{counter}'].append(tree)
+    else:
+        arrays[f'trees_{counter}'].append(tree)
+"""       
+for key in arrays.keys():
+    with open(f'{key}.geojson', 'w') as outfile:
+        json.dump(arrays[key], outfile, indent=4)
 """
