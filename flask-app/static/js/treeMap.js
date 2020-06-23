@@ -3,7 +3,8 @@ var ready = false;
 var treeMap, treeLayer, treeInfo;
 var treeMapHighlighted = []
 const treeMapDefault = {
-  center: [40.6892, -74.0445],
+  //center: [40.6892, -74.0445],
+  center: [40.7484, -73.8857],
   zoom: 10
 }
 function treeMapResetZoom() {
@@ -144,7 +145,7 @@ function createTreeMap(data) {
 
   addOldestTree(treeMap, markers)
   addLegend(boros)
-  //addClusters(map, markers)
+  addClusters(treeMap, markers)
   //addTrees(map, markers)
 
 
@@ -226,32 +227,45 @@ addClusters = (markers) => {
     popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
   });
 
-  const treeData = 'flask-app/static/data/Trees.json';
-  d3.json(treeData).then(trees => {
-    let markers = L.markerClusterGroup({
-      showCoverageOnHover: false,
-      removeOutsideVisibleBounds: true,
-      //iconCreateFunction: function (cluster) {
-      //  return L.divIcon({ html: '<b>' + cluster.getChildCount() + '</b>' });
-      //}
-    });
+  //const treeData = 'flask-app/static/data/Trees.json';
+  const treeDir = 'flask-app/static/data/';
+  const treeFiles = ['trees_1.geojson', 'trees_2.geojson', 'trees_3.geojson']
 
-    trees.forEach(tree => {
-      if (tree.latitude && tree.longitude) {
-        let marker = L.marker([tree.latitude, tree.longitude], { icon: greenIcon });
-        marker.bindPopup(`<h6>${tree.spc_common}</h6>
+  let lastTree = false;
+
+  treeFiles.forEach((f, idx, arr) => {
+    /* if (Object.is(arr.length - 1, idx) && lastTree) {
+      console.log(`Last callback call at index ${idx} with value ${f}`)
+    } */
+    d3.json(treeDir + f).then(trees => {
+      let markers = L.markerClusterGroup({
+        showCoverageOnHover: false,
+        removeOutsideVisibleBounds: true,
+        //iconCreateFunction: function (cluster) {
+        //  return L.divIcon({ html: '<b>' + cluster.getChildCount() + '</b>' });
+        //}
+      });
+
+      trees.forEach((tree, key, tArr) => {
+        /* if (Object.is(arr.length - 1, idx) && Object.is(tArr.length - 1, key)) {
+          lastTree = true;
+        } */
+        if (tree.latitude && tree.longitude) {
+          let marker = L.marker([tree.latitude, tree.longitude], { icon: greenIcon });
+          marker.bindPopup(`<h6>${tree.spc_common}</h6>
         <hr>
         <table class="no-lines"><tbody>
-        <tr><td>DBH:</td><td><b>${tree.tree_dbh}</b></td></tr>
+        <tr><td>DBH (cm):</td><td><b>${tree.tree_dbh}</b></td></tr>
         <tr><td>Status:</td><td><b>${tree.status}</b></td></tr>
         </tbody></table>
         `);
-        markers.addLayer(marker);
-      }
-      // Add our marker cluster layer to the map
-      map.addLayer(markers)
-    })
-  }).catch(error => console.error(error))
+          markers.addLayer(marker);
+        }
+        // Add our marker cluster layer to the map
+        treeMap.addLayer(markers)
+      })
+    }).catch(error => console.error(error))
+  })
 }
 
 addTrees = (map, markers) => {
