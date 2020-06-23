@@ -256,7 +256,7 @@ addClusters = (markers) => {
         <hr>
         <table class="no-lines"><tbody>
         <tr><td>DBH (cm):</td><td><b>${tree.tree_dbh}</b></td></tr>
-        <tr><td>Status:</td><td><b>${tree.status}</b></td></tr>
+        <tr><td>Status:</td><td><b>${tree.health}</b></td></tr>
         </tbody></table>
         `);
           markers.addLayer(marker);
