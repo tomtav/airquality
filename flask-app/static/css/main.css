@@ -21,7 +21,16 @@ nav .brand-logo i.material-icons {
 .page-footer .footer-copyright {
   justify-content: center;
 }
-#map,#map2 { height: 500px; }
+#erMAP,#treeMAP { height: 500px; }
+
+.progress {
+  height: 10px;
+  margin: 0;
+
+}
+.progress .determinate {
+  background-color: #ee6e73;
+}
 
 .info {
   padding: 6px 8px;
@@ -85,6 +94,20 @@ h3.chart-title {
 .bubbles:hover {
   stroke: black;
 }
+
+/* .preloader-background {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #eee;
+	
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;	
+} */
 
 @media only screen and (max-width: 992px) {
   nav .brand-logo {

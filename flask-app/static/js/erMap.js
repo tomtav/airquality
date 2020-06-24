@@ -1,7 +1,8 @@
 var erMap, erLayer, erInfo;
 var erMapHighlighted = []
 const erMapDefault = {
-  center: [40.7484, -73.9857],
+  //center: [40.7484, -73.9997],
+  center: [40.7484, -73.8857],
   zoom: 10
 }
 function erMapResetZoom() {
@@ -23,7 +24,7 @@ function createERmap(data) {
   data.features = data.features.filter(d => d.properties.uhfcode <= 1000 && d.properties.year === 2015)
   const format = d3.format(',d')
 
-  erMap = L.map('map2', { scrollWheelZoom: false }).setView(erMapDefault.center, erMapDefault.zoom);
+  erMap = L.map('erMAP', { scrollWheelZoom: false }).setView(erMapDefault.center, erMapDefault.zoom);
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

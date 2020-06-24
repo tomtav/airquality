@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   var collapsibles = document.querySelectorAll('.collapsible');
   instances.push(M.Collapsible.init(collapsibles));
+
 })
 
 function onMapReady() {
@@ -54,12 +55,9 @@ function addNeighborhoodDD(container, data) {
 
   inputField.classed('input-field col s12', true)
 
-  //inputField.append('h6').style('color', '#fff').text('Neighborhood:')
-
   let dropDown = inputField
     .append('select')
     .attr('id', 'chooser')
-    //.classed('browser-default', true)
     .on('change', onChange)
 
   dropDown.append('option')
@@ -88,7 +86,6 @@ function addNeighborhoodDD(container, data) {
 function addIncomeSelector(container, data) {
   var incomeSelector = container.append('div').append('form')
   incomeSelector.append('h6')
-    //.style('font-weight', 'bold')
     .style('color', '#fff')
     .text('Income Level:')
 
