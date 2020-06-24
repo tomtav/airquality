@@ -29,7 +29,7 @@ function createTreeMap(data) {
   let locations = data
   const format = d3.format(',d')
 
-  treeMap = L.map('map', { scrollWheelZoom: false }).setView(treeMapDefault.center, treeMapDefault.zoom);
+  treeMap = L.map('treeMAP', { scrollWheelZoom: false }).setView(treeMapDefault.center, treeMapDefault.zoom);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(treeMap);
@@ -143,9 +143,9 @@ function createTreeMap(data) {
     removeOutsideVisibleBounds: true
   });
 
-  addOldestTree(treeMap, markers)
+  addOldestTree(markers)
   addLegend(boros)
-  addClusters(treeMap, markers)
+  addClusters()
   //addTrees(map, markers)
 
 
@@ -214,7 +214,7 @@ addOldestTree = (markers) => {
   markers.addLayer(oldest.marker);
 }
 
-addClusters = (markers) => {
+addClusters = () => {
 
   let greenIcon = L.icon({
     iconUrl: 'flask-app/static/images/leaf-green.png',
@@ -227,45 +227,54 @@ addClusters = (markers) => {
     popupAnchor: [-3, -76] // point from which the popup should open relative to the iconAnchor
   });
 
-  //const treeData = 'flask-app/static/data/Trees.json';
   const treeDir = 'flask-app/static/data/';
   const treeFiles = ['trees_1.geojson', 'trees_2.geojson', 'trees_3.geojson']
 
-  let lastTree = false;
 
-  treeFiles.forEach((f, idx, arr) => {
-    /* if (Object.is(arr.length - 1, idx) && lastTree) {
-      console.log(`Last callback call at index ${idx} with value ${f}`)
-    } */
-    d3.json(treeDir + f).then(trees => {
-      let markers = L.markerClusterGroup({
-        showCoverageOnHover: false,
-        removeOutsideVisibleBounds: true,
-        //iconCreateFunction: function (cluster) {
-        //  return L.divIcon({ html: '<b>' + cluster.getChildCount() + '</b>' });
-        //}
-      });
+  const progress = d3.select('.progress');
+  const progressBar = d3.select('.determinate');
 
-      trees.forEach((tree, key, tArr) => {
-        /* if (Object.is(arr.length - 1, idx) && Object.is(tArr.length - 1, key)) {
-          lastTree = true;
-        } */
-        if (tree.latitude && tree.longitude) {
-          let marker = L.marker([tree.latitude, tree.longitude], { icon: greenIcon });
-          marker.bindPopup(`<h6>${tree.spc_common}</h6>
-        <hr>
-        <table class="no-lines"><tbody>
-        <tr><td>DBH (cm):</td><td><b>${tree.tree_dbh}</b></td></tr>
-        <tr><td>Status:</td><td><b>${tree.health}</b></td></tr>
-        </tbody></table>
-        `);
-          markers.addLayer(marker);
-        }
-        // Add our marker cluster layer to the map
-        treeMap.addLayer(markers)
-      })
-    }).catch(error => console.error(error))
+  function updateProgressBar(processed, total, elapsed, layersArray) {
+    if (elapsed > 1000) {
+      progress.style('display', 'block');
+      progressBar.style('width', Math.round(processed / total * 100) + '%');
+    }
+
+    if (processed === total) {
+      progress.style('display', 'none');
+    }
+  }
+
+  let cluster = L.markerClusterGroup({ chunkedLoading: true, chunkProgress: updateProgressBar })
+  let markerList = [];
+
+  treeFiles.forEach(async (file) => {
+
+    trees = await d3.json(treeDir + file)
+
+    for (let i = 0; i < trees.length; i++) {
+      let tree = trees[i]
+
+      if (tree.latitude && tree.longitude) {
+        let marker = L.marker([tree.latitude, tree.longitude], { icon: greenIcon, title: tree.spc_common })
+        marker.bindPopup(`
+                        <h6>${tree.spc_common}</h6>
+                        <hr>
+                        <table class="no-lines"><tbody>
+                        <tr><td>DBH (cm):</td><td><b>${tree.tree_dbh}</b></td></tr>
+                        <tr><td>Status:</td><td><b>${tree.health}</b></td></tr>
+                        </tbody></table>
+                      `);
+        markerList.push(marker)
+      }
+    }
+
+    // Add our markers to the marker cluster
+    cluster.addLayers(markerList);
+
   })
+  // Add our marker cluster layer to the map
+  treeMap.addLayer(cluster)
 }
 
 addTrees = (map, markers) => {
