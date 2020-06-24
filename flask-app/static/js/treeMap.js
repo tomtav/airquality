@@ -245,7 +245,12 @@ addClusters = () => {
     }
   }
 
-  let cluster = L.markerClusterGroup({ chunkedLoading: true, chunkProgress: updateProgressBar })
+  let cluster = L.markerClusterGroup({
+    showCoverageOnHover: false,
+    removeOutsideVisibleBounds: true,
+    chunkedLoading: true,
+    chunkProgress: updateProgressBar
+  })
   let markerList = [];
 
   treeFiles.forEach(async (file) => {
